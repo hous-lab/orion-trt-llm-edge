@@ -1,0 +1,52 @@
+--- a/adzoo/orion/apis/test.py
++++ b/adzoo/orion/apis/test.py
+@@ -202,3 +202,49 @@
+                 prog_bar.update()
+ 
+     return {'bbox_results': bbox_results, 'mask_results': mask_results}
++
++
++def single_gpu_test_trt(model, data_loader):
++    """Test TRT engine model with single gpu (unpacks data dict as kwargs).
++
++    Args:
++        model (InferTrt): TRT engine wrapper to be tested.
++        data_loader (nn.Dataloader): Pytorch data loader.
++
++    Returns:
++        dict: {'bbox_results': list, 'mask_results': list}
++    """
++    model.eval()
++    bbox_results = []
++    mask_results = []
++    dataset = data_loader.dataset
++    prog_bar = ProgressBar(len(dataset))
++    time.sleep(2)
++    have_mask = False
++
++    for i, data in enumerate(data_loader):
++        with torch.no_grad():
++            result = model(**data, return_loss=False)
++
++            if isinstance(result, dict):
++                if 'bbox_results' in result.keys():
++                    bbox_result = result['bbox_results']
++                    batch_size = len(result['bbox_results'])
++                    bbox_results.extend(bbox_result)
++                if 'mask_results' in result.keys() and result['mask_results'] is not None:
++                    mask_result = custom_encode_mask_results(result['mask_results'])
++                    mask_results.extend(mask_result)
++                    have_mask = True
++            else:
++                batch_size = len(result)
++                bbox_results.extend(result)
++
++            if isinstance(result[0], tuple):
++               assert False, 'this code is for instance segmentation, which our code will not utilize.'
++               result = [(bbox_results, encode_mask_results(mask_results))
++                         for bbox_results, mask_results in result]
++
++        for _ in range(batch_size):
++                prog_bar.update()
++
++    return {'bbox_results': bbox_results, 'mask_results': mask_results}

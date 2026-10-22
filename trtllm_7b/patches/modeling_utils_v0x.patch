@@ -1,0 +1,11 @@
+--- a/tensorrt_llm/models/modeling_utils.py
++++ b/tensorrt_llm/models/modeling_utils.py
+@@ -777,6 +777,8 @@
+             hidden_states, presents = hidden_states
+ 
+         if self.config.mapping.is_last_pp_rank():
++            # export the full 3D hidden_states before the 3D->2D gather
++            hidden_states.mark_output("full_hidden_states", self.config.dtype)
+             hidden_states = gather_last_token_logits(
+                 hidden_states, last_token_ids,
+                 default_net().plugin_config.remove_input_padding)
