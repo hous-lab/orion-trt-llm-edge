@@ -1,0 +1,49 @@
+# ---- regenerable artifacts ----
+*.engine
+*.onnx
+*.pth
+*.pt
+!lite/results/**/*.json
+*.npz
+*.npy
+*.bin
+*.safetensors
+*.log
+*.cache
+model.cache
+__pycache__/
+*.pyc
+
+# ---- session/tooling state (never shipped) ----
+.omc/
+.claude/
+
+# ---- build / work dirs ----
+work_dirs/
+build/
+dist/
+eval/
+lite/artifacts/
+*.egg-info/
+qa_save/
+QA_save/
+
+# ---- experiment/evidence dirs (kept local, not shipped) ----
+evidence/
+debug/
+debug_buffer/
+reports/
+analysis/
+
+# ---- data (see data/README.md; never commit dataset content) ----
+data/*.pkl
+data/*.json
+data/bench2drive/
+data/infos-tiny/
+data/qa/
+distill_data/
+calib/
+
+# ---- upstream checkpoints (link-only, see ckpts/README.md) ----
+ckpts/**
+!ckpts/README.md

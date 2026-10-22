@@ -1,0 +1,25 @@
+# NOTICE
+
+This project builds on the following third-party components and artifacts:
+
+- ORION ([GitHub](https://github.com/xiaomi-mlab/Orion), [paper](https://arxiv.org/abs/2503.19755))
+  (Apache-2.0, (c) Xiaomi and HUST) - the VLA model this repository deploys. The
+  ORION checkpoint, the pretrain_qformer weights, and the EVA02 vision
+  encoder + projector weights are hosted upstream and are NOT redistributed by
+  this repository; see [ckpts/README.md](ckpts/README.md) for the download table.
+- The upstream training repositories (ORION training repo, Orion-Lite variant)
+  provide the model definitions (vendored mmcv fork, adzoo/orion model code)
+  our pipeline imports at runtime; they are referenced via ORION_PROJECT_ROOT /
+  ORION_LITE_PROJECT_ROOT and are not redistributed.
+- NVIDIA TensorRT / TensorRT-LLM - inference engines; the full_hidden_states
+  export is enabled by a source patch we ship (trtllm_7b/patches/, Apache-2.0
+  per NVIDIA's Apache-2.0 licensing of TensorRT-LLM).
+- Qwen2-VL (Qwen team, Apache-2.0) - the QFormer/tokenizer components under
+  pretrain_qformer; EVA-02 (NVlabs/BAAI) - the vision backbone pretraining;
+  OmniDrive (NVlabs) - the PETR projection weights.
+- Bench2Drive (Apache-2.0) - the closed-loop benchmark whose data the eval and
+  distill data collection consume; see data/README.md.
+- onnxsim_large_model ([GitHub](https://github.com/luchangli03/onnxsim_large_model),
+  MIT License, (c) 2023 Luchang Li) - vendored unmodified at
+  trtllm_7b/onnxsim_large_model/ with its MIT LICENSE file; the vision ONNX export
+  uses it to simplify >2GB graphs with external data.
