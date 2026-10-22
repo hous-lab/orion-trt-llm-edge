@@ -1,0 +1,779 @@
+{
+  "timestamp": "2026-07-30T14:22:44.172480",
+  "platform": {
+    "trt_version": "10.16.1.11",
+    "cuda_version": [
+      11,
+      8,
+      0
+    ],
+    "gpu_name": "NVIDIA GeForce RTX 4090 Laptop GPU",
+    "gpu_memory_mb": 15943,
+    "kernel": "Linux ailab 6.5.0-45-generic #45~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Jul 15 16:40:02 UTC 2 x86_64 x86_64 x86_64 GNU/Linux"
+  },
+  "test_data_dir": "eval/fused_ckpts/quant_benchmark/test_data",
+  "num_inputs": 21,
+  "num_references": 25,
+  "engines": {
+    "fp16": {
+      "label": "FP16",
+      "path": "eval/fused_ckpts/quant_benchmark/vision_fp16_p1bevrc.engine",
+      "size_mb": 706.6932792663574,
+      "avg_core_cosine_similarity": 0.9228372189071666,
+      "latency": {
+        "mean_ms": 129.74926153365232,
+        "std_ms": 2.122308723133979,
+        "min_ms": 119.72393199903308,
+        "max_ms": 132.7173159988888,
+        "p50_ms": 129.949715001203,
+        "p95_ms": 132.31119390129606,
+        "p99_ms": 132.6451422500395,
+        "fps": 7.707172959444057,
+        "runs": 30
+      },
+      "metrics": {
+        "all_bbox_preds": {
+          "cosine_similarity": 0.9985351355859848,
+          "l2_distance": 0.7269822359085083,
+          "max_diff": 9.623361587524414,
+          "mean_diff": 0.40030768513679504,
+          "relative_diff_pct": 6.897734268703175,
+          "shape": [
+            6,
+            1,
+            900,
+            10
+          ],
+          "ref_mean": -0.17879390716552734,
+          "ref_std": 13.428346633911133
+        },
+        "all_cls_scores": {
+          "cosine_similarity": 0.9840166324834412,
+          "l2_distance": 1.0158421993255615,
+          "max_diff": 5.611361026763916,
+          "mean_diff": 0.7784172296524048,
+          "relative_diff_pct": 14.993086475931083,
+          "shape": [
+            6,
+            1,
+            900,
+            9
+          ],
+          "ref_mean": -5.19161319732666,
+          "ref_std": 1.762887954711914
+        },
+        "all_lane_cls_one2many": {
+          "cosine_similarity": 0.9370251545175997,
+          "l2_distance": 2.4374513626098633,
+          "max_diff": 12.217260360717773,
+          "mean_diff": 1.8446884155273438,
+          "relative_diff_pct": 30.13543133527985,
+          "shape": [
+            6,
+            1,
+            1500,
+            6
+          ],
+          "ref_mean": -6.05186128616333,
+          "ref_std": 3.429533004760742
+        },
+        "all_lane_cls_one2one": {
+          "cosine_similarity": 0.9281679725481111,
+          "l2_distance": 2.5821399688720703,
+          "max_diff": 12.503944396972656,
+          "mean_diff": 1.9882129430770874,
+          "relative_diff_pct": 33.74549357642137,
+          "shape": [
+            6,
+            1,
+            300,
+            6
+          ],
+          "ref_mean": -5.855622291564941,
+          "ref_std": 3.015892505645752
+        },
+        "all_lane_preds_one2many": {
+          "cosine_similarity": 0.981365862278278,
+          "l2_distance": 3.6010642051696777,
+          "max_diff": 66.62222290039062,
+          "mean_diff": 1.8952158689498901,
+          "relative_diff_pct": 15.146952340144576,
+          "shape": [
+            6,
+            1,
+            1500,
+            33
+          ],
+          "ref_mean": 0.32860296964645386,
+          "ref_std": 18.62460708618164
+        },
+        "all_lane_preds_one2one": {
+          "cosine_similarity": 0.9861624131106389,
+          "l2_distance": 3.103830337524414,
+          "max_diff": 63.758872985839844,
+          "mean_diff": 1.6449447870254517,
+          "relative_diff_pct": 13.017863688641928,
+          "shape": [
+            6,
+            1,
+            300,
+            33
+          ],
+          "ref_mean": 1.2949714660644531,
+          "ref_std": 18.60492706298828
+        },
+        "all_traffic_states": {
+          "cosine_similarity": 0.9684623290942217,
+          "l2_distance": 0.6228832006454468,
+          "max_diff": 4.359409809112549,
+          "mean_diff": 0.45576950907707214,
+          "relative_diff_pct": 23.38151685052048,
+          "shape": [
+            6,
+            1,
+            900,
+            4
+          ],
+          "ref_mean": -1.7210017442703247,
+          "ref_std": 1.7921552658081055
+        },
+        "all_traj_cls_scores": {
+          "cosine_similarity": 0.9785858634350859,
+          "l2_distance": 1.077143669128418,
+          "max_diff": 5.2610039710998535,
+          "mean_diff": 0.8300731778144836,
+          "relative_diff_pct": 16.91724209375172,
+          "shape": [
+            6,
+            1,
+            900,
+            6
+          ],
+          "ref_mean": -4.906669616699219,
+          "ref_std": 1.61458158493042
+        },
+        "all_traj_preds": {
+          "cosine_similarity": 0.72929417806464,
+          "l2_distance": 0.646064817905426,
+          "max_diff": 5.6066203117370605,
+          "mean_diff": 0.34035709500312805,
+          "relative_diff_pct": 78.51433180884666,
+          "shape": [
+            6,
+            1,
+            900,
+            6,
+            12
+          ],
+          "ref_mean": 0.07127497345209122,
+          "ref_std": 0.8921949863433838
+        },
+        "memory_canbus_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            3,
+            19
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "memory_egopose_bbox_out": {
+          "cosine_similarity": 0.9999999999999584,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            4,
+            4
+          ],
+          "ref_mean": 0.1666666716337204,
+          "ref_std": 0.3726780116558075
+        },
+        "memory_egopose_map_out": {
+          "cosine_similarity": 0.9999998982746665,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            4,
+            4
+          ],
+          "ref_mean": 0.0833333358168602,
+          "ref_std": 0.2763853967189789
+        },
+        "memory_embedding_bbox_out": {
+          "cosine_similarity": 0.42510619171255815,
+          "l2_distance": 0.5719237327575684,
+          "max_diff": 8.062305450439453,
+          "mean_diff": 0.2505796551704407,
+          "relative_diff_pct": 108.0064217181831,
+          "shape": [
+            1,
+            900,
+            256
+          ],
+          "ref_mean": 0.0014402151573449373,
+          "ref_std": 0.5338301658630371
+        },
+        "memory_embedding_map_out": {
+          "cosine_similarity": 0.7214479790272809,
+          "l2_distance": 0.3913361132144928,
+          "max_diff": 5.112135887145996,
+          "mean_diff": 0.17314963042736053,
+          "relative_diff_pct": 87.95179852083204,
+          "shape": [
+            1,
+            900,
+            256
+          ],
+          "ref_mean": 0.00012797045928891748,
+          "ref_std": 0.5246241688728333
+        },
+        "memory_reference_point_bbox_out": {
+          "cosine_similarity": 0.4892286577520673,
+          "l2_distance": 20.163148880004883,
+          "max_diff": 100.24992370605469,
+          "mean_diff": 7.933087348937988,
+          "relative_diff_pct": 66.85516327989652,
+          "shape": [
+            1,
+            900,
+            3
+          ],
+          "ref_mean": -1.0012069940567017,
+          "ref_std": 19.8876895904541
+        },
+        "memory_reference_point_map_out": {
+          "cosine_similarity": 0.037140840635887705,
+          "l2_distance": 14.868947982788086,
+          "max_diff": 86.47038269042969,
+          "mean_diff": 5.633992671966553,
+          "relative_diff_pct": 134.76643986158717,
+          "shape": [
+            1,
+            900,
+            11,
+            3
+          ],
+          "ref_mean": 0.34015533328056335,
+          "ref_std": 10.688861846923828
+        },
+        "memory_scene_query_bbox_out": {
+          "cosine_similarity": 0.9822511327311073,
+          "l2_distance": 0.04647884890437126,
+          "max_diff": 0.806046724319458,
+          "mean_diff": 0.008710058405995369,
+          "relative_diff_pct": 18.772604716424503,
+          "shape": [
+            1,
+            272,
+            256
+          ],
+          "ref_mean": -8.087421883828938e-05,
+          "ref_std": 0.246718630194664
+        },
+        "memory_timestamp_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "memory_timestamp_map_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "outs_dec_one2many": {
+          "cosine_similarity": 0.8498859863300295,
+          "l2_distance": 0.5068289637565613,
+          "max_diff": 4.778510093688965,
+          "mean_diff": 0.3950697183609009,
+          "relative_diff_pct": 59.74661521748741,
+          "shape": [
+            6,
+            1,
+            1500,
+            256
+          ],
+          "ref_mean": 0.0002795211912598461,
+          "ref_std": 0.9246997833251953
+        },
+        "outs_dec_one2one": {
+          "cosine_similarity": 0.849931132928069,
+          "l2_distance": 0.505436360836029,
+          "max_diff": 4.100610256195068,
+          "mean_diff": 0.389852374792099,
+          "relative_diff_pct": 60.813355124022706,
+          "shape": [
+            6,
+            1,
+            300,
+            256
+          ],
+          "ref_mean": 0.00019455162691883743,
+          "ref_std": 0.9227581024169922
+        },
+        "sample_time_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "sample_time_map_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "scene_memory_timestamp_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            272,
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "vision_embeded": {
+          "cosine_similarity": 0.882613966509903,
+          "l2_distance": 0.3633766770362854,
+          "max_diff": 2.998844623565674,
+          "mean_diff": 0.2842373549938202,
+          "relative_diff_pct": 47.913477424706734,
+          "shape": [
+            1,
+            529,
+            4096
+          ],
+          "ref_mean": 0.0007663486758247018,
+          "ref_std": 0.7500725388526917
+        }
+      }
+    },
+    "int8_calibrated": {
+      "label": "INT8 (calibrated)",
+      "path": "eval/fused_ckpts/quant_benchmark/vision_int8_calibrated_trt10.engine",
+      "size_mb": 705.6677665710449,
+      "avg_core_cosine_similarity": 0.9228690462891457,
+      "latency": {
+        "mean_ms": 128.8252349000686,
+        "std_ms": 0.779926220020436,
+        "min_ms": 126.84303900095983,
+        "max_ms": 131.0692619990732,
+        "p50_ms": 128.84117649991822,
+        "p95_ms": 130.0540499996714,
+        "p99_ms": 130.79486921880743,
+        "fps": 7.76245431087871,
+        "runs": 30
+      },
+      "metrics": {
+        "all_bbox_preds": {
+          "cosine_similarity": 0.9985306179467992,
+          "l2_distance": 0.7282148599624634,
+          "max_diff": 9.560861587524414,
+          "mean_diff": 0.40075165033340454,
+          "relative_diff_pct": 6.90538426910154,
+          "shape": [
+            6,
+            1,
+            900,
+            10
+          ],
+          "ref_mean": -0.17879390716552734,
+          "ref_std": 13.428346633911133
+        },
+        "all_cls_scores": {
+          "cosine_similarity": 0.9840571390844102,
+          "l2_distance": 1.0143649578094482,
+          "max_diff": 5.628939151763916,
+          "mean_diff": 0.7771446704864502,
+          "relative_diff_pct": 14.968575726561603,
+          "shape": [
+            6,
+            1,
+            900,
+            9
+          ],
+          "ref_mean": -5.19161319732666,
+          "ref_std": 1.762887954711914
+        },
+        "all_lane_cls_one2many": {
+          "cosine_similarity": 0.9370805994200112,
+          "l2_distance": 2.4361865520477295,
+          "max_diff": 12.187963485717773,
+          "mean_diff": 1.8439533710479736,
+          "relative_diff_pct": 30.123423409036054,
+          "shape": [
+            6,
+            1,
+            1500,
+            6
+          ],
+          "ref_mean": -6.05186128616333,
+          "ref_std": 3.429533004760742
+        },
+        "all_lane_cls_one2one": {
+          "cosine_similarity": 0.9283720461313838,
+          "l2_distance": 2.5777060985565186,
+          "max_diff": 12.484413146972656,
+          "mean_diff": 1.9848151206970215,
+          "relative_diff_pct": 33.68782309716029,
+          "shape": [
+            6,
+            1,
+            300,
+            6
+          ],
+          "ref_mean": -5.855622291564941,
+          "ref_std": 3.015892505645752
+        },
+        "all_lane_preds_one2many": {
+          "cosine_similarity": 0.9813957767106031,
+          "l2_distance": 3.5982108116149902,
+          "max_diff": 66.71597290039062,
+          "mean_diff": 1.8928030729293823,
+          "relative_diff_pct": 15.127668781512613,
+          "shape": [
+            6,
+            1,
+            1500,
+            33
+          ],
+          "ref_mean": 0.32860296964645386,
+          "ref_std": 18.62460708618164
+        },
+        "all_lane_preds_one2one": {
+          "cosine_similarity": 0.986176744868089,
+          "l2_distance": 3.102233409881592,
+          "max_diff": 63.758872985839844,
+          "mean_diff": 1.642622709274292,
+          "relative_diff_pct": 12.999487089088282,
+          "shape": [
+            6,
+            1,
+            300,
+            33
+          ],
+          "ref_mean": 1.2949714660644531,
+          "ref_std": 18.60492706298828
+        },
+        "all_traffic_states": {
+          "cosine_similarity": 0.9683822517918208,
+          "l2_distance": 0.6235611438751221,
+          "max_diff": 4.355503559112549,
+          "mean_diff": 0.45622843503952026,
+          "relative_diff_pct": 23.4050602971759,
+          "shape": [
+            6,
+            1,
+            900,
+            4
+          ],
+          "ref_mean": -1.7210017442703247,
+          "ref_std": 1.7921552658081055
+        },
+        "all_traj_cls_scores": {
+          "cosine_similarity": 0.9785280808437924,
+          "l2_distance": 1.0791176557540894,
+          "max_diff": 5.2844414710998535,
+          "mean_diff": 0.831400454044342,
+          "relative_diff_pct": 16.94429254412878,
+          "shape": [
+            6,
+            1,
+            900,
+            6
+          ],
+          "ref_mean": -4.906669616699219,
+          "ref_std": 1.61458158493042
+        },
+        "all_traj_preds": {
+          "cosine_similarity": 0.7289835157522441,
+          "l2_distance": 0.6469782590866089,
+          "max_diff": 5.5792765617370605,
+          "mean_diff": 0.34086400270462036,
+          "relative_diff_pct": 78.63126640505675,
+          "shape": [
+            6,
+            1,
+            900,
+            6,
+            12
+          ],
+          "ref_mean": 0.07127497345209122,
+          "ref_std": 0.8921949863433838
+        },
+        "memory_canbus_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            3,
+            19
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "memory_egopose_bbox_out": {
+          "cosine_similarity": 0.9999999999999584,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            4,
+            4
+          ],
+          "ref_mean": 0.1666666716337204,
+          "ref_std": 0.3726780116558075
+        },
+        "memory_egopose_map_out": {
+          "cosine_similarity": 0.9999998982746665,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            4,
+            4
+          ],
+          "ref_mean": 0.0833333358168602,
+          "ref_std": 0.2763853967189789
+        },
+        "memory_embedding_bbox_out": {
+          "cosine_similarity": 0.43135518432152514,
+          "l2_distance": 0.5688072443008423,
+          "max_diff": 7.451155662536621,
+          "mean_diff": 0.24873843789100647,
+          "relative_diff_pct": 107.212808646036,
+          "shape": [
+            1,
+            900,
+            256
+          ],
+          "ref_mean": 0.0014402151573449373,
+          "ref_std": 0.5338301658630371
+        },
+        "memory_embedding_map_out": {
+          "cosine_similarity": 0.7229646555231658,
+          "l2_distance": 0.39026981592178345,
+          "max_diff": 4.399569511413574,
+          "mean_diff": 0.17274676263332367,
+          "relative_diff_pct": 87.74716079238752,
+          "shape": [
+            1,
+            900,
+            256
+          ],
+          "ref_mean": 0.00012797045928891748,
+          "ref_std": 0.5246241688728333
+        },
+        "memory_reference_point_bbox_out": {
+          "cosine_similarity": 0.5216489101578874,
+          "l2_distance": 19.503803253173828,
+          "max_diff": 100.53117370605469,
+          "mean_diff": 7.598137378692627,
+          "relative_diff_pct": 64.03241168693089,
+          "shape": [
+            1,
+            900,
+            3
+          ],
+          "ref_mean": -1.0012069940567017,
+          "ref_std": 19.8876895904541
+        },
+        "memory_reference_point_map_out": {
+          "cosine_similarity": 0.038759360268009906,
+          "l2_distance": 14.85641860961914,
+          "max_diff": 86.44094848632812,
+          "mean_diff": 5.5604376792907715,
+          "relative_diff_pct": 133.00698700566076,
+          "shape": [
+            1,
+            900,
+            11,
+            3
+          ],
+          "ref_mean": 0.34015533328056335,
+          "ref_std": 10.688861846923828
+        },
+        "memory_scene_query_bbox_out": {
+          "cosine_similarity": 0.9823063515285727,
+          "l2_distance": 0.04640668258070946,
+          "max_diff": 0.801163911819458,
+          "mean_diff": 0.008700630627572536,
+          "relative_diff_pct": 18.752285224931306,
+          "shape": [
+            1,
+            272,
+            256
+          ],
+          "ref_mean": -8.087421883828938e-05,
+          "ref_std": 0.246718630194664
+        },
+        "memory_timestamp_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "memory_timestamp_map_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            900,
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "outs_dec_one2many": {
+          "cosine_similarity": 0.8500557528499407,
+          "l2_distance": 0.5065397024154663,
+          "max_diff": 4.774603843688965,
+          "mean_diff": 0.3948186933994293,
+          "relative_diff_pct": 59.70865257169099,
+          "shape": [
+            6,
+            1,
+            1500,
+            256
+          ],
+          "ref_mean": 0.0002795211912598461,
+          "ref_std": 0.9246997833251953
+        },
+        "outs_dec_one2one": {
+          "cosine_similarity": 0.8502252083571691,
+          "l2_distance": 0.5049440264701843,
+          "max_diff": 4.096704006195068,
+          "mean_diff": 0.38944679498672485,
+          "relative_diff_pct": 60.75008843557813,
+          "shape": [
+            6,
+            1,
+            300,
+            256
+          ],
+          "ref_mean": 0.00019455162691883743,
+          "ref_std": 0.9227581024169922
+        },
+        "sample_time_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "sample_time_map_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "scene_memory_timestamp_bbox_out": {
+          "cosine_similarity": 0.0,
+          "l2_distance": 0.0,
+          "max_diff": 0.0,
+          "mean_diff": 0.0,
+          "relative_diff_pct": 0.0,
+          "shape": [
+            1,
+            272,
+            1
+          ],
+          "ref_mean": 0.0,
+          "ref_std": 0.0
+        },
+        "vision_embeded": {
+          "cosine_similarity": 0.882640821713485,
+          "l2_distance": 0.36340656876564026,
+          "max_diff": 2.987125873565674,
+          "mean_diff": 0.28422781825065613,
+          "relative_diff_pct": 47.91186982978556,
+          "shape": [
+            1,
+            529,
+            4096
+          ],
+          "ref_mean": 0.0007663486758247018,
+          "ref_std": 0.7500725388526917
+        }
+      }
+    }
+  }
+}

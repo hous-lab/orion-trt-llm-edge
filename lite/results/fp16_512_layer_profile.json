@@ -1,0 +1,3112 @@
+{
+  "total_ms": 65.27872009114358,
+  "num_layers": 752,
+  "categories": {
+    "Other/Misc": 40.66112646511758,
+    "ViT: MLP/FFN": 20.9711552798748,
+    "ViT: Attention": 3.142201547324657,
+    "ViT: PatchEmbed": 0.3627711981534958,
+    "Position Encoder": 0.0809471994638443,
+    "Memory Module": 0.060518401209264994
+  },
+  "fine_categories": {
+    "Other/Misc": 40.66112646511758,
+    "ViT Block -1: MLP Other": 20.9711552798748,
+    "ViT Block -1: Attn QKV/MatMul": 3.142201547324657,
+    "ViT Block -1: Other": 0.3627711981534958,
+    "Position Encoder": 0.0809471994638443,
+    "Memory Module": 0.060518401209264994
+  },
+  "top_20_layers": [
+    {
+      "name": "/MatMul_myl4_3",
+      "time_ms": 0.6948864102363587
+    },
+    {
+      "name": "/img_backbone/blocks_0/mlp/w2/MatMul+/img_backbone/blocks_0/mlp/w1/MatMul_myl4_56",
+      "time_ms": 0.5931007981300354
+    },
+    {
+      "name": "/img_backbone/blocks_19/mlp/w2/MatMul+/img_backbone/blocks_19/mlp/w1/MatMul_myl4_338",
+      "time_ms": 0.5911231994628906
+    },
+    {
+      "name": "/img_backbone/blocks_21/mlp/w2/MatMul+/img_backbone/blocks_21/mlp/w1/MatMul_myl4_365",
+      "time_ms": 0.591052794456482
+    },
+    {
+      "name": "/img_backbone/blocks_22/mlp/w2/MatMul+/img_backbone/blocks_22/mlp/w1/MatMul_myl4_379",
+      "time_ms": 0.5908479928970337
+    },
+    {
+      "name": "/img_backbone/blocks_23/mlp/w2/MatMul+/img_backbone/blocks_23/mlp/w1/MatMul_myl4_392",
+      "time_ms": 0.5901055932044983
+    },
+    {
+      "name": "/img_backbone/blocks_20/mlp/w2/MatMul+/img_backbone/blocks_20/mlp/w1/MatMul_myl4_351",
+      "time_ms": 0.5900479912757873
+    },
+    {
+      "name": "/img_backbone/blocks_1/mlp/w2/MatMul+/img_backbone/blocks_1/mlp/w1/MatMul_myl4_92",
+      "time_ms": 0.5851584076881409
+    },
+    {
+      "name": "/img_backbone/blocks_2/mlp/w2/MatMul+/img_backbone/blocks_2/mlp/w1/MatMul_myl4_105",
+      "time_ms": 0.5840896010398865
+    },
+    {
+      "name": "/img_backbone/blocks_3/mlp/w2/MatMul+/img_backbone/blocks_3/mlp/w1/MatMul_myl4_119",
+      "time_ms": 0.5840896010398865
+    },
+    {
+      "name": "/img_backbone/blocks_18/mlp/w2/MatMul+/img_backbone/blocks_18/mlp/w1/MatMul_myl4_324",
+      "time_ms": 0.5832703948020935
+    },
+    {
+      "name": "/img_backbone/blocks_17/mlp/w2/MatMul+/img_backbone/blocks_17/mlp/w1/MatMul_myl4_310",
+      "time_ms": 0.5734848022460938
+    },
+    {
+      "name": "/img_backbone/blocks_6/mlp/w2/MatMul+/img_backbone/blocks_6/mlp/w1/MatMul_myl4_160",
+      "time_ms": 0.5663104057312012
+    },
+    {
+      "name": "/img_backbone/blocks_16/mlp/w2/MatMul+/img_backbone/blocks_16/mlp/w1/MatMul_myl4_297",
+      "time_ms": 0.5632768034934997
+    },
+    {
+      "name": "/img_backbone/blocks_5/mlp/w2/MatMul+/img_backbone/blocks_5/mlp/w1/MatMul_myl4_146",
+      "time_ms": 0.5605376124382019
+    },
+    {
+      "name": "/img_backbone/blocks_4/mlp/w2/MatMul+/img_backbone/blocks_4/mlp/w1/MatMul_myl4_133",
+      "time_ms": 0.5601280093193054
+    },
+    {
+      "name": "/img_backbone/blocks_15/mlp/w2/MatMul+/img_backbone/blocks_15/mlp/w1/MatMul_myl4_283",
+      "time_ms": 0.5574656009674073
+    },
+    {
+      "name": "/img_backbone/blocks_7/mlp/w2/MatMul+/img_backbone/blocks_7/mlp/w1/MatMul_myl4_174",
+      "time_ms": 0.5552704095840454
+    },
+    {
+      "name": "/img_backbone/blocks_14/mlp/w2/MatMul+/img_backbone/blocks_14/mlp/w1/MatMul_myl4_269",
+      "time_ms": 0.5486592054367065
+    },
+    {
+      "name": "/img_backbone/blocks_13/mlp/w2/MatMul+/img_backbone/blocks_13/mlp/w1/MatMul_myl4_256",
+      "time_ms": 0.5482496023178101
+    }
+  ],
+  "all_layers": [
+    {
+      "name": "/MatMul_myl4_3",
+      "time_ms": 0.6948864102363587
+    },
+    {
+      "name": "/img_backbone/blocks_0/mlp/w2/MatMul+/img_backbone/blocks_0/mlp/w1/MatMul_myl4_56",
+      "time_ms": 0.5931007981300354
+    },
+    {
+      "name": "/img_backbone/blocks_19/mlp/w2/MatMul+/img_backbone/blocks_19/mlp/w1/MatMul_myl4_338",
+      "time_ms": 0.5911231994628906
+    },
+    {
+      "name": "/img_backbone/blocks_21/mlp/w2/MatMul+/img_backbone/blocks_21/mlp/w1/MatMul_myl4_365",
+      "time_ms": 0.591052794456482
+    },
+    {
+      "name": "/img_backbone/blocks_22/mlp/w2/MatMul+/img_backbone/blocks_22/mlp/w1/MatMul_myl4_379",
+      "time_ms": 0.5908479928970337
+    },
+    {
+      "name": "/img_backbone/blocks_23/mlp/w2/MatMul+/img_backbone/blocks_23/mlp/w1/MatMul_myl4_392",
+      "time_ms": 0.5901055932044983
+    },
+    {
+      "name": "/img_backbone/blocks_20/mlp/w2/MatMul+/img_backbone/blocks_20/mlp/w1/MatMul_myl4_351",
+      "time_ms": 0.5900479912757873
+    },
+    {
+      "name": "/img_backbone/blocks_1/mlp/w2/MatMul+/img_backbone/blocks_1/mlp/w1/MatMul_myl4_92",
+      "time_ms": 0.5851584076881409
+    },
+    {
+      "name": "/img_backbone/blocks_2/mlp/w2/MatMul+/img_backbone/blocks_2/mlp/w1/MatMul_myl4_105",
+      "time_ms": 0.5840896010398865
+    },
+    {
+      "name": "/img_backbone/blocks_3/mlp/w2/MatMul+/img_backbone/blocks_3/mlp/w1/MatMul_myl4_119",
+      "time_ms": 0.5840896010398865
+    },
+    {
+      "name": "/img_backbone/blocks_18/mlp/w2/MatMul+/img_backbone/blocks_18/mlp/w1/MatMul_myl4_324",
+      "time_ms": 0.5832703948020935
+    },
+    {
+      "name": "/img_backbone/blocks_17/mlp/w2/MatMul+/img_backbone/blocks_17/mlp/w1/MatMul_myl4_310",
+      "time_ms": 0.5734848022460938
+    },
+    {
+      "name": "/img_backbone/blocks_6/mlp/w2/MatMul+/img_backbone/blocks_6/mlp/w1/MatMul_myl4_160",
+      "time_ms": 0.5663104057312012
+    },
+    {
+      "name": "/img_backbone/blocks_16/mlp/w2/MatMul+/img_backbone/blocks_16/mlp/w1/MatMul_myl4_297",
+      "time_ms": 0.5632768034934997
+    },
+    {
+      "name": "/img_backbone/blocks_5/mlp/w2/MatMul+/img_backbone/blocks_5/mlp/w1/MatMul_myl4_146",
+      "time_ms": 0.5605376124382019
+    },
+    {
+      "name": "/img_backbone/blocks_4/mlp/w2/MatMul+/img_backbone/blocks_4/mlp/w1/MatMul_myl4_133",
+      "time_ms": 0.5601280093193054
+    },
+    {
+      "name": "/img_backbone/blocks_15/mlp/w2/MatMul+/img_backbone/blocks_15/mlp/w1/MatMul_myl4_283",
+      "time_ms": 0.5574656009674073
+    },
+    {
+      "name": "/img_backbone/blocks_7/mlp/w2/MatMul+/img_backbone/blocks_7/mlp/w1/MatMul_myl4_174",
+      "time_ms": 0.5552704095840454
+    },
+    {
+      "name": "/img_backbone/blocks_14/mlp/w2/MatMul+/img_backbone/blocks_14/mlp/w1/MatMul_myl4_269",
+      "time_ms": 0.5486592054367065
+    },
+    {
+      "name": "/img_backbone/blocks_13/mlp/w2/MatMul+/img_backbone/blocks_13/mlp/w1/MatMul_myl4_256",
+      "time_ms": 0.5482496023178101
+    },
+    {
+      "name": "/img_backbone/blocks_8/mlp/w2/MatMul+/img_backbone/blocks_8/mlp/w1/MatMul_myl4_187",
+      "time_ms": 0.546835196018219
+    },
+    {
+      "name": "/img_backbone/blocks_9/mlp/w2/MatMul+/img_backbone/blocks_9/mlp/w1/MatMul_myl4_201",
+      "time_ms": 0.5376000046730042
+    },
+    {
+      "name": "/img_backbone/blocks_10/mlp/w2/MatMul+/img_backbone/blocks_10/mlp/w1/MatMul_myl4_215",
+      "time_ms": 0.533299195766449
+    },
+    {
+      "name": "/img_backbone/blocks_12/mlp/w2/MatMul+/img_backbone/blocks_12/mlp/w1/MatMul_myl4_242",
+      "time_ms": 0.5331584095954895
+    },
+    {
+      "name": "/img_backbone/blocks_11/mlp/w2/MatMul+/img_backbone/blocks_11/mlp/w1/MatMul_myl4_228",
+      "time_ms": 0.5328896045684814
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_592",
+      "time_ms": 0.34979839324951173
+    },
+    {
+      "name": "node_of__v_27003_myl4_19",
+      "time_ms": 0.3383296012878418
+    },
+    {
+      "name": "node_of__v_27010_myl4_72",
+      "time_ms": 0.3377280056476593
+    },
+    {
+      "name": "node_of__v_27143_myl4_344",
+      "time_ms": 0.33771520256996157
+    },
+    {
+      "name": "node_of__v_27150_myl4_358",
+      "time_ms": 0.3371327996253967
+    },
+    {
+      "name": "node_of__v_27136_myl4_331",
+      "time_ms": 0.33710079789161684
+    },
+    {
+      "name": "node_of__v_27157_myl4_372",
+      "time_ms": 0.3368959963321686
+    },
+    {
+      "name": "node_of__v_27164_myl4_385",
+      "time_ms": 0.33631999492645265
+    },
+    {
+      "name": "node_of__v_27024_myl4_112",
+      "time_ms": 0.33382400274276736
+    },
+    {
+      "name": "node_of__v_27017_myl4_98",
+      "time_ms": 0.33344000577926636
+    },
+    {
+      "name": "node_of__v_27129_myl4_317",
+      "time_ms": 0.33119999766349795
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_348",
+      "time_ms": 0.32975360155105593
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_389",
+      "time_ms": 0.3297280013561249
+    },
+    {
+      "name": "node_of__v_27031_myl4_126",
+      "time_ms": 0.32931840419769287
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_102",
+      "time_ms": 0.32646400332450864
+    },
+    {
+      "name": "node_of__v_27122_myl4_303",
+      "time_ms": 0.3256832003593445
+    },
+    {
+      "name": "node_of__v_27115_myl4_290",
+      "time_ms": 0.3209600031375885
+    },
+    {
+      "name": "node_of__v_27038_myl4_139",
+      "time_ms": 0.3207167983055115
+    },
+    {
+      "name": "node_of__v_27045_myl4_153",
+      "time_ms": 0.3207167983055115
+    },
+    {
+      "name": "node_of__v_27052_myl4_167",
+      "time_ms": 0.32051199674606323
+    },
+    {
+      "name": "/img_backbone/blocks_22/mlp/w3/MatMul_myl4_383",
+      "time_ms": 0.3184640109539032
+    },
+    {
+      "name": "/img_backbone/blocks_21/mlp/w3/MatMul_myl4_369",
+      "time_ms": 0.3183232069015503
+    },
+    {
+      "name": "/img_backbone/blocks_19/mlp/w3/MatMul_myl4_342",
+      "time_ms": 0.31825920939445496
+    },
+    {
+      "name": "/img_backbone/blocks_0/mlp/w3/MatMul_myl4_63",
+      "time_ms": 0.31811200380325316
+    },
+    {
+      "name": "/img_backbone/blocks_18/mlp/w3/MatMul_myl4_328",
+      "time_ms": 0.31808640360832213
+    },
+    {
+      "name": "/img_backbone/blocks_23/mlp/w3/MatMul_myl4_396",
+      "time_ms": 0.3176447987556458
+    },
+    {
+      "name": "/img_backbone/blocks_20/mlp/w3/MatMul_myl4_355",
+      "time_ms": 0.3174656093120575
+    },
+    {
+      "name": "/img_backbone/blocks_3/mlp/w3/MatMul_myl4_123",
+      "time_ms": 0.3154368042945862
+    },
+    {
+      "name": "/img_backbone/blocks_1/mlp/w3/MatMul_myl4_96",
+      "time_ms": 0.315391993522644
+    },
+    {
+      "name": "node_of__v_27059_myl4_180",
+      "time_ms": 0.31498239636421205
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_307",
+      "time_ms": 0.31457280516624453
+    },
+    {
+      "name": "node_of__v_27108_myl4_276",
+      "time_ms": 0.31416320204734804
+    },
+    {
+      "name": "/img_backbone/blocks_2/mlp/w3/MatMul_myl4_109",
+      "time_ms": 0.3137600064277649
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_143",
+      "time_ms": 0.3135487973690033
+    },
+    {
+      "name": "node_of__v_27101_myl4_262",
+      "time_ms": 0.3129599988460541
+    },
+    {
+      "name": "/img_backbone/blocks_17/mlp/w3/MatMul_myl4_314",
+      "time_ms": 0.31272960305213926
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_184",
+      "time_ms": 0.30871679782867434
+    },
+    {
+      "name": "node_of__v_27066_myl4_194",
+      "time_ms": 0.3071999967098236
+    },
+    {
+      "name": "/img_backbone/blocks_15/mlp/w3/MatMul_myl4_287",
+      "time_ms": 0.3062272071838379
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_266",
+      "time_ms": 0.3055999994277954
+    },
+    {
+      "name": "/img_backbone/blocks_4/mlp/w3/MatMul_myl4_137",
+      "time_ms": 0.3053567945957184
+    },
+    {
+      "name": "/img_backbone/blocks_16/mlp/w3/MatMul_myl4_301",
+      "time_ms": 0.30526080131530764
+    },
+    {
+      "name": "/img_backbone/blocks_6/mlp/w3/MatMul_myl4_164",
+      "time_ms": 0.30500479936599734
+    },
+    {
+      "name": "/img_backbone/blocks_5/mlp/w3/MatMul_myl4_150",
+      "time_ms": 0.30453760027885435
+    },
+    {
+      "name": "node_of__v_27087_myl4_235",
+      "time_ms": 0.30453760027885435
+    },
+    {
+      "name": "node_of__v_27073_myl4_208",
+      "time_ms": 0.30412799715995786
+    },
+    {
+      "name": "node_of__v_27080_myl4_221",
+      "time_ms": 0.30412799715995786
+    },
+    {
+      "name": "node_of__v_27094_myl4_249",
+      "time_ms": 0.3037183940410614
+    },
+    {
+      "name": "/img_backbone/blocks_7/mlp/w3/MatMul_myl4_178",
+      "time_ms": 0.29921279549598695
+    },
+    {
+      "name": "/img_backbone/blocks_13/mlp/w3/MatMul_myl4_260",
+      "time_ms": 0.29825279712677
+    },
+    {
+      "name": "/img_backbone/blocks_14/mlp/w3/MatMul_myl4_273",
+      "time_ms": 0.29798399806022646
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_225",
+      "time_ms": 0.2971648037433624
+    },
+    {
+      "name": "/img_backbone/blocks_8/mlp/w3/MatMul_myl4_191",
+      "time_ms": 0.2967552006244659
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_340",
+      "time_ms": 0.29434239864349365
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_353",
+      "time_ms": 0.29352319836616514
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_326",
+      "time_ms": 0.29293439388275144
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_61",
+      "time_ms": 0.29265919923782346
+    },
+    {
+      "name": "/img_backbone/blocks_9/mlp/w3/MatMul_myl4_205",
+      "time_ms": 0.29265919923782346
+    },
+    {
+      "name": "/img_backbone/blocks_12/mlp/w3/MatMul_myl4_246",
+      "time_ms": 0.2922496020793915
+    },
+    {
+      "name": "/img_backbone/blocks_10/mlp/w3/MatMul_myl4_219",
+      "time_ms": 0.292249596118927
+    },
+    {
+      "name": "/img_backbone/blocks_11/mlp/w3/MatMul_myl4_232",
+      "time_ms": 0.29168000221252444
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_107",
+      "time_ms": 0.2916352033615112
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_381",
+      "time_ms": 0.2914303958415985
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_394",
+      "time_ms": 0.2910207986831665
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_94",
+      "time_ms": 0.29064319729804994
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_367",
+      "time_ms": 0.2904063999652863
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_121",
+      "time_ms": 0.28965760469436647
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_312",
+      "time_ms": 0.288563197851181
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_285",
+      "time_ms": 0.286380797624588
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_135",
+      "time_ms": 0.2859648108482361
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_271",
+      "time_ms": 0.2859008014202118
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_299",
+      "time_ms": 0.2851200044155121
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_162",
+      "time_ms": 0.2850944042205811
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_258",
+      "time_ms": 0.2843264043331146
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_148",
+      "time_ms": 0.28385279774665834
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_176",
+      "time_ms": 0.2816063940525055
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_189",
+      "time_ms": 0.28092160224914553
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_203",
+      "time_ms": 0.27957120537757874
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_244",
+      "time_ms": 0.27941120266914365
+    },
+    {
+      "name": "/img_backbone/patch_embed/proj/Conv",
+      "time_ms": 0.27916799783706664
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_217",
+      "time_ms": 0.27897600531578065
+    },
+    {
+      "name": "__myl_ReshReshAddAddSiluMulCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_230",
+      "time_ms": 0.27775360345840455
+    },
+    {
+      "name": "__myl_Slic_myl4_311",
+      "time_ms": 0.20653440058231354
+    },
+    {
+      "name": "__myl_Slic_myl4_106",
+      "time_ms": 0.20643839836120606
+    },
+    {
+      "name": "__myl_Slic_myl4_229",
+      "time_ms": 0.20554880201816558
+    },
+    {
+      "name": "__myl_Slic_myl4_393",
+      "time_ms": 0.20541439652442933
+    },
+    {
+      "name": "__myl_Slic_myl4_202",
+      "time_ms": 0.20529279708862305
+    },
+    {
+      "name": "__myl_Slic_myl4_352",
+      "time_ms": 0.20520959794521332
+    },
+    {
+      "name": "__myl_Slic_myl4_93",
+      "time_ms": 0.20485120117664338
+    },
+    {
+      "name": "__myl_Slic_myl4_188",
+      "time_ms": 0.20480000078678132
+    },
+    {
+      "name": "__myl_Slic_myl4_147",
+      "time_ms": 0.20479999780654906
+    },
+    {
+      "name": "__myl_Slic_myl4_270",
+      "time_ms": 0.20439039766788483
+    },
+    {
+      "name": "__myl_Slic_myl4_284",
+      "time_ms": 0.20439039766788483
+    },
+    {
+      "name": "__myl_Slic_myl4_120",
+      "time_ms": 0.2038591980934143
+    },
+    {
+      "name": "__myl_Slic_myl4_57",
+      "time_ms": 0.203616002202034
+    },
+    {
+      "name": "__myl_Slic_myl4_298",
+      "time_ms": 0.2033663958311081
+    },
+    {
+      "name": "__myl_Slic_myl4_175",
+      "time_ms": 0.2031615972518921
+    },
+    {
+      "name": "__myl_Slic_myl4_380",
+      "time_ms": 0.2031615972518921
+    },
+    {
+      "name": "__myl_Slic_myl4_257",
+      "time_ms": 0.20278399884700776
+    },
+    {
+      "name": "__myl_Slic_myl4_366",
+      "time_ms": 0.20261119604110717
+    },
+    {
+      "name": "__myl_Slic_myl4_339",
+      "time_ms": 0.20254719853401185
+    },
+    {
+      "name": "__myl_Slic_myl4_325",
+      "time_ms": 0.2025471955537796
+    },
+    {
+      "name": "__myl_Slic_myl4_216",
+      "time_ms": 0.20236800014972686
+    },
+    {
+      "name": "__myl_Slic_myl4_243",
+      "time_ms": 0.20236799716949463
+    },
+    {
+      "name": "__myl_Slic_myl4_161",
+      "time_ms": 0.2023423969745636
+    },
+    {
+      "name": "__myl_Slic_myl4_134",
+      "time_ms": 0.20216319859027862
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_571",
+      "time_ms": 0.18862079977989196
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_507",
+      "time_ms": 0.18823040127754212
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_411",
+      "time_ms": 0.18821120262145996
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_539",
+      "time_ms": 0.18821120262145996
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_475",
+      "time_ms": 0.18759680092334746
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_443",
+      "time_ms": 0.18739199936389922
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_561",
+      "time_ms": 0.1540096014738083
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_529",
+      "time_ms": 0.1534336030483246
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_497",
+      "time_ms": 0.1533951997756958
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_70",
+      "time_ms": 0.15216639935970305
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_465",
+      "time_ms": 0.15059199929237366
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_433",
+      "time_ms": 0.1492992013692856
+    },
+    {
+      "name": "/img_backbone/blocks_20/attn/proj/MatMul_myl4_349",
+      "time_ms": 0.13642879873514174
+    },
+    {
+      "name": "/img_backbone/blocks_21/attn/proj/MatMul_myl4_363",
+      "time_ms": 0.13642879873514174
+    },
+    {
+      "name": "/img_backbone/blocks_0/attn/proj/MatMul_myl4_53",
+      "time_ms": 0.13639679849147796
+    },
+    {
+      "name": "/img_backbone/blocks_19/attn/proj/MatMul_myl4_336",
+      "time_ms": 0.13619839549064636
+    },
+    {
+      "name": "/img_backbone/blocks_23/attn/proj/MatMul_myl4_390",
+      "time_ms": 0.13619200140237808
+    },
+    {
+      "name": "/img_backbone/blocks_22/attn/proj/MatMul_myl4_377",
+      "time_ms": 0.13619199842214585
+    },
+    {
+      "name": "/img_backbone/blocks_3/attn/proj/MatMul_myl4_117",
+      "time_ms": 0.13516800105571747
+    },
+    {
+      "name": "/img_backbone/blocks_2/attn/proj/MatMul_myl4_103",
+      "time_ms": 0.13496319502592086
+    },
+    {
+      "name": "/img_backbone/blocks_1/attn/proj/MatMul_myl4_89",
+      "time_ms": 0.13475839793682098
+    },
+    {
+      "name": "/img_backbone/blocks_18/attn/proj/MatMul_myl4_322",
+      "time_ms": 0.13333759754896163
+    },
+    {
+      "name": "/img_backbone/blocks_16/attn/proj/MatMul_myl4_295",
+      "time_ms": 0.1310719981789589
+    },
+    {
+      "name": "/img_backbone/blocks_17/attn/proj/MatMul_myl4_308",
+      "time_ms": 0.13066239804029464
+    },
+    {
+      "name": "/img_backbone/blocks_7/attn/proj/MatMul_myl4_172",
+      "time_ms": 0.1300479993224144
+    },
+    {
+      "name": "/img_backbone/blocks_5/attn/proj/MatMul_myl4_144",
+      "time_ms": 0.13004799634218217
+    },
+    {
+      "name": "/img_backbone/blocks_6/attn/proj/MatMul_myl4_158",
+      "time_ms": 0.1297023966908455
+    },
+    {
+      "name": "/img_backbone/blocks_4/attn/proj/MatMul_myl4_131",
+      "time_ms": 0.12799999564886094
+    },
+    {
+      "name": "/img_backbone/blocks_8/attn/proj/MatMul_myl4_185",
+      "time_ms": 0.12785279601812363
+    },
+    {
+      "name": "/img_backbone/blocks_13/attn/proj/MatMul_myl4_254",
+      "time_ms": 0.12779520004987716
+    },
+    {
+      "name": "/img_backbone/blocks_14/attn/proj/MatMul_myl4_267",
+      "time_ms": 0.12742399722337722
+    },
+    {
+      "name": "/img_backbone/blocks_15/attn/proj/MatMul_myl4_281",
+      "time_ms": 0.12677119672298431
+    },
+    {
+      "name": "/img_backbone/blocks_9/attn/proj/MatMul_myl4_199",
+      "time_ms": 0.1247231975197792
+    },
+    {
+      "name": "/img_backbone/blocks_11/attn/proj/MatMul_myl4_226",
+      "time_ms": 0.12434559762477874
+    },
+    {
+      "name": "/img_backbone/blocks_12/attn/proj/MatMul_myl4_240",
+      "time_ms": 0.12417279630899429
+    },
+    {
+      "name": "/img_backbone/blocks_10/attn/proj/MatMul_myl4_213",
+      "time_ms": 0.12351999878883362
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_47",
+      "time_ms": 0.10690560042858124
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_375",
+      "time_ms": 0.10671360045671463
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_361",
+      "time_ms": 0.10629120022058487
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_334",
+      "time_ms": 0.10616320073604583
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_87",
+      "time_ms": 0.10550400018692016
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_115",
+      "time_ms": 0.10547199994325637
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_46",
+      "time_ms": 0.1050815999507904
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_320",
+      "time_ms": 0.10424320101737976
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_86",
+      "time_ms": 0.10370559841394425
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_374",
+      "time_ms": 0.10345599949359893
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_360",
+      "time_ms": 0.10323199927806855
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_333",
+      "time_ms": 0.1030143991112709
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_537",
+      "time_ms": 0.10280959904193879
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_441",
+      "time_ms": 0.10243199914693832
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_409",
+      "time_ms": 0.10239999890327453
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_569",
+      "time_ms": 0.10239999890327453
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_114",
+      "time_ms": 0.10219519883394242
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_505",
+      "time_ms": 0.10219519883394242
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_473",
+      "time_ms": 0.10199039876461029
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_293",
+      "time_ms": 0.10158080011606216
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_319",
+      "time_ms": 0.10158080011606216
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_156",
+      "time_ms": 0.10137600004673004
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_347",
+      "time_ms": 0.10118399858474732
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_170",
+      "time_ms": 0.10080639868974686
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_388",
+      "time_ms": 0.100620798766613
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_101",
+      "time_ms": 0.09960319995880126
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_387",
+      "time_ms": 0.09959039837121964
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_346",
+      "time_ms": 0.09958399832248688
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_129",
+      "time_ms": 0.09916799962520599
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_279",
+      "time_ms": 0.09891840070486069
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_292",
+      "time_ms": 0.09830400049686432
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_100",
+      "time_ms": 0.0983039990067482
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_169",
+      "time_ms": 0.09811839908361435
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_128",
+      "time_ms": 0.09809919893741607
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_155",
+      "time_ms": 0.09809919893741607
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_252",
+      "time_ms": 0.09719680100679398
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_197",
+      "time_ms": 0.09688960164785385
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_306",
+      "time_ms": 0.09651200026273728
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_211",
+      "time_ms": 0.09625600129365922
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_142",
+      "time_ms": 0.09625599980354309
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_238",
+      "time_ms": 0.09584640115499496
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_278",
+      "time_ms": 0.09543680101633072
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_305",
+      "time_ms": 0.09502719938755036
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_141",
+      "time_ms": 0.09466879963874816
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_183",
+      "time_ms": 0.09400960057973862
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_196",
+      "time_ms": 0.09400320053100586
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_265",
+      "time_ms": 0.09400320053100586
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_251",
+      "time_ms": 0.09338880181312562
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_210",
+      "time_ms": 0.09280640184879303
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_182",
+      "time_ms": 0.09263360053300858
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_237",
+      "time_ms": 0.09256960153579712
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_264",
+      "time_ms": 0.092569600045681
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshSlicReshNegReshSlicConcReshMulMulAddReshMove_myl4_224",
+      "time_ms": 0.09134080111980439
+    },
+    {
+      "name": "__myl_SlicReshTranReshSlicReshNegReshSlicConcReshMulMulAddTranReshMove_myl4_223",
+      "time_ms": 0.08971520066261292
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_362",
+      "time_ms": 0.08540160059928895
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_376",
+      "time_ms": 0.0852735996246338
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_48",
+      "time_ms": 0.08499200046062469
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_335",
+      "time_ms": 0.08499200046062469
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_116",
+      "time_ms": 0.08443519920110702
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_88",
+      "time_ms": 0.08437760025262833
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_321",
+      "time_ms": 0.08376320004463196
+    },
+    {
+      "name": "Reformatting CopyNode for Input Tensor 0 to /img_backbone/patch_embed/proj/Conv",
+      "time_ms": 0.08360320031642914
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_294",
+      "time_ms": 0.08171520084142685
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_157",
+      "time_ms": 0.08161279857158661
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_171",
+      "time_ms": 0.08130559921264649
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_130",
+      "time_ms": 0.08028159886598588
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_280",
+      "time_ms": 0.0797439992427826
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_253",
+      "time_ms": 0.07905280143022538
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_198",
+      "time_ms": 0.07848319858312607
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_356",
+      "time_ms": 0.07843840271234512
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_212",
+      "time_ms": 0.07754240036010743
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_124",
+      "time_ms": 0.0774399995803833
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_239",
+      "time_ms": 0.0774144023656845
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_370",
+      "time_ms": 0.07741439938545228
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_206",
+      "time_ms": 0.07682559937238694
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_329",
+      "time_ms": 0.07652480006217957
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_288",
+      "time_ms": 0.07646080106496811
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_165",
+      "time_ms": 0.07584640234708787
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_151",
+      "time_ms": 0.07577600330114365
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_110",
+      "time_ms": 0.07557760328054428
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_315",
+      "time_ms": 0.07536640167236328
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_233",
+      "time_ms": 0.07502080202102661
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_247",
+      "time_ms": 0.0750080019235611
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_274",
+      "time_ms": 0.07466880083084107
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_192",
+      "time_ms": 0.07434240281581879
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMean_myl4_66",
+      "time_ms": 0.07393280267715455
+    },
+    {
+      "name": "/input_projection_1/MatMul_FORCEFP32+/input_projection/MatMul_FORCEFP32_myl4_399",
+      "time_ms": 0.07150080204010009
+    },
+    {
+      "name": "__myl_MoveConc_myl4_368",
+      "time_ms": 0.07024640142917633
+    },
+    {
+      "name": "__myl_MoveConc_myl4_95",
+      "time_ms": 0.06945280134677886
+    },
+    {
+      "name": "__myl_MoveConc_myl4_177",
+      "time_ms": 0.06942720115184783
+    },
+    {
+      "name": "__myl_MoveConc_myl4_300",
+      "time_ms": 0.06942720115184783
+    },
+    {
+      "name": "__myl_MoveConc_myl4_341",
+      "time_ms": 0.06942720115184783
+    },
+    {
+      "name": "__myl_MoveConc_myl4_382",
+      "time_ms": 0.06922240108251572
+    },
+    {
+      "name": "__myl_MoveConc_myl4_122",
+      "time_ms": 0.0691072016954422
+    },
+    {
+      "name": "__myl_MoveConc_myl4_327",
+      "time_ms": 0.06908160150051117
+    },
+    {
+      "name": "__myl_MoveConc_myl4_163",
+      "time_ms": 0.06901760101318359
+    },
+    {
+      "name": "__myl_MoveConc_myl4_286",
+      "time_ms": 0.06885760128498078
+    },
+    {
+      "name": "__myl_MoveConc_myl4_259",
+      "time_ms": 0.06867840141057968
+    },
+    {
+      "name": "__myl_MoveConc_myl4_136",
+      "time_ms": 0.06865280121564865
+    },
+    {
+      "name": "__myl_MoveConc_myl4_62",
+      "time_ms": 0.06860800087451935
+    },
+    {
+      "name": "__myl_MoveConc_myl4_204",
+      "time_ms": 0.06860800087451935
+    },
+    {
+      "name": "__myl_MoveConc_myl4_218",
+      "time_ms": 0.06860800087451935
+    },
+    {
+      "name": "__myl_MoveConc_myl4_245",
+      "time_ms": 0.06841600090265273
+    },
+    {
+      "name": "__myl_MoveConc_myl4_149",
+      "time_ms": 0.06799360066652298
+    },
+    {
+      "name": "__myl_MoveConc_myl4_395",
+      "time_ms": 0.06792320162057877
+    },
+    {
+      "name": "__myl_MoveConc_myl4_108",
+      "time_ms": 0.06778880059719086
+    },
+    {
+      "name": "__myl_MoveConc_myl4_313",
+      "time_ms": 0.06758400052785873
+    },
+    {
+      "name": "__myl_MoveConc_myl4_272",
+      "time_ms": 0.06742400079965591
+    },
+    {
+      "name": "__myl_MoveConc_myl4_354",
+      "time_ms": 0.0673792004585266
+    },
+    {
+      "name": "__myl_MoveConc_myl4_231",
+      "time_ms": 0.06723840087652207
+    },
+    {
+      "name": "__myl_MoveConc_myl4_190",
+      "time_ms": 0.06676480025053025
+    },
+    {
+      "name": "/traj_cls_branches_0/traj_cls_branches_0_0/MatMul_FORCEFP32+/traj_branches_0/traj_branches_0_0/MatMul_FORCEFP32_myl4_723",
+      "time_ms": 0.0659456007182598
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_1_myl4_408",
+      "time_ms": 0.06307839974761009
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_2_myl4_405",
+      "time_ms": 0.06151039898395538
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_2_myl4_407",
+      "time_ms": 0.06107519939541817
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_1_myl4_406",
+      "time_ms": 0.06088319942355156
+    },
+    {
+      "name": "__myl_Scat_myl4_25",
+      "time_ms": 0.04792320132255554
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_138",
+      "time_ms": 0.046086400747299194
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_73",
+      "time_ms": 0.045260800421237944
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_97",
+      "time_ms": 0.0448512002825737
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_220",
+      "time_ms": 0.044755200296640395
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_261",
+      "time_ms": 0.04464640021324158
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_302",
+      "time_ms": 0.04450559988617897
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_384",
+      "time_ms": 0.04444160014390945
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_179",
+      "time_ms": 0.04382719993591309
+    },
+    {
+      "name": "__myl_AddAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_343",
+      "time_ms": 0.04382719993591309
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_186",
+      "time_ms": 0.043148799985647204
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_431",
+      "time_ms": 0.04291199967265129
+    },
+    {
+      "name": "__myl_ReshReshReshReshReshAddSqrtDivMulCastMulAddReshConcSlicIsnaGathSlicSeleIsinGtrAndSeleIsinLtEtc_myl4_590",
+      "time_ms": 0.042233599722385405
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_559",
+      "time_ms": 0.04206719994544983
+    },
+    {
+      "name": "/position_encoder/position_encoder_2/MatMul_FORCEFP32_myl4_402",
+      "time_ms": 0.0420352004468441
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_495",
+      "time_ms": 0.041574399918317795
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_463",
+      "time_ms": 0.0414463996887207
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_527",
+      "time_ms": 0.04116479977965355
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_350",
+      "time_ms": 0.04062079936265946
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_227",
+      "time_ms": 0.040550398826599124
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_309",
+      "time_ms": 0.040550398826599124
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_104",
+      "time_ms": 0.04036479890346527
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_391",
+      "time_ms": 0.04035839885473251
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_145",
+      "time_ms": 0.040345598757266996
+    },
+    {
+      "name": "__myl_ReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_268",
+      "time_ms": 0.03993599861860275
+    },
+    {
+      "name": "/traj_cls_branches_0/traj_cls_branches_0_3/MatMul_FORCEFP32_myl4_727",
+      "time_ms": 0.03973119929432869
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_214",
+      "time_ms": 0.039526401460170744
+    },
+    {
+      "name": "/traj_branches_0/traj_branches_0_2/MatMul_FORCEFP32_myl4_725",
+      "time_ms": 0.039321599155664445
+    },
+    {
+      "name": "/position_encoder/position_encoder_0/MatMul_FORCEFP32_myl4_401",
+      "time_ms": 0.038911999017000196
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_90",
+      "time_ms": 0.03829760029911995
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_364",
+      "time_ms": 0.03824639990925789
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_323",
+      "time_ms": 0.0381632000207901
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_132",
+      "time_ms": 0.03812480047345161
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_378",
+      "time_ms": 0.03811200112104416
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_200",
+      "time_ms": 0.03809280097484589
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_159",
+      "time_ms": 0.03790080100297928
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_118",
+      "time_ms": 0.03788800165057182
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_173",
+      "time_ms": 0.03788800165057182
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_54",
+      "time_ms": 0.03779840022325516
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_337",
+      "time_ms": 0.03772800117731094
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_255",
+      "time_ms": 0.037721600383520126
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_282",
+      "time_ms": 0.0376832015812397
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_241",
+      "time_ms": 0.037299200892448425
+    },
+    {
+      "name": "__myl_ReshTranReshTranReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_296",
+      "time_ms": 0.03713280111551285
+    },
+    {
+      "name": "__myl_AddAddTran_myl4_397",
+      "time_ms": 0.036473600566387175
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_549",
+      "time_ms": 0.03282559998333454
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_587",
+      "time_ms": 0.0327808003872633
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_485",
+      "time_ms": 0.032640000060200694
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_453",
+      "time_ms": 0.03258240036666393
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_421",
+      "time_ms": 0.032576000317931175
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_517",
+      "time_ms": 0.032576000317931175
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_2_FORCEFP32+/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_1_FORCEFP32+/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_FORCEFP32_myl4_583",
+      "time_ms": 0.03115519993007183
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_0_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_11/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_10/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_9/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_8/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_7/MatMul_FORCEFP32_myl4_591",
+      "time_ms": 0.029900800436735153
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_4_6/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_11/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_10/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_9/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_8/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_7/MatMul_FORCEFP32_myl4_642",
+      "time_ms": 0.029708799719810487
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_3_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_11/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_10/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_9/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_8/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_7/MatMul_FORCEFP32_myl4_623",
+      "time_ms": 0.027897600457072257
+    },
+    {
+      "name": "__myl_CastTranAdd_myl4_4",
+      "time_ms": 0.027852800488471986
+    },
+    {
+      "name": "/can_bus_embed/can_bus_embed_2/Gemm_FORCEFP32_myl4_52",
+      "time_ms": 0.02764800041913986
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_0_6/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_11/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_10/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_9/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_8/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_7/MatMul_FORCEFP32_myl4_640",
+      "time_ms": 0.02752000018954277
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_422",
+      "time_ms": 0.02682880014181137
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_2_6/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_11/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_10/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_9/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_8/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_7/MatMul_FORCEFP32_myl4_641",
+      "time_ms": 0.02682880014181137
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_6",
+      "time_ms": 0.026624000072479247
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_2/_layers/_layers_0/MatMul_FORCEFP32_myl4_717",
+      "time_ms": 0.02622720003128052
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_67",
+      "time_ms": 0.02606079988181591
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_330",
+      "time_ms": 0.026022399961948394
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_357",
+      "time_ms": 0.026022399589419366
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_518",
+      "time_ms": 0.025919999927282333
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_588",
+      "time_ms": 0.025913599878549576
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_111",
+      "time_ms": 0.025753600150346757
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_2/_layers/_layers_3/MatMul_FORCEFP32_myl4_718",
+      "time_ms": 0.025657599791884422
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_550",
+      "time_ms": 0.025638400018215178
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_371",
+      "time_ms": 0.025599999725818633
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_125",
+      "time_ms": 0.025401600077748297
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_454",
+      "time_ms": 0.02539519965648651
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_486",
+      "time_ms": 0.02539519965648651
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_316",
+      "time_ms": 0.025254400074481965
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_166",
+      "time_ms": 0.024998399987816812
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_275",
+      "time_ms": 0.024780800566077232
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_5",
+      "time_ms": 0.024780800193548204
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_152",
+      "time_ms": 0.02465280033648014
+    },
+    {
+      "name": "Reformatting CopyNode for Input Tensor 20 to {ForeignNode[/Constant_454_output_0.../Tile_10]}",
+      "time_ms": 0.024640000239014626
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_289",
+      "time_ms": 0.024588800221681594
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_193",
+      "time_ms": 0.024166400358080865
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_248",
+      "time_ms": 0.02396160066127777
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_234",
+      "time_ms": 0.023756800591945647
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshTran_myl4_207",
+      "time_ms": 0.023552000522613525
+    },
+    {
+      "name": "/MatMul_6_myl4_8",
+      "time_ms": 0.02109439969062805
+    },
+    {
+      "name": "__myl_ReshTran_myl4_398",
+      "time_ms": 0.02088959962129593
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_4/_layers/_layers_3/MatMul_myl4_417",
+      "time_ms": 0.02072319984436035
+    },
+    {
+      "name": "/MatMul_7_myl4_714",
+      "time_ms": 0.020684799924492837
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_4/_layers/_layers_3/MatMul_myl4_481",
+      "time_ms": 0.020275199413299562
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_4/_layers/_layers_3/MatMul_myl4_449",
+      "time_ms": 0.020127999782562255
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_4/_layers/_layers_3/MatMul_myl4_513",
+      "time_ms": 0.020102399960160257
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_4/_layers/_layers_3/MatMul_myl4_577",
+      "time_ms": 0.02007039971649647
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_4/_layers/_layers_0/MatMul_myl4_544",
+      "time_ms": 0.019968000054359437
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_4/_layers/_layers_0/MatMul_myl4_576",
+      "time_ms": 0.01992959976196289
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_4/_layers/_layers_0/MatMul_myl4_512",
+      "time_ms": 0.019865599647164344
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_4/_layers/_layers_3/MatMul_myl4_545",
+      "time_ms": 0.019865599647164344
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_4/_layers/_layers_0/MatMul_myl4_480",
+      "time_ms": 0.01973759979009628
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_4/_layers/_layers_0/MatMul_myl4_416",
+      "time_ms": 0.019686399772763253
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_4/_layers/_layers_0/MatMul_myl4_448",
+      "time_ms": 0.019673599675297738
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_1/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_2/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_3/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_4/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_5/MatMul_FORCEFP32_myl4_682",
+      "time_ms": 0.019283200055360793
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_3/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_5/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_4/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_3/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_2/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_1/MatMul_FORCEFP32_myl4_607",
+      "time_ms": 0.019046399369835855
+    },
+    {
+      "name": "/output_projection/MatMul_FORCEFP32_myl4_737",
+      "time_ms": 0.018022400513291358
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_2/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_5/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_4/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_3/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_2/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_1/MatMul_FORCEFP32_myl4_631",
+      "time_ms": 0.01767680048942566
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_3/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_5/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_4/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_3/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_2/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_1/MatMul_FORCEFP32_myl4_615",
+      "time_ms": 0.017612800374627112
+    },
+    {
+      "name": "__myl_ReshReshReshReshReshAddSqrtDivMulCastMulAddReshConcIsnaSeleIsinGtrAndSeleIsinLtAndSeleSlicEtc_myl4_579",
+      "time_ms": 0.017056000232696534
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_5_FORCEFP32_myl4_599",
+      "time_ms": 0.017030400037765504
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_6_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_7/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_8/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_9/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_10/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_11/MatMul_FORCEFP32_myl4_690",
+      "time_ms": 0.01639680005609989
+    },
+    {
+      "name": "__myl_Scat_myl4_704",
+      "time_ms": 0.016383999958634377
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_140",
+      "time_ms": 0.016198400221765042
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_45",
+      "time_ms": 0.01619199998676777
+    },
+    {
+      "name": "/MatMul_5_myl4_11",
+      "time_ms": 0.0151552002876997
+    },
+    {
+      "name": "__myl_ConcConcCast_myl4_739",
+      "time_ms": 0.014950399659574032
+    },
+    {
+      "name": "__myl_ReshReshReshReshSlicMulSlicMulReshCastAddSlicCastAddSlicCastAddSlicCastSlicMulMulMulMulMulEtc_myl4_16",
+      "time_ms": 0.014745599776506423
+    },
+    {
+      "name": "/traj_branches_0/traj_branches_0_4/MatMul_FORCEFP32_myl4_729",
+      "time_ms": 0.014745599776506423
+    },
+    {
+      "name": "/query_pos/query_pos_0_3/MatMul_FORCEFP32+/query_pos/query_pos_0_1/MatMul_FORCEFP32_myl4_31",
+      "time_ms": 0.014336000010371209
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_359",
+      "time_ms": 0.013312000036239623
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_332",
+      "time_ms": 0.01316480003297329
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_386",
+      "time_ms": 0.013145600073039531
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_99",
+      "time_ms": 0.013107199966907502
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_113",
+      "time_ms": 0.013107199966907502
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_373",
+      "time_ms": 0.013107199966907502
+    },
+    {
+      "name": "/output_projection_1/MatMul_FORCEFP32_myl4_738",
+      "time_ms": 0.013107199966907502
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_85",
+      "time_ms": 0.012985599972307683
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_345",
+      "time_ms": 0.012959999963641167
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_318",
+      "time_ms": 0.012940799817442894
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_291",
+      "time_ms": 0.012928000092506409
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn_1/MatMul_1_myl4_64",
+      "time_ms": 0.012915199995040894
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_127",
+      "time_ms": 0.0126976003870368
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_263",
+      "time_ms": 0.012697600200772286
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_168",
+      "time_ms": 0.01255040019750595
+    },
+    {
+      "name": "/MatMul_4_myl4_721",
+      "time_ms": 0.012544000148773193
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_181",
+      "time_ms": 0.012518400140106679
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_209",
+      "time_ms": 0.012492800317704677
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_304",
+      "time_ms": 0.012492800317704677
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_154",
+      "time_ms": 0.012492800131440163
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_277",
+      "time_ms": 0.012492800131440163
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_2_myl4_460",
+      "time_ms": 0.012492799945175648
+    },
+    {
+      "name": "__myl_CastSlicMulMulConcAddSqrtDivMulCastMulAddAddSqrtDivMulCastMulAddMulAddAddConcAdd_myl4_36",
+      "time_ms": 0.01228800043463707
+    },
+    {
+      "name": "__myl_SlicAddMulMove_myl4_24",
+      "time_ms": 0.012288000248372555
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_2_myl4_524",
+      "time_ms": 0.012288000248372555
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_2_myl4_492",
+      "time_ms": 0.012134400196373463
+    },
+    {
+      "name": "__myl_MoveTopk_myl4_707",
+      "time_ms": 0.012134400010108948
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_250",
+      "time_ms": 0.01211520042270422
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_222",
+      "time_ms": 0.012083200365304947
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_2_myl4_428",
+      "time_ms": 0.012083200365304947
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_236",
+      "time_ms": 0.011948800273239612
+    },
+    {
+      "name": "__myl_SlicAddReshTranReshMove_myl4_195",
+      "time_ms": 0.011923200264573098
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_2_myl4_556",
+      "time_ms": 0.011904000118374825
+    },
+    {
+      "name": "/ego_pose_pe/beta/MatMul_FORCEFP32+/ego_pose_pe/beta_1/MatMul_FORCEFP32+/ego_pose_pe/gamma/MatMul_FORCEFP32+/ego_pose_pe/gamma_1/MatMul_FORCEFP32_myl4_35",
+      "time_ms": 0.011878400295972823
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn_1/MatMul_2_myl4_43",
+      "time_ms": 0.011878400295972823
+    },
+    {
+      "name": "__myl_MoveTopk_myl4_711",
+      "time_ms": 0.01187840010970831
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_4/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_5/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_4/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_3/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_2/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_1/MatMul_FORCEFP32_myl4_632",
+      "time_ms": 0.011526400223374367
+    },
+    {
+      "name": "/MatMul_8_myl4_722",
+      "time_ms": 0.011526400223374367
+    },
+    {
+      "name": "/MatMul_1_myl4_13",
+      "time_ms": 0.011507200263440608
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_1_myl4_525",
+      "time_ms": 0.011488000117242336
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_1_myl4_461",
+      "time_ms": 0.011264000087976456
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_1_myl4_493",
+      "time_ms": 0.011264000087976456
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_1_myl4_557",
+      "time_ms": 0.011264000087976456
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_1_myl4_429",
+      "time_ms": 0.011071999929845333
+    },
+    {
+      "name": "__myl_CastReshRepl_myl4_2",
+      "time_ms": 0.010950400121510028
+    },
+    {
+      "name": "__myl_ReshMaxMinMaxSubMinMaxMinDivLog_myl4_400",
+      "time_ms": 0.01085439994931221
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivEtc_myl4_622",
+      "time_ms": 0.010067199915647506
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_1_myl4_68",
+      "time_ms": 0.010041599906980992
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivEtc_myl4_689",
+      "time_ms": 0.009868799708783627
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_2_myl4_457",
+      "time_ms": 0.009830400161445142
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_424",
+      "time_ms": 0.009830399975180626
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_730",
+      "time_ms": 0.009638399817049503
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_myl4_504",
+      "time_ms": 0.009625600092113018
+    },
+    {
+      "name": "/time_embedding/time_embedding_0_3/MatMul_FORCEFP32+/time_embedding/time_embedding_0_1/MatMul_FORCEFP32_myl4_28",
+      "time_ms": 0.009472000226378442
+    },
+    {
+      "name": "__myl_SlicMulMulAddMulReshCosSinAddMulCosSinMulCosSinMulCosSinMulCosSinMulCosSinConcMulReplCosSinEtc_myl4_30",
+      "time_ms": 0.009472000040113926
+    },
+    {
+      "name": "/ego_pose_pe/reduce/reduce_0/MatMul_FORCEFP32+/ego_pose_pe/reduce/reduce_0_1/MatMul_FORCEFP32_myl4_34",
+      "time_ms": 0.009452800080180169
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_myl4_526",
+      "time_ms": 0.00942080020904541
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_5_myl4_500",
+      "time_ms": 0.009420800022780895
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_5_myl4_542",
+      "time_ms": 0.009420800022780895
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_5_myl4_436",
+      "time_ms": 0.009286399930715561
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_5_myl4_532",
+      "time_ms": 0.009228800237178803
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_myl4_430",
+      "time_ms": 0.009222400188446046
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn_1/MatMul_5_myl4_75",
+      "time_ms": 0.009216000325977802
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_2_myl4_44",
+      "time_ms": 0.009088000282645226
+    },
+    {
+      "name": "__myl_ReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_726",
+      "time_ms": 0.009081600233912468
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_myl4_84",
+      "time_ms": 0.009068800136446953
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_myl4_494",
+      "time_ms": 0.009056000038981438
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_5_myl4_574",
+      "time_ms": 0.009049600176513194
+    },
+    {
+      "name": "__mye1183975+__mye1183963_myl4_585",
+      "time_ms": 0.009049600176513194
+    },
+    {
+      "name": "__mye1184029+__mye1184017_myl4_594",
+      "time_ms": 0.009049600176513194
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_myl4_462",
+      "time_ms": 0.009043200127780437
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_719",
+      "time_ms": 0.009036800265312195
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddReshAdd_myl4_76",
+      "time_ms": 0.009011200256645679
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_5_myl4_446",
+      "time_ms": 0.009011200256645679
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_5_myl4_468",
+      "time_ms": 0.009011200256645679
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_5_myl4_510",
+      "time_ms": 0.009011200256645679
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_myl4_536",
+      "time_ms": 0.009011200256645679
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_myl4_558",
+      "time_ms": 0.009011200256645679
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_myl4_568",
+      "time_ms": 0.009011200256645679
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_5_myl4_478",
+      "time_ms": 0.00886400006711483
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReshConc_myl4_720",
+      "time_ms": 0.008844800107181073
+    },
+    {
+      "name": "__mye1184191+__mye1184179_myl4_597",
+      "time_ms": 0.008806400280445815
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_5_myl4_414",
+      "time_ms": 0.008806400187313556
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_myl4_440",
+      "time_ms": 0.008806400187313556
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_5_myl4_564",
+      "time_ms": 0.008806400187313556
+    },
+    {
+      "name": "/query_pos/query_pos_2_3/MatMul_FORCEFP32+/query_pos/query_pos_2_1/MatMul_FORCEFP32_myl4_32",
+      "time_ms": 0.008608000166714192
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_2_myl4_489",
+      "time_ms": 0.008601600211113692
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_myl4_472",
+      "time_ms": 0.008601600117981435
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_1_myl4_554",
+      "time_ms": 0.008601600117981435
+    },
+    {
+      "name": "__myl_ReshAddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_716",
+      "time_ms": 0.008601600117981435
+    },
+    {
+      "name": "__mye1184245+__mye1184233_myl4_598",
+      "time_ms": 0.008511999994516373
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_2_myl4_425",
+      "time_ms": 0.008473600074648858
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_1_myl4_522",
+      "time_ms": 0.0084672000259161
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_1_myl4_458",
+      "time_ms": 0.008454400207847356
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_2_myl4_553",
+      "time_ms": 0.008428800106048583
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_myl4_91",
+      "time_ms": 0.008396800141781569
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_2_myl4_521",
+      "time_ms": 0.008396800048649311
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_myl4_69",
+      "time_ms": 0.008192000072449445
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_520",
+      "time_ms": 0.008192000072449445
+    },
+    {
+      "name": "__mye1184137+__mye1184125_myl4_596",
+      "time_ms": 0.008192000072449445
+    },
+    {
+      "name": "__mye1184083+__mye1184071_myl4_595",
+      "time_ms": 0.008191999979317188
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_419",
+      "time_ms": 0.008044800069183112
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_1_myl4_426",
+      "time_ms": 0.007999999914318323
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_myl4_535",
+      "time_ms": 0.007987200096249581
+    },
+    {
+      "name": "__myl_Move_myl4_26",
+      "time_ms": 0.007987200003117322
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_488",
+      "time_ms": 0.007987200003117322
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_1_myl4_490",
+      "time_ms": 0.007987200003117322
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_456",
+      "time_ms": 0.00782719999551773
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_myl4_523",
+      "time_ms": 0.00782719999551773
+    },
+    {
+      "name": "__myl_Add_myl4_65",
+      "time_ms": 0.007808000035583973
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_5_myl4_509",
+      "time_ms": 0.007782400026917458
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_515",
+      "time_ms": 0.007782400026917458
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_myl4_555",
+      "time_ms": 0.007782400026917458
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_myl4_567",
+      "time_ms": 0.007660800032317639
+    },
+    {
+      "name": "__mye1184149_myl4_626",
+      "time_ms": 0.007603200059384108
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_5_myl4_531",
+      "time_ms": 0.00760319996625185
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_58",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_5_myl4_81",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_myl4_427",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_483",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_myl4_491",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_myl4_503",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_547",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_552",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_5_myl4_573",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "__myl_ReshSlicSlicGathReshCastCastReplGathConcMoveReshCastReplGathConcConcReplGathConcSubGathConcEtc_myl4_712",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "__myl_ReshAddRelu_myl4_724",
+      "time_ms": 0.007577600050717592
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_5_myl4_445",
+      "time_ms": 0.007456000056117773
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_myl4_471",
+      "time_ms": 0.007456000056117773
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddAdd_myl4_83",
+      "time_ms": 0.0074432000517845156
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_5_myl4_413",
+      "time_ms": 0.0074304000474512575
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_myl4_439",
+      "time_ms": 0.0074304000474512575
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_5_myl4_477",
+      "time_ms": 0.007417600043118
+    },
+    {
+      "name": "__mye1183987_myl4_629",
+      "time_ms": 0.007398400083184242
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_5_myl4_541",
+      "time_ms": 0.007379200030118227
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddConcAdd_myl4_451",
+      "time_ms": 0.007372800074517727
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_5_myl4_467",
+      "time_ms": 0.007372800074517727
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivEtc_myl4_606",
+      "time_ms": 0.007372800074517727
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_5_myl4_563",
+      "time_ms": 0.00723840007558465
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6/MatMul_FORCEFP32_myl4_644",
+      "time_ms": 0.00723200011998415
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_5_myl4_435",
+      "time_ms": 0.007206400111317635
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_5_myl4_499",
+      "time_ms": 0.00718080010265112
+    },
+    {
+      "name": "__mye1184041_myl4_628",
+      "time_ms": 0.007174400147050619
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivEtc_myl4_681",
+      "time_ms": 0.0071680000983178616
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_myl4_459",
+      "time_ms": 0.0071552000939846035
+    },
+    {
+      "name": "/traj_cls_branches_0/traj_cls_branches_0_6/MatMul_FORCEFP32_myl4_731",
+      "time_ms": 0.007027200050652027
+    },
+    {
+      "name": "__myl_AddRelu_myl4_728",
+      "time_ms": 0.007001600041985512
+    },
+    {
+      "name": "__myl_Move_myl4_593",
+      "time_ms": 0.006963200122117996
+    },
+    {
+      "name": "__mye1184257_myl4_624",
+      "time_ms": 0.006963200122117996
+    },
+    {
+      "name": "__mye1184095_myl4_627",
+      "time_ms": 0.006963200122117996
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_4/MatMul_FORCEFP32_myl4_694",
+      "time_ms": 0.006873599998652935
+    },
+    {
+      "name": "__myl_AddSigmReshAddSigmReshAddSigmReshAddSigmReshAddSigmReshAddSigmReshConcMulAddMove_myl4_703",
+      "time_ms": 0.006790400110185146
+    },
+    {
+      "name": "__mye1184203_myl4_625",
+      "time_ms": 0.006764800101518631
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivMulCastMulAddReluAddSqrtDivEtc_myl4_614",
+      "time_ms": 0.006758400145918131
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_3/MatMul_FORCEFP32_myl4_696",
+      "time_ms": 0.006758400145918131
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_5/MatMul_FORCEFP32_myl4_692",
+      "time_ms": 0.006681600026786328
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_581",
+      "time_ms": 0.006604800093919038
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_2_FORCEFP32+/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_1_FORCEFP32_myl4_580",
+      "time_ms": 0.006592000089585781
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_2/MatMul_FORCEFP32_myl4_698",
+      "time_ms": 0.006566400080919266
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_2/_layers/_layers_3/MatMul_FORCEFP32_myl4_79",
+      "time_ms": 0.006412800122052431
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_1/MatMul_FORCEFP32_myl4_700",
+      "time_ms": 0.006387200020253658
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddAddSqrtDivMulCastMulAddMulAddAddSlicSlicConcSlicMulMove_myl4_40",
+      "time_ms": 0.0063488001935184
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_2/_layers/_layers_3/MatMul_FORCEFP32_myl4_734",
+      "time_ms": 0.0063488001935184
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddReshAdd_myl4_470",
+      "time_ms": 0.006208000145852566
+    },
+    {
+      "name": "__myl_Add_myl4_403",
+      "time_ms": 0.006201600190252066
+    },
+    {
+      "name": "__myl_Move_myl4_570",
+      "time_ms": 0.006156800035387278
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddReshAdd_myl4_534",
+      "time_ms": 0.006150400172919035
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddReshAdd_myl4_566",
+      "time_ms": 0.006150400172919035
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_0/attn/MatMul_1_FORCEFP32_myl4_55",
+      "time_ms": 0.006144000217318535
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddReshAdd_myl4_502",
+      "time_ms": 0.006144000217318535
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_0/attn/MatMul_5_FORCEFP32_myl4_60",
+      "time_ms": 0.006144000124186278
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddReshAdd_myl4_438",
+      "time_ms": 0.006035200040787459
+    },
+    {
+      "name": "/scene_time_embedding/scene_time_embedding_0/MatMul_FORCEFP32_myl4_17",
+      "time_ms": 0.006009600218385458
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_420",
+      "time_ms": 0.006003200076520443
+    },
+    {
+      "name": "__myl_CastSlicMulReshMulReshMoveCastReshConcConcMoveReshConcReshMulSumCast_myl4_50",
+      "time_ms": 0.005958400201052427
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_0/attn/MatMul_2_FORCEFP32_myl4_22",
+      "time_ms": 0.005939200147986412
+    },
+    {
+      "name": "__myl_Scat_myl4_37",
+      "time_ms": 0.005939200147986412
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_2/_layers/_layers_0/MatMul_FORCEFP32_myl4_78",
+      "time_ms": 0.005939200147986412
+    },
+    {
+      "name": "__myl_Add_myl4_404",
+      "time_ms": 0.005939200147986412
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_5_FORCEFP32_myl4_584",
+      "time_ms": 0.005939200147986412
+    },
+    {
+      "name": "__myl_CastSlicMulCastMeanSubMulMeanAddSqrtDivMulCastMulAddAdd_myl4_18",
+      "time_ms": 0.005734400078654289
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_FORCEFP32_myl4_82",
+      "time_ms": 0.005734400078654289
+    },
+    {
+      "name": "__myl_SigmTopk_myl4_706",
+      "time_ms": 0.005734400078654289
+    },
+    {
+      "name": "__myl_ConcConcAdd_myl4_42",
+      "time_ms": 0.005548800062388182
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_423",
+      "time_ms": 0.005529600009322166
+    },
+    {
+      "name": "__myl_SlicGathCastCastReplGathConcConcReplGathConcMoveReshCastReplGathConcSubGathConcCastCast_myl4_708",
+      "time_ms": 0.005529600009322166
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_519",
+      "time_ms": 0.005395200103521347
+    },
+    {
+      "name": "/MatMul_3_myl4_715",
+      "time_ms": 0.005363199952989816
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_455",
+      "time_ms": 0.0053311999887228016
+    },
+    {
+      "name": "/MatMul_2_myl4_9",
+      "time_ms": 0.005324800033122301
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_586",
+      "time_ms": 0.005324800033122301
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_487",
+      "time_ms": 0.005324799939990044
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_551",
+      "time_ms": 0.005324799939990044
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddAdd_myl4_565",
+      "time_ms": 0.005324799939990044
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_683",
+      "time_ms": 0.005324799939990044
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_2/_layers/_layers_0/MatMul_FORCEFP32_myl4_733",
+      "time_ms": 0.005324799939990044
+    },
+    {
+      "name": "__myl_AddReshCastRepl_myl4_742",
+      "time_ms": 0.005196799989789724
+    },
+    {
+      "name": "__myl_Conc_myl4_630",
+      "time_ms": 0.005171199887990951
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddAdd_myl4_533",
+      "time_ms": 0.005158399976789951
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_617",
+      "time_ms": 0.005132799874991179
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_589",
+      "time_ms": 0.005119999963790178
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddAdd_myl4_437",
+      "time_ms": 0.005119999870657921
+    },
+    {
+      "name": "__myl_Move_myl4_508",
+      "time_ms": 0.005119999870657921
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_619",
+      "time_ms": 0.005119999870657921
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_684",
+      "time_ms": 0.005119999870657921
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_686",
+      "time_ms": 0.004979199916124344
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_688",
+      "time_ms": 0.004979199916124344
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_415",
+      "time_ms": 0.004966399911791086
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_548",
+      "time_ms": 0.0049599999561905864
+    },
+    {
+      "name": "__myl_Move_myl4_476",
+      "time_ms": 0.00493439994752407
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_618",
+      "time_ms": 0.004934399854391813
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_621",
+      "time_ms": 0.004921599850058555
+    },
+    {
+      "name": "__myl_ReshMean_myl4_49",
+      "time_ms": 0.004915199894458056
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_484",
+      "time_ms": 0.004915199894458056
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddAdd_myl4_501",
+      "time_ms": 0.004915199894458056
+    },
+    {
+      "name": "__myl_Move_myl4_572",
+      "time_ms": 0.004915199894458056
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_620",
+      "time_ms": 0.004915199894458056
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_685",
+      "time_ms": 0.004915199894458056
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_616",
+      "time_ms": 0.0048640000633895395
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_543",
+      "time_ms": 0.0047807999886572364
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_482",
+      "time_ms": 0.004774399939924479
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_687",
+      "time_ms": 0.004767999891191721
+    },
+    {
+      "name": "__myl_CastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_643",
+      "time_ms": 0.004748799931257963
+    },
+    {
+      "name": "__myl_Move_myl4_562",
+      "time_ms": 0.004729599878191948
+    },
+    {
+      "name": "__myl_Move_myl4_71",
+      "time_ms": 0.0047103999182581905
+    },
+    {
+      "name": "__myl_Move_myl4_412",
+      "time_ms": 0.0047103999182581905
+    },
+    {
+      "name": "__myl_Move_myl4_434",
+      "time_ms": 0.0047103999182581905
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAddAdd_myl4_469",
+      "time_ms": 0.0047103999182581905
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_516",
+      "time_ms": 0.0047103999182581905
+    },
+    {
+      "name": "__myl_Move_myl4_530",
+      "time_ms": 0.0047103999182581905
+    },
+    {
+      "name": "__myl_Move_myl4_540",
+      "time_ms": 0.0047103999182581905
+    },
+    {
+      "name": "__myl_Move_myl4_466",
+      "time_ms": 0.004575999919325113
+    },
+    {
+      "name": "__myl_CastConc_myl4_0",
+      "time_ms": 0.004563199914991855
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_479",
+      "time_ms": 0.004543999955058098
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_546",
+      "time_ms": 0.0045311999507248405
+    },
+    {
+      "name": "__myl_Move_myl4_444",
+      "time_ms": 0.004524799901992083
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_418",
+      "time_ms": 0.0045055999420583245
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_452",
+      "time_ms": 0.0045055999420583245
+    },
+    {
+      "name": "__myl_Move_myl4_498",
+      "time_ms": 0.0045055999420583245
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_514",
+      "time_ms": 0.0045055999420583245
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_578",
+      "time_ms": 0.0045055999420583245
+    },
+    {
+      "name": "__myl_Move_myl4_528",
+      "time_ms": 0.004409599956125021
+    },
+    {
+      "name": "__myl_Move_myl4_496",
+      "time_ms": 0.004377599898725748
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_511",
+      "time_ms": 0.004371199943125248
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_77",
+      "time_ms": 0.00435839993879199
+    },
+    {
+      "name": "__myl_SigmTopk_myl4_710",
+      "time_ms": 0.00435839993879199
+    },
+    {
+      "name": "__myl_CastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_697",
+      "time_ms": 0.004332799930125475
+    },
+    {
+      "name": "__myl_Scat_myl4_702",
+      "time_ms": 0.004332799930125475
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_611",
+      "time_ms": 0.0043263999745249745
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_80",
+      "time_ms": 0.004300799965858459
+    },
+    {
+      "name": "__myl_Move_myl4_410",
+      "time_ms": 0.004300799965858459
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_575",
+      "time_ms": 0.004300799965858459
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_677",
+      "time_ms": 0.004300799965858459
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_678",
+      "time_ms": 0.004300799965858459
+    },
+    {
+      "name": "__myl_CastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_699",
+      "time_ms": 0.004300799965858459
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_447",
+      "time_ms": 0.00412799995392561
+    },
+    {
+      "name": "__myl_CastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_695",
+      "time_ms": 0.00412799995392561
+    },
+    {
+      "name": "__myl_Move_myl4_432",
+      "time_ms": 0.004121599998325109
+    },
+    {
+      "name": "__myl_AddSqrtDivMulCastMulAddConcConcCast_myl4_736",
+      "time_ms": 0.004115199949592352
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_676",
+      "time_ms": 0.004108799993991852
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_601",
+      "time_ms": 0.004102399945259095
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_610",
+      "time_ms": 0.004102399945259095
+    },
+    {
+      "name": "__myl_CastConc_myl4_1",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastSubCastCastAddAbsCastAddAbsLtCastMulLtCastMulReshTranReshSlicMulMulSubSubReshMulSlicSubEtc_myl4_14",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_38",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_39",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_Move_myl4_74",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_Move_myl4_442",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_450",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_Move_myl4_464",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_Move_myl4_474",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_Move_myl4_506",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_602",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_603",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_609",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_675",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_691",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_CastMeanSubMulMeanAddSqrtDivMulCastMulAddRelu_myl4_693",
+      "time_ms": 0.004095999989658594
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMeanAddSqrtDivMulCastMulAdd_myl4_732",
+      "time_ms": 0.004044800018891692
+    },
+    {
+      "name": "__myl_Move_myl4_560",
+      "time_ms": 0.0039680000394582745
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_608",
+      "time_ms": 0.003967999992892146
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_612",
+      "time_ms": 0.003929600026458502
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_605",
+      "time_ms": 0.003916799975559116
+    },
+    {
+      "name": "__myl_Scat_myl4_674",
+      "time_ms": 0.003897599969059229
+    },
+    {
+      "name": "__myl_Scat_myl4_21",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_Move_myl4_538",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_600",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_613",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_Scat_myl4_646",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_Scat_myl4_650",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_679",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_680",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_ReshReshReshReshReshReshConcSlicMulAddMove_myl4_701",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_ConcSlicSlicGathCastCast_myl4_709",
+      "time_ms": 0.003891200013458729
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_33",
+      "time_ms": 0.00377599997445941
+    },
+    {
+      "name": "__myl_SlicSigm_myl4_638",
+      "time_ms": 0.003750400012359023
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_604",
+      "time_ms": 0.003744000010192394
+    },
+    {
+      "name": "__myl_Scat_myl4_41",
+      "time_ms": 0.003699200041592121
+    },
+    {
+      "name": "__myl_Cast_myl4_10",
+      "time_ms": 0.0036864000372588634
+    },
+    {
+      "name": "__myl_Scat_myl4_15",
+      "time_ms": 0.0036864000372588634
+    },
+    {
+      "name": "__myl_Scat_myl4_23",
+      "time_ms": 0.0036864000372588634
+    },
+    {
+      "name": "__myl_ConcSlicMaxMinSubMaxMinMaxMinDivLogSlicAddSlicAddSlicAddSlicAddSlicAddSlicAdd_myl4_634",
+      "time_ms": 0.0036864000372588634
+    },
+    {
+      "name": "__myl_Scat_myl4_652",
+      "time_ms": 0.0036864000372588634
+    },
+    {
+      "name": "__myl_ConcGathCast_myl4_705",
+      "time_ms": 0.0036864000372588634
+    },
+    {
+      "name": "__myl_AddCastMeanSubMulMean_myl4_735",
+      "time_ms": 0.0036864000372588634
+    },
+    {
+      "name": "__myl_Move_myl4_672",
+      "time_ms": 0.0035584000404924156
+    },
+    {
+      "name": "__myl_CastMeanSubMulMean_myl4_29",
+      "time_ms": 0.0035328000318259
+    },
+    {
+      "name": "__myl_AddReshCastRepl_myl4_743",
+      "time_ms": 0.0035200000274926424
+    },
+    {
+      "name": "__myl_ConcCast_myl4_741",
+      "time_ms": 0.003507200023159385
+    },
+    {
+      "name": "__myl_Scat_myl4_659",
+      "time_ms": 0.003488000016659498
+    },
+    {
+      "name": "__myl_Move_myl4_648",
+      "time_ms": 0.003481600061058998
+    },
+    {
+      "name": "__myl_Scat_myl4_670",
+      "time_ms": 0.003481600061058998
+    },
+    {
+      "name": "__myl_SlicSigm_myl4_661",
+      "time_ms": 0.003481600014492869
+    },
+    {
+      "name": "__myl_Scat_myl4_665",
+      "time_ms": 0.0034367999993264674
+    },
+    {
+      "name": "__myl_Scat_myl4_658",
+      "time_ms": 0.0033983999863266947
+    },
+    {
+      "name": "__myl_Scat_myl4_668",
+      "time_ms": 0.003360000066459179
+    },
+    {
+      "name": "__myl_Move_myl4_654",
+      "time_ms": 0.0033408000599592924
+    },
+    {
+      "name": "__myl_SlicSigm_myl4_667",
+      "time_ms": 0.0033408000599592924
+    },
+    {
+      "name": "__myl_Scat_myl4_656",
+      "time_ms": 0.003340800013393164
+    },
+    {
+      "name": "__myl_Scat_myl4_662",
+      "time_ms": 0.0032959999982267616
+    },
+    {
+      "name": "__myl_Cast_myl4_7",
+      "time_ms": 0.0032896000426262616
+    },
+    {
+      "name": "__myl_Cast_myl4_12",
+      "time_ms": 0.0032896000426262616
+    },
+    {
+      "name": "__myl_Scat_myl4_639",
+      "time_ms": 0.003283200040459633
+    },
+    {
+      "name": "__myl_Cast_myl4_20",
+      "time_ms": 0.0032768000848591326
+    },
+    {
+      "name": "__myl_Scat_myl4_635",
+      "time_ms": 0.0032768000848591326
+    },
+    {
+      "name": "__myl_Scat_myl4_636",
+      "time_ms": 0.0032768000848591326
+    },
+    {
+      "name": "__myl_Move_myl4_663",
+      "time_ms": 0.0032768000848591326
+    },
+    {
+      "name": "__myl_Cast_myl4_745",
+      "time_ms": 0.0032768000848591326
+    },
+    {
+      "name": "__myl_Scat_myl4_671",
+      "time_ms": 0.0031680000480264424
+    },
+    {
+      "name": "__myl_Scat_myl4_27",
+      "time_ms": 0.0031296000815927982
+    },
+    {
+      "name": "__myl_SlicSigm_myl4_649",
+      "time_ms": 0.0031232000794261692
+    },
+    {
+      "name": "__myl_Cast_myl4_713",
+      "time_ms": 0.0031232000328600407
+    },
+    {
+      "name": "__myl_AddRelu_myl4_51",
+      "time_ms": 0.0031104000750929116
+    },
+    {
+      "name": "__myl_Scat_myl4_647",
+      "time_ms": 0.003110400028526783
+    },
+    {
+      "name": "__myl_Move_myl4_59",
+      "time_ms": 0.003104000026360154
+    },
+    {
+      "name": "__myl_Move_myl4_660",
+      "time_ms": 0.0030976000241935255
+    },
+    {
+      "name": "__myl_Move_myl4_637",
+      "time_ms": 0.003091200068593025
+    },
+    {
+      "name": "__myl_Scat_myl4_653",
+      "time_ms": 0.0030848000664263965
+    },
+    {
+      "name": "__myl_Move_myl4_633",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Move_myl4_645",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Move_myl4_651",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_SlicSigm_myl4_655",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Move_myl4_657",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Scat_myl4_664",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Move_myl4_666",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_SlicSigm_myl4_673",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Cast_myl4_740",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_SlicCast_myl4_744",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Cast_myl4_746",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_SlicCast_myl4_747",
+      "time_ms": 0.0030720001086592674
+    },
+    {
+      "name": "__myl_Move_myl4_582",
+      "time_ms": 0.003072000062093139
+    },
+    {
+      "name": "__myl_Move_myl4_669",
+      "time_ms": 0.0029120000544935465
+    },
+    {
+      "name": "/Reshape",
+      "time_ms": 0.0
+    }
+  ]
+}

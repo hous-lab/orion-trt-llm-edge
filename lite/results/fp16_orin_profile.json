@@ -1,0 +1,3180 @@
+{
+  "total_ms": 388.48394853649603,
+  "num_layers": 769,
+  "categories": {
+    "Other/Misc": 259.2795966538601,
+    "ViT: MLP/FFN": 111.01618540287016,
+    "ViT: Attention": 15.009836912155151,
+    "ViT: PatchEmbed": 2.675635167956352,
+    "Position Encoder": 0.3617152005434036,
+    "Memory Module": 0.14097919911146167
+  },
+  "fine_categories": {
+    "Other/Misc": 259.2795966538601,
+    "ViT Block -1: MLP Other": 111.01618540287016,
+    "ViT Block -1: Attn QKV/MatMul": 15.009836912155151,
+    "ViT Block -1: Other": 2.675635167956352,
+    "Position Encoder": 0.3617152005434036,
+    "Memory Module": 0.14097919911146167
+  },
+  "top_20_layers": [
+    {
+      "name": "/img_backbone/blocks_0/mlp/w2/MatMul+/img_backbone/blocks_0/mlp/w1/MatMul_myl4_75",
+      "time_ms": 3.20196475982666
+    },
+    {
+      "name": "/img_backbone/blocks_13/mlp/w2/MatMul+/img_backbone/blocks_13/mlp/w1/MatMul_myl4_275",
+      "time_ms": 3.1910847663879394
+    },
+    {
+      "name": "/img_backbone/blocks_1/mlp/w2/MatMul+/img_backbone/blocks_1/mlp/w1/MatMul_myl4_111",
+      "time_ms": 3.186559963226318
+    },
+    {
+      "name": "/img_backbone/blocks_18/mlp/w2/MatMul+/img_backbone/blocks_18/mlp/w1/MatMul_myl4_343",
+      "time_ms": 3.1848447799682615
+    },
+    {
+      "name": "/img_backbone/blocks_4/mlp/w2/MatMul+/img_backbone/blocks_4/mlp/w1/MatMul_myl4_152",
+      "time_ms": 3.184825611114502
+    },
+    {
+      "name": "/img_backbone/blocks_23/mlp/w2/MatMul+/img_backbone/blocks_23/mlp/w1/MatMul_myl4_411",
+      "time_ms": 3.184691143035889
+    },
+    {
+      "name": "/img_backbone/blocks_15/mlp/w2/MatMul+/img_backbone/blocks_15/mlp/w1/MatMul_myl4_302",
+      "time_ms": 3.1839551448822023
+    },
+    {
+      "name": "/img_backbone/blocks_20/mlp/w2/MatMul+/img_backbone/blocks_20/mlp/w1/MatMul_myl4_370",
+      "time_ms": 3.183833599090576
+    },
+    {
+      "name": "/img_backbone/blocks_11/mlp/w2/MatMul+/img_backbone/blocks_11/mlp/w1/MatMul_myl4_247",
+      "time_ms": 3.1831615924835206
+    },
+    {
+      "name": "/img_backbone/blocks_14/mlp/w2/MatMul+/img_backbone/blocks_14/mlp/w1/MatMul_myl4_288",
+      "time_ms": 3.182809591293335
+    },
+    {
+      "name": "/img_backbone/blocks_22/mlp/w2/MatMul+/img_backbone/blocks_22/mlp/w1/MatMul_myl4_398",
+      "time_ms": 3.1827776432037354
+    },
+    {
+      "name": "/img_backbone/blocks_17/mlp/w2/MatMul+/img_backbone/blocks_17/mlp/w1/MatMul_myl4_329",
+      "time_ms": 3.1826303958892823
+    },
+    {
+      "name": "/img_backbone/blocks_12/mlp/w2/MatMul+/img_backbone/blocks_12/mlp/w1/MatMul_myl4_261",
+      "time_ms": 3.1824832439422606
+    },
+    {
+      "name": "/img_backbone/blocks_5/mlp/w2/MatMul+/img_backbone/blocks_5/mlp/w1/MatMul_myl4_165",
+      "time_ms": 3.1823935985565184
+    },
+    {
+      "name": "/img_backbone/blocks_3/mlp/w2/MatMul+/img_backbone/blocks_3/mlp/w1/MatMul_myl4_138",
+      "time_ms": 3.1821951866149902
+    },
+    {
+      "name": "/img_backbone/blocks_10/mlp/w2/MatMul+/img_backbone/blocks_10/mlp/w1/MatMul_myl4_234",
+      "time_ms": 3.181977653503418
+    },
+    {
+      "name": "/img_backbone/blocks_16/mlp/w2/MatMul+/img_backbone/blocks_16/mlp/w1/MatMul_myl4_316",
+      "time_ms": 3.181926441192627
+    },
+    {
+      "name": "/img_backbone/blocks_7/mlp/w2/MatMul+/img_backbone/blocks_7/mlp/w1/MatMul_myl4_193",
+      "time_ms": 3.181599998474121
+    },
+    {
+      "name": "/img_backbone/blocks_8/mlp/w2/MatMul+/img_backbone/blocks_8/mlp/w1/MatMul_myl4_206",
+      "time_ms": 3.181580829620361
+    },
+    {
+      "name": "/img_backbone/blocks_21/mlp/w2/MatMul+/img_backbone/blocks_21/mlp/w1/MatMul_myl4_384",
+      "time_ms": 3.1813951969146728
+    }
+  ],
+  "all_layers": [
+    {
+      "name": "/img_backbone/blocks_0/mlp/w2/MatMul+/img_backbone/blocks_0/mlp/w1/MatMul_myl4_75",
+      "time_ms": 3.20196475982666
+    },
+    {
+      "name": "/img_backbone/blocks_13/mlp/w2/MatMul+/img_backbone/blocks_13/mlp/w1/MatMul_myl4_275",
+      "time_ms": 3.1910847663879394
+    },
+    {
+      "name": "/img_backbone/blocks_1/mlp/w2/MatMul+/img_backbone/blocks_1/mlp/w1/MatMul_myl4_111",
+      "time_ms": 3.186559963226318
+    },
+    {
+      "name": "/img_backbone/blocks_18/mlp/w2/MatMul+/img_backbone/blocks_18/mlp/w1/MatMul_myl4_343",
+      "time_ms": 3.1848447799682615
+    },
+    {
+      "name": "/img_backbone/blocks_4/mlp/w2/MatMul+/img_backbone/blocks_4/mlp/w1/MatMul_myl4_152",
+      "time_ms": 3.184825611114502
+    },
+    {
+      "name": "/img_backbone/blocks_23/mlp/w2/MatMul+/img_backbone/blocks_23/mlp/w1/MatMul_myl4_411",
+      "time_ms": 3.184691143035889
+    },
+    {
+      "name": "/img_backbone/blocks_15/mlp/w2/MatMul+/img_backbone/blocks_15/mlp/w1/MatMul_myl4_302",
+      "time_ms": 3.1839551448822023
+    },
+    {
+      "name": "/img_backbone/blocks_20/mlp/w2/MatMul+/img_backbone/blocks_20/mlp/w1/MatMul_myl4_370",
+      "time_ms": 3.183833599090576
+    },
+    {
+      "name": "/img_backbone/blocks_11/mlp/w2/MatMul+/img_backbone/blocks_11/mlp/w1/MatMul_myl4_247",
+      "time_ms": 3.1831615924835206
+    },
+    {
+      "name": "/img_backbone/blocks_14/mlp/w2/MatMul+/img_backbone/blocks_14/mlp/w1/MatMul_myl4_288",
+      "time_ms": 3.182809591293335
+    },
+    {
+      "name": "/img_backbone/blocks_22/mlp/w2/MatMul+/img_backbone/blocks_22/mlp/w1/MatMul_myl4_398",
+      "time_ms": 3.1827776432037354
+    },
+    {
+      "name": "/img_backbone/blocks_17/mlp/w2/MatMul+/img_backbone/blocks_17/mlp/w1/MatMul_myl4_329",
+      "time_ms": 3.1826303958892823
+    },
+    {
+      "name": "/img_backbone/blocks_12/mlp/w2/MatMul+/img_backbone/blocks_12/mlp/w1/MatMul_myl4_261",
+      "time_ms": 3.1824832439422606
+    },
+    {
+      "name": "/img_backbone/blocks_5/mlp/w2/MatMul+/img_backbone/blocks_5/mlp/w1/MatMul_myl4_165",
+      "time_ms": 3.1823935985565184
+    },
+    {
+      "name": "/img_backbone/blocks_3/mlp/w2/MatMul+/img_backbone/blocks_3/mlp/w1/MatMul_myl4_138",
+      "time_ms": 3.1821951866149902
+    },
+    {
+      "name": "/img_backbone/blocks_10/mlp/w2/MatMul+/img_backbone/blocks_10/mlp/w1/MatMul_myl4_234",
+      "time_ms": 3.181977653503418
+    },
+    {
+      "name": "/img_backbone/blocks_16/mlp/w2/MatMul+/img_backbone/blocks_16/mlp/w1/MatMul_myl4_316",
+      "time_ms": 3.181926441192627
+    },
+    {
+      "name": "/img_backbone/blocks_7/mlp/w2/MatMul+/img_backbone/blocks_7/mlp/w1/MatMul_myl4_193",
+      "time_ms": 3.181599998474121
+    },
+    {
+      "name": "/img_backbone/blocks_8/mlp/w2/MatMul+/img_backbone/blocks_8/mlp/w1/MatMul_myl4_206",
+      "time_ms": 3.181580829620361
+    },
+    {
+      "name": "/img_backbone/blocks_21/mlp/w2/MatMul+/img_backbone/blocks_21/mlp/w1/MatMul_myl4_384",
+      "time_ms": 3.1813951969146728
+    },
+    {
+      "name": "/img_backbone/blocks_6/mlp/w2/MatMul+/img_backbone/blocks_6/mlp/w1/MatMul_myl4_179",
+      "time_ms": 3.180748796463013
+    },
+    {
+      "name": "/img_backbone/blocks_19/mlp/w2/MatMul+/img_backbone/blocks_19/mlp/w1/MatMul_myl4_357",
+      "time_ms": 3.1793472290039064
+    },
+    {
+      "name": "/img_backbone/blocks_9/mlp/w2/MatMul+/img_backbone/blocks_9/mlp/w1/MatMul_myl4_220",
+      "time_ms": 3.1786751747131348
+    },
+    {
+      "name": "/img_backbone/blocks_2/mlp/w2/MatMul+/img_backbone/blocks_2/mlp/w1/MatMul_myl4_124",
+      "time_ms": 3.1782399654388427
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_619",
+      "time_ms": 2.7495424270629885
+    },
+    {
+      "name": "/img_backbone/patch_embed/proj/Conv",
+      "time_ms": 2.3747135639190673
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_277",
+      "time_ms": 2.021126365661621
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_263",
+      "time_ms": 2.0163519859313963
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_318",
+      "time_ms": 2.0163072109222413
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_413",
+      "time_ms": 2.0163007736206056
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_208",
+      "time_ms": 2.0162816047668457
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_222",
+      "time_ms": 2.0162816047668457
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_236",
+      "time_ms": 2.016153573989868
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_249",
+      "time_ms": 2.0160896301269533
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_80",
+      "time_ms": 2.0160831928253176
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_304",
+      "time_ms": 2.0160639762878416
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_167",
+      "time_ms": 2.0159423828125
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_372",
+      "time_ms": 2.015782356262207
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_331",
+      "time_ms": 2.015776014328003
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_195",
+      "time_ms": 2.0156288623809813
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_400",
+      "time_ms": 2.0155968189239504
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_386",
+      "time_ms": 2.0155519962310793
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_113",
+      "time_ms": 2.015545606613159
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_154",
+      "time_ms": 2.015507221221924
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_140",
+      "time_ms": 2.015398359298706
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_290",
+      "time_ms": 2.015392017364502
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_345",
+      "time_ms": 2.0153087615966796
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_126",
+      "time_ms": 2.015193557739258
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_181",
+      "time_ms": 2.015129566192627
+    },
+    {
+      "name": "__myl_ResResAddAddNegExpAddDivMulMulCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_359",
+      "time_ms": 2.01495041847229
+    },
+    {
+      "name": "node_of__v_27003_myl4_29",
+      "time_ms": 1.8194175958633423
+    },
+    {
+      "name": "node_of__v_27094_myl4_268",
+      "time_ms": 1.790559983253479
+    },
+    {
+      "name": "node_of__v_27122_myl4_322",
+      "time_ms": 1.7879168033599853
+    },
+    {
+      "name": "node_of__v_27136_myl4_350",
+      "time_ms": 1.7873215913772582
+    },
+    {
+      "name": "node_of__v_27010_myl4_91",
+      "time_ms": 1.7872703790664672
+    },
+    {
+      "name": "node_of__v_27045_myl4_172",
+      "time_ms": 1.7872128009796142
+    },
+    {
+      "name": "node_of__v_27031_myl4_145",
+      "time_ms": 1.7872064113616943
+    },
+    {
+      "name": "node_of__v_27115_myl4_309",
+      "time_ms": 1.7872064113616943
+    },
+    {
+      "name": "node_of__v_27052_myl4_186",
+      "time_ms": 1.7871552228927612
+    },
+    {
+      "name": "node_of__v_27164_myl4_404",
+      "time_ms": 1.7868735790252686
+    },
+    {
+      "name": "node_of__v_27073_myl4_227",
+      "time_ms": 1.786412787437439
+    },
+    {
+      "name": "node_of__v_27101_myl4_281",
+      "time_ms": 1.7862272024154664
+    },
+    {
+      "name": "node_of__v_27017_myl4_117",
+      "time_ms": 1.7862015962600708
+    },
+    {
+      "name": "node_of__v_27080_myl4_240",
+      "time_ms": 1.785856008529663
+    },
+    {
+      "name": "node_of__v_27024_myl4_131",
+      "time_ms": 1.7857408046722412
+    },
+    {
+      "name": "node_of__v_27150_myl4_377",
+      "time_ms": 1.7857407808303833
+    },
+    {
+      "name": "node_of__v_27157_myl4_391",
+      "time_ms": 1.785535979270935
+    },
+    {
+      "name": "node_of__v_27143_myl4_363",
+      "time_ms": 1.7853183984756469
+    },
+    {
+      "name": "node_of__v_27108_myl4_295",
+      "time_ms": 1.7848320007324219
+    },
+    {
+      "name": "node_of__v_27066_myl4_213",
+      "time_ms": 1.7848127603530883
+    },
+    {
+      "name": "node_of__v_27087_myl4_254",
+      "time_ms": 1.7845888137817383
+    },
+    {
+      "name": "node_of__v_27129_myl4_336",
+      "time_ms": 1.784441590309143
+    },
+    {
+      "name": "node_of__v_27059_myl4_199",
+      "time_ms": 1.7841279983520508
+    },
+    {
+      "name": "node_of__v_27038_myl4_158",
+      "time_ms": 1.7835071802139282
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_121",
+      "time_ms": 1.6648128032684326
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_367",
+      "time_ms": 1.6625855922698975
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_244",
+      "time_ms": 1.662342381477356
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_203",
+      "time_ms": 1.6623231887817382
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_162",
+      "time_ms": 1.6621055841445922
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_285",
+      "time_ms": 1.661996841430664
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_326",
+      "time_ms": 1.6611648082733155
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_408",
+      "time_ms": 1.6608511924743652
+    },
+    {
+      "name": "/img_backbone/blocks_9/mlp/w3/MatMul_myl4_224",
+      "time_ms": 1.4447103977203368
+    },
+    {
+      "name": "/img_backbone/blocks_6/mlp/w3/MatMul_myl4_183",
+      "time_ms": 1.4437567949295045
+    },
+    {
+      "name": "/img_backbone/blocks_0/mlp/w3/MatMul_myl4_82",
+      "time_ms": 1.4435968160629273
+    },
+    {
+      "name": "/img_backbone/blocks_22/mlp/w3/MatMul_myl4_402",
+      "time_ms": 1.4435519933700562
+    },
+    {
+      "name": "/img_backbone/blocks_3/mlp/w3/MatMul_myl4_142",
+      "time_ms": 1.443174409866333
+    },
+    {
+      "name": "/img_backbone/blocks_18/mlp/w3/MatMul_myl4_347",
+      "time_ms": 1.443059229850769
+    },
+    {
+      "name": "/img_backbone/blocks_17/mlp/w3/MatMul_myl4_333",
+      "time_ms": 1.4428735971450806
+    },
+    {
+      "name": "/img_backbone/blocks_5/mlp/w3/MatMul_myl4_169",
+      "time_ms": 1.4427200078964233
+    },
+    {
+      "name": "/img_backbone/blocks_20/mlp/w3/MatMul_myl4_374",
+      "time_ms": 1.4427007913589478
+    },
+    {
+      "name": "/img_backbone/blocks_14/mlp/w3/MatMul_myl4_292",
+      "time_ms": 1.4424576044082642
+    },
+    {
+      "name": "/img_backbone/blocks_1/mlp/w3/MatMul_myl4_115",
+      "time_ms": 1.4423232078552246
+    },
+    {
+      "name": "/img_backbone/blocks_15/mlp/w3/MatMul_myl4_306",
+      "time_ms": 1.4420416116714478
+    },
+    {
+      "name": "/img_backbone/blocks_7/mlp/w3/MatMul_myl4_197",
+      "time_ms": 1.4418688058853149
+    },
+    {
+      "name": "/img_backbone/blocks_11/mlp/w3/MatMul_myl4_251",
+      "time_ms": 1.441657590866089
+    },
+    {
+      "name": "/img_backbone/blocks_21/mlp/w3/MatMul_myl4_388",
+      "time_ms": 1.4416447877883911
+    },
+    {
+      "name": "/img_backbone/blocks_2/mlp/w3/MatMul_myl4_128",
+      "time_ms": 1.4416255950927734
+    },
+    {
+      "name": "/img_backbone/blocks_19/mlp/w3/MatMul_myl4_361",
+      "time_ms": 1.4415807962417602
+    },
+    {
+      "name": "/img_backbone/blocks_13/mlp/w3/MatMul_myl4_279",
+      "time_ms": 1.441535973548889
+    },
+    {
+      "name": "/img_backbone/blocks_10/mlp/w3/MatMul_myl4_238",
+      "time_ms": 1.4414463996887208
+    },
+    {
+      "name": "/img_backbone/blocks_8/mlp/w3/MatMul_myl4_210",
+      "time_ms": 1.4410879850387572
+    },
+    {
+      "name": "/img_backbone/blocks_4/mlp/w3/MatMul_myl4_156",
+      "time_ms": 1.4410751819610597
+    },
+    {
+      "name": "/img_backbone/blocks_16/mlp/w3/MatMul_myl4_320",
+      "time_ms": 1.441011166572571
+    },
+    {
+      "name": "/img_backbone/blocks_12/mlp/w3/MatMul_myl4_265",
+      "time_ms": 1.4406655550003051
+    },
+    {
+      "name": "/img_backbone/blocks_23/mlp/w3/MatMul_myl4_415",
+      "time_ms": 1.4383167982101441
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_558",
+      "time_ms": 1.231052827835083
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_494",
+      "time_ms": 1.2304319858551025
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_590",
+      "time_ms": 1.2297407865524292
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_462",
+      "time_ms": 1.2295039892196655
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_430",
+      "time_ms": 1.2292160034179687
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_526",
+      "time_ms": 1.2287231922149657
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_271",
+      "time_ms": 1.0699711799621583
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_106",
+      "time_ms": 1.0690304040908813
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_148",
+      "time_ms": 1.0688640117645263
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_70",
+      "time_ms": 1.0688512325286865
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_175",
+      "time_ms": 1.068825602531433
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_353",
+      "time_ms": 1.0687999963760375
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_216",
+      "time_ms": 1.0687551736831664
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_257",
+      "time_ms": 1.0687104225158692
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_298",
+      "time_ms": 1.068614411354065
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_189",
+      "time_ms": 1.068601632118225
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_339",
+      "time_ms": 1.0684223890304565
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_380",
+      "time_ms": 1.068390393257141
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_230",
+      "time_ms": 1.0683712005615233
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_312",
+      "time_ms": 1.0683520317077637
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_394",
+      "time_ms": 1.068345594406128
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_134",
+      "time_ms": 1.0680575847625733
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_161",
+      "time_ms": 1.0353407859802246
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_202",
+      "time_ms": 1.035315203666687
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_120",
+      "time_ms": 1.03503360748291
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_407",
+      "time_ms": 1.034988784790039
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_325",
+      "time_ms": 1.0348863840103149
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_284",
+      "time_ms": 1.0348608255386353
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_243",
+      "time_ms": 1.034828782081604
+    },
+    {
+      "name": "__myl_SliAddResTraResSliResNegResSliConResMulMulAddRes_myl4_366",
+      "time_ms": 1.0345280170440674
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_270",
+      "time_ms": 1.0181888341903687
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_69",
+      "time_ms": 1.017695999145508
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_133",
+      "time_ms": 1.0173696041107179
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_105",
+      "time_ms": 1.0173568248748779
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_297",
+      "time_ms": 1.0172800302505494
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_229",
+      "time_ms": 1.0172736167907714
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_174",
+      "time_ms": 1.0172608137130736
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_147",
+      "time_ms": 1.0172352075576783
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_188",
+      "time_ms": 1.0171711921691895
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_338",
+      "time_ms": 1.0171008110046387
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_379",
+      "time_ms": 1.0171007871627809
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_352",
+      "time_ms": 1.017075204849243
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_215",
+      "time_ms": 1.01703040599823
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_393",
+      "time_ms": 1.0169407844543457
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_256",
+      "time_ms": 1.016921591758728
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_311",
+      "time_ms": 1.016870379447937
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_201",
+      "time_ms": 0.9897151947021484
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_242",
+      "time_ms": 0.9896960020065307
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_406",
+      "time_ms": 0.9896704196929932
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_160",
+      "time_ms": 0.9896512150764465
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_283",
+      "time_ms": 0.9896063923835754
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_119",
+      "time_ms": 0.9895104050636292
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_365",
+      "time_ms": 0.9892608046531677
+    },
+    {
+      "name": "__myl_SliResTraResSliResNegResSliConResMulMulAddTraRes_myl4_324",
+      "time_ms": 0.9892352104187012
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_89",
+      "time_ms": 0.9297407984733581
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_452",
+      "time_ms": 0.9276927947998047
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_516",
+      "time_ms": 0.9274367928504944
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_580",
+      "time_ms": 0.9251264095306396
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_548",
+      "time_ms": 0.9236415982246399
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_484",
+      "time_ms": 0.9194623947143554
+    },
+    {
+      "name": "__myl_Sli_myl4_76",
+      "time_ms": 0.7986815929412842
+    },
+    {
+      "name": "__myl_Sli_myl4_412",
+      "time_ms": 0.7615615963935852
+    },
+    {
+      "name": "__myl_Sli_myl4_330",
+      "time_ms": 0.7615232110023499
+    },
+    {
+      "name": "__myl_Sli_myl4_112",
+      "time_ms": 0.7614912033081055
+    },
+    {
+      "name": "__myl_Sli_myl4_371",
+      "time_ms": 0.7612224102020264
+    },
+    {
+      "name": "__myl_Sli_myl4_289",
+      "time_ms": 0.7612159967422485
+    },
+    {
+      "name": "__myl_Sli_myl4_180",
+      "time_ms": 0.7610943913459778
+    },
+    {
+      "name": "__myl_Sli_myl4_166",
+      "time_ms": 0.7610623955726623
+    },
+    {
+      "name": "__myl_Sli_myl4_125",
+      "time_ms": 0.7610431909561157
+    },
+    {
+      "name": "__myl_Sli_myl4_276",
+      "time_ms": 0.7610367894172668
+    },
+    {
+      "name": "__myl_Sli_myl4_153",
+      "time_ms": 0.7610175967216491
+    },
+    {
+      "name": "__myl_Sli_myl4_139",
+      "time_ms": 0.7609600067138672
+    },
+    {
+      "name": "__myl_Sli_myl4_194",
+      "time_ms": 0.7608896017074585
+    },
+    {
+      "name": "__myl_Sli_myl4_248",
+      "time_ms": 0.7607488036155701
+    },
+    {
+      "name": "__myl_Sli_myl4_358",
+      "time_ms": 0.7607424020767212
+    },
+    {
+      "name": "__myl_Sli_myl4_344",
+      "time_ms": 0.7606271982192994
+    },
+    {
+      "name": "__myl_Sli_myl4_235",
+      "time_ms": 0.7603519916534424
+    },
+    {
+      "name": "__myl_Sli_myl4_221",
+      "time_ms": 0.760319995880127
+    },
+    {
+      "name": "__myl_Sli_myl4_207",
+      "time_ms": 0.7602815985679626
+    },
+    {
+      "name": "__myl_Sli_myl4_399",
+      "time_ms": 0.7602815985679626
+    },
+    {
+      "name": "__myl_Sli_myl4_262",
+      "time_ms": 0.7601727962493896
+    },
+    {
+      "name": "__myl_Sli_myl4_317",
+      "time_ms": 0.7601472020149231
+    },
+    {
+      "name": "__myl_Sli_myl4_303",
+      "time_ms": 0.7600959897041321
+    },
+    {
+      "name": "__myl_Sli_myl4_385",
+      "time_ms": 0.7595647811889649
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_428",
+      "time_ms": 0.7462016105651855
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_492",
+      "time_ms": 0.745689594745636
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_588",
+      "time_ms": 0.7444223999977112
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_556",
+      "time_ms": 0.7442688107490539
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_460",
+      "time_ms": 0.7442496061325073
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_524",
+      "time_ms": 0.7439360022544861
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_71",
+      "time_ms": 0.6444223880767822
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_395",
+      "time_ms": 0.6439808011054993
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_272",
+      "time_ms": 0.6426944017410279
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_231",
+      "time_ms": 0.6417535901069641
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_107",
+      "time_ms": 0.6412160038948059
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_354",
+      "time_ms": 0.6408255934715271
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_176",
+      "time_ms": 0.6407039999961853
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_149",
+      "time_ms": 0.6405503988265991
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_313",
+      "time_ms": 0.6396799921989441
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_190",
+      "time_ms": 0.639635193347931
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_217",
+      "time_ms": 0.639404809474945
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_258",
+      "time_ms": 0.6385151863098144
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_135",
+      "time_ms": 0.6383487939834595
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_299",
+      "time_ms": 0.638099193572998
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_381",
+      "time_ms": 0.6372544050216675
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_340",
+      "time_ms": 0.6372223854064941
+    },
+    {
+      "name": "/img_backbone/blocks_2/attn/proj/MatMul_myl4_122",
+      "time_ms": 0.6275327920913696
+    },
+    {
+      "name": "/img_backbone/blocks_20/attn/proj/MatMul_myl4_368",
+      "time_ms": 0.6266752004623413
+    },
+    {
+      "name": "/img_backbone/blocks_0/attn/proj/MatMul_myl4_72",
+      "time_ms": 0.6266496062278748
+    },
+    {
+      "name": "/img_backbone/blocks_14/attn/proj/MatMul_myl4_286",
+      "time_ms": 0.6265472054481507
+    },
+    {
+      "name": "/img_backbone/blocks_1/attn/proj/MatMul_myl4_108",
+      "time_ms": 0.6265408039093018
+    },
+    {
+      "name": "/img_backbone/blocks_5/attn/proj/MatMul_myl4_163",
+      "time_ms": 0.6261184096336365
+    },
+    {
+      "name": "/img_backbone/blocks_8/attn/proj/MatMul_myl4_204",
+      "time_ms": 0.6261184096336365
+    },
+    {
+      "name": "/img_backbone/blocks_17/attn/proj/MatMul_myl4_327",
+      "time_ms": 0.6260671973228454
+    },
+    {
+      "name": "/img_backbone/blocks_13/attn/proj/MatMul_myl4_273",
+      "time_ms": 0.6260095953941345
+    },
+    {
+      "name": "/img_backbone/blocks_11/attn/proj/MatMul_myl4_245",
+      "time_ms": 0.6259840130805969
+    },
+    {
+      "name": "/img_backbone/blocks_3/attn/proj/MatMul_myl4_136",
+      "time_ms": 0.6254655957221985
+    },
+    {
+      "name": "/img_backbone/blocks_4/attn/proj/MatMul_myl4_150",
+      "time_ms": 0.6254208087921143
+    },
+    {
+      "name": "/img_backbone/blocks_10/attn/proj/MatMul_myl4_232",
+      "time_ms": 0.6253632187843323
+    },
+    {
+      "name": "/img_backbone/blocks_12/attn/proj/MatMul_myl4_259",
+      "time_ms": 0.6253632068634033
+    },
+    {
+      "name": "/img_backbone/blocks_15/attn/proj/MatMul_myl4_300",
+      "time_ms": 0.6252416133880615
+    },
+    {
+      "name": "/img_backbone/blocks_23/attn/proj/MatMul_myl4_409",
+      "time_ms": 0.6251711964607238
+    },
+    {
+      "name": "/img_backbone/blocks_7/attn/proj/MatMul_myl4_191",
+      "time_ms": 0.6247616052627564
+    },
+    {
+      "name": "/img_backbone/blocks_21/attn/proj/MatMul_myl4_382",
+      "time_ms": 0.6246784090995788
+    },
+    {
+      "name": "/img_backbone/blocks_18/attn/proj/MatMul_myl4_341",
+      "time_ms": 0.6246144056320191
+    },
+    {
+      "name": "/img_backbone/blocks_19/attn/proj/MatMul_myl4_355",
+      "time_ms": 0.6243008017539978
+    },
+    {
+      "name": "/img_backbone/blocks_16/attn/proj/MatMul_myl4_314",
+      "time_ms": 0.6242752075195312
+    },
+    {
+      "name": "/img_backbone/blocks_6/attn/proj/MatMul_myl4_177",
+      "time_ms": 0.6239423990249634
+    },
+    {
+      "name": "/img_backbone/blocks_9/attn/proj/MatMul_myl4_218",
+      "time_ms": 0.6237504124641419
+    },
+    {
+      "name": "/img_backbone/blocks_22/attn/proj/MatMul_myl4_396",
+      "time_ms": 0.6232447981834411
+    },
+    {
+      "name": "__myl_MovCon_myl4_114",
+      "time_ms": 0.5303936123847961
+    },
+    {
+      "name": "__myl_MovCon_myl4_127",
+      "time_ms": 0.5303680062294006
+    },
+    {
+      "name": "__myl_MovCon_myl4_250",
+      "time_ms": 0.5303552031517029
+    },
+    {
+      "name": "__myl_MovCon_myl4_332",
+      "time_ms": 0.5303168058395386
+    },
+    {
+      "name": "__myl_MovCon_myl4_291",
+      "time_ms": 0.5302527904510498
+    },
+    {
+      "name": "__myl_MovCon_myl4_196",
+      "time_ms": 0.5301632046699524
+    },
+    {
+      "name": "__myl_MovCon_myl4_414",
+      "time_ms": 0.5301568031311035
+    },
+    {
+      "name": "__myl_MovCon_myl4_168",
+      "time_ms": 0.530080008506775
+    },
+    {
+      "name": "__myl_MovCon_myl4_278",
+      "time_ms": 0.5300544023513794
+    },
+    {
+      "name": "__myl_MovCon_myl4_237",
+      "time_ms": 0.5300288081169129
+    },
+    {
+      "name": "__myl_MovCon_myl4_81",
+      "time_ms": 0.5300096035003662
+    },
+    {
+      "name": "__myl_MovCon_myl4_155",
+      "time_ms": 0.5299520015716552
+    },
+    {
+      "name": "__myl_MovCon_myl4_319",
+      "time_ms": 0.5299455881118774
+    },
+    {
+      "name": "__myl_MovCon_myl4_141",
+      "time_ms": 0.5299071907997132
+    },
+    {
+      "name": "__myl_MovCon_myl4_264",
+      "time_ms": 0.5298559904098511
+    },
+    {
+      "name": "__myl_MovCon_myl4_223",
+      "time_ms": 0.5298432111740112
+    },
+    {
+      "name": "__myl_MovCon_myl4_182",
+      "time_ms": 0.5297408103942871
+    },
+    {
+      "name": "__myl_MovCon_myl4_209",
+      "time_ms": 0.5297088027000427
+    },
+    {
+      "name": "__myl_MovCon_myl4_360",
+      "time_ms": 0.5296704173088074
+    },
+    {
+      "name": "__myl_MovCon_myl4_373",
+      "time_ms": 0.5296639919281005
+    },
+    {
+      "name": "__myl_MovCon_myl4_346",
+      "time_ms": 0.5295616030693054
+    },
+    {
+      "name": "__myl_MovCon_myl4_401",
+      "time_ms": 0.5295232057571411
+    },
+    {
+      "name": "__myl_MovCon_myl4_387",
+      "time_ms": 0.5295167803764343
+    },
+    {
+      "name": "__myl_MovCon_myl4_305",
+      "time_ms": 0.5293823957443238
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_307",
+      "time_ms": 0.44959360361099243
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_211",
+      "time_ms": 0.4494080007076263
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_85",
+      "time_ms": 0.44929919838905336
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_170",
+      "time_ms": 0.44929279685020446
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_184",
+      "time_ms": 0.44919039607048034
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_293",
+      "time_ms": 0.4490495979785919
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_225",
+      "time_ms": 0.4490240037441254
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_348",
+      "time_ms": 0.44899840354919435
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_252",
+      "time_ms": 0.44881920218467714
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_334",
+      "time_ms": 0.44873600006103515
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_375",
+      "time_ms": 0.44872320294380186
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_143",
+      "time_ms": 0.4484160006046295
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_129",
+      "time_ms": 0.44832639694213866
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_389",
+      "time_ms": 0.44806399941444397
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMea_myl4_266",
+      "time_ms": 0.4478016018867493
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_1+/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_1_myl4_427",
+      "time_ms": 0.43883519172668456
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_2+/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_2_myl4_424",
+      "time_ms": 0.4374783992767334
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_1+/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_1_myl4_425",
+      "time_ms": 0.4369215965270996
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_2+/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_2_myl4_426",
+      "time_ms": 0.43594878911972046
+    },
+    {
+      "name": "/input_projection_1/MatMul_FORCEFP32+/input_projection/MatMul_FORCEFP32_myl4_418",
+      "time_ms": 0.36784000396728517
+    },
+    {
+      "name": "__myl_ResResResResResAddSqrDivMulCasMulAddResConSliIsnGatSliSelIsiGtrAndSelIsiLtAndSelSliSliGatEtc_myl4_602",
+      "time_ms": 0.3263680040836334
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_450",
+      "time_ms": 0.32150399684906006
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_92",
+      "time_ms": 0.3212288022041321
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_578",
+      "time_ms": 0.3194175958633423
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_546",
+      "time_ms": 0.3170624077320099
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_482",
+      "time_ms": 0.3162496030330658
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_514",
+      "time_ms": 0.315833592414856
+    },
+    {
+      "name": "Reformatting CopyNode for Input Tensor 20 to {ForeignNode[/Concat_92_output_0.../Tile_10]}",
+      "time_ms": 0.3128704071044922
+    },
+    {
+      "name": "/traj_cls_branches_0/traj_cls_branches_0_0/MatMul_FORCEFP32+/traj_branches_0/traj_branches_0_0/MatMul_FORCEFP32_myl4_740",
+      "time_ms": 0.3098688006401062
+    },
+    {
+      "name": "Reformatting CopyNode for Input Tensor 0 to /img_backbone/patch_embed/proj/Conv",
+      "time_ms": 0.30092160403728485
+    },
+    {
+      "name": "__myl_CasTraAdd_myl4_14",
+      "time_ms": 0.2961856067180634
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_280",
+      "time_ms": 0.29401599764823916
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_274",
+      "time_ms": 0.29363840222358706
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_321",
+      "time_ms": 0.2934783935546875
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_233",
+      "time_ms": 0.29337599873542786
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_301",
+      "time_ms": 0.29336320161819457
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_157",
+      "time_ms": 0.2932160019874573
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_383",
+      "time_ms": 0.29308159947395324
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_198",
+      "time_ms": 0.29307520389556885
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_239",
+      "time_ms": 0.29304319620132446
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_192",
+      "time_ms": 0.2930368006229401
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_151",
+      "time_ms": 0.2930176019668579
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_403",
+      "time_ms": 0.29300479888916015
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_137",
+      "time_ms": 0.2929728031158447
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_315",
+      "time_ms": 0.29292799830436705
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_287",
+      "time_ms": 0.2929279923439026
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_73",
+      "time_ms": 0.29290240406990053
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_178",
+      "time_ms": 0.292902398109436
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_356",
+      "time_ms": 0.29287039637565615
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_109",
+      "time_ms": 0.29283199906349183
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_362",
+      "time_ms": 0.29283199906349183
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_205",
+      "time_ms": 0.2927744030952454
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_219",
+      "time_ms": 0.2927743971347809
+    },
+    {
+      "name": "__myl_AddAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_116",
+      "time_ms": 0.29272960424423217
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_369",
+      "time_ms": 0.2926912009716034
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_410",
+      "time_ms": 0.29267200231552126
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_260",
+      "time_ms": 0.2926655948162079
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_328",
+      "time_ms": 0.2926655948162079
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_397",
+      "time_ms": 0.2926528036594391
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_246",
+      "time_ms": 0.2926207959651947
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_123",
+      "time_ms": 0.29256959557533263
+    },
+    {
+      "name": "__myl_ResTraResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_342",
+      "time_ms": 0.29255040884017947
+    },
+    {
+      "name": "__myl_ResTraResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_164",
+      "time_ms": 0.2924543976783752
+    },
+    {
+      "name": "__myl_CasMeaSubMulMea_myl4_15",
+      "time_ms": 0.254751992225647
+    },
+    {
+      "name": "__myl_AddAddTra_myl4_416",
+      "time_ms": 0.2445951968431473
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_16",
+      "time_ms": 0.23850879967212676
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_294",
+      "time_ms": 0.2350271999835968
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_376",
+      "time_ms": 0.23486080169677734
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_130",
+      "time_ms": 0.2348544031381607
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_212",
+      "time_ms": 0.23475200235843657
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_335",
+      "time_ms": 0.23474560379981996
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_253",
+      "time_ms": 0.23467520177364348
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_171",
+      "time_ms": 0.23464320003986358
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_349",
+      "time_ms": 0.23453440070152282
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_226",
+      "time_ms": 0.2344127982854843
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_86",
+      "time_ms": 0.23411840200424194
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_308",
+      "time_ms": 0.23409920036792756
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_185",
+      "time_ms": 0.2340032011270523
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_267",
+      "time_ms": 0.23390079736709596
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_390",
+      "time_ms": 0.23381119966506958
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResTra_myl4_144",
+      "time_ms": 0.233747199177742
+    },
+    {
+      "name": "/position_encoder/position_encoder_0/MatMul_FORCEFP32_myl4_420",
+      "time_ms": 0.19059839844703674
+    },
+    {
+      "name": "__myl_ResTra_myl4_417",
+      "time_ms": 0.18370559811592102
+    },
+    {
+      "name": "/MatMul_6_myl4_18",
+      "time_ms": 0.17539199888706208
+    },
+    {
+      "name": "/position_encoder/position_encoder_2/MatMul_FORCEFP32_myl4_421",
+      "time_ms": 0.17111680209636687
+    },
+    {
+      "name": "/MatMul_7_myl4_731",
+      "time_ms": 0.16874240040779115
+    },
+    {
+      "name": "/traj_cls_branches_0/traj_cls_branches_0_3/MatMul_FORCEFP32_myl4_744",
+      "time_ms": 0.16852480173110962
+    },
+    {
+      "name": "/traj_branches_0/traj_branches_0_2/MatMul_FORCEFP32_myl4_742",
+      "time_ms": 0.16809600293636323
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_2_FORCEFP32+/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_1_FORCEFP32+/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_FORCEFP32_myl4_611",
+      "time_ms": 0.16264959871768953
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_440",
+      "time_ms": 0.15857279896736146
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_536",
+      "time_ms": 0.156140798330307
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_599",
+      "time_ms": 0.15613439977169036
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_568",
+      "time_ms": 0.15521279871463775
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_504",
+      "time_ms": 0.15491839945316316
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_4/_layers/_layers_0_1/MatMul_myl4_472",
+      "time_ms": 0.1547648012638092
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_296",
+      "time_ms": 0.14940159916877746
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_214",
+      "time_ms": 0.14926080107688905
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_104",
+      "time_ms": 0.14911359846591948
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_173",
+      "time_ms": 0.14894079566001892
+    },
+    {
+      "name": "__myl_Sca_myl4_36",
+      "time_ms": 0.14887680113315582
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_378",
+      "time_ms": 0.14875520169734954
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_146",
+      "time_ms": 0.14869760274887084
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_323",
+      "time_ms": 0.1486272007226944
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_337",
+      "time_ms": 0.14862079918384552
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_255",
+      "time_ms": 0.14860799908638
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_118",
+      "time_ms": 0.14852480292320253
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_269",
+      "time_ms": 0.14851199984550476
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_200",
+      "time_ms": 0.14849919974803924
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_405",
+      "time_ms": 0.14845440089702605
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_392",
+      "time_ms": 0.148403200507164
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_187",
+      "time_ms": 0.1483711987733841
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_364",
+      "time_ms": 0.14836480021476744
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_351",
+      "time_ms": 0.14836479723453522
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_159",
+      "time_ms": 0.1483328014612198
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_282",
+      "time_ms": 0.14831999838352203
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_241",
+      "time_ms": 0.14830079972743987
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_132",
+      "time_ms": 0.1482880026102066
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_228",
+      "time_ms": 0.148089599609375
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_310",
+      "time_ms": 0.14790399968624116
+    },
+    {
+      "name": "__myl_SliAddResTraRes_myl4_68",
+      "time_ms": 0.14760960042476653
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_505",
+      "time_ms": 0.1293119966983795
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_537",
+      "time_ms": 0.12855679988861085
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_441",
+      "time_ms": 0.12853120267391205
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_600",
+      "time_ms": 0.12833279967308045
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_473",
+      "time_ms": 0.12808320224285125
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_4/_layers/_layers_3_1/MatMul_myl4_569",
+      "time_ms": 0.1279231995344162
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_0_6/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_11/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_10/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_9/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_8/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_0_7/MatMul_FORCEFP32_myl4_660",
+      "time_ms": 0.12160000056028367
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_3_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_11/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_10/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_9/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_8/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_7/MatMul_FORCEFP32_myl4_649",
+      "time_ms": 0.12116479873657227
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_0_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_11/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_10/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_9/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_8/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_0_7/MatMul_FORCEFP32_myl4_615",
+      "time_ms": 0.11870080083608628
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_2_6/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_11/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_10/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_9/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_8/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_7/MatMul_FORCEFP32_myl4_661",
+      "time_ms": 0.11838079988956451
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_4_6/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_11/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_10/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_9/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_8/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_7/MatMul_FORCEFP32_myl4_662",
+      "time_ms": 0.1182784005999565
+    },
+    {
+      "name": "__myl_FcAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_500",
+      "time_ms": 0.11392640024423599
+    },
+    {
+      "name": "__myl_FcAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_596",
+      "time_ms": 0.11244160085916519
+    },
+    {
+      "name": "__myl_FcAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_468",
+      "time_ms": 0.11222400069236756
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_2/_layers/_layers_0/MatMul_FORCEFP32_myl4_734",
+      "time_ms": 0.1121728003025055
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_4/_layers/_layers_0/MatMul_myl4_435",
+      "time_ms": 0.11201920062303543
+    },
+    {
+      "name": "__myl_FcAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_564",
+      "time_ms": 0.11196160018444061
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_4/_layers/_layers_0/MatMul_myl4_499",
+      "time_ms": 0.11128959953784942
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_4/_layers/_layers_0/MatMul_myl4_563",
+      "time_ms": 0.11119999885559081
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_4/_layers/_layers_0/MatMul_myl4_467",
+      "time_ms": 0.11118080019950867
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_4/_layers/_layers_0/MatMul_myl4_531",
+      "time_ms": 0.11110400110483169
+    },
+    {
+      "name": "__myl_FcAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_436",
+      "time_ms": 0.11106559932231903
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_4/_layers/_layers_0/MatMul_myl4_595",
+      "time_ms": 0.11049600094556808
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_2/_layers/_layers_3/MatMul_FORCEFP32_myl4_735",
+      "time_ms": 0.11049599945545197
+    },
+    {
+      "name": "__myl_FcAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_532",
+      "time_ms": 0.1101503998041153
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_4",
+      "time_ms": 0.10840319991111755
+    },
+    {
+      "name": "__myl_ConCas_myl4_756",
+      "time_ms": 0.1075648009777069
+    },
+    {
+      "name": "__myl_CasResRepRes_myl4_3",
+      "time_ms": 0.10708480030298233
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_5",
+      "time_ms": 0.10556159913539886
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_7",
+      "time_ms": 0.10508799999952316
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_10",
+      "time_ms": 0.10489600151777267
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_6",
+      "time_ms": 0.10488320142030716
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_8",
+      "time_ms": 0.1048447996377945
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_9",
+      "time_ms": 0.10474880039691925
+    },
+    {
+      "name": "__myl_ResMulSum_myl4_11",
+      "time_ms": 0.1042495995759964
+    },
+    {
+      "name": "/MatMul_4_myl4_738",
+      "time_ms": 0.09056640118360519
+    },
+    {
+      "name": "__myl_ResResResResResResConIsnSelIsiGtrAndSelIsiLtAndSelSliGatResSliGatSliAddSliSliSliSliSli_myl4_597",
+      "time_ms": 0.08961919844150543
+    },
+    {
+      "name": "/MatMul_5_myl4_21",
+      "time_ms": 0.08891519904136658
+    },
+    {
+      "name": "/MatMul_8_myl4_739",
+      "time_ms": 0.08874880075454712
+    },
+    {
+      "name": "/MatMul_1_myl4_23",
+      "time_ms": 0.08658560067415237
+    },
+    {
+      "name": "/can_bus_embed/can_bus_embed_2/Gemm_FORCEFP32_myl4_67",
+      "time_ms": 0.08432639986276627
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_6_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_11/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_10/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_9/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_8/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_7/MatMul_FORCEFP32_myl4_707",
+      "time_ms": 0.07651199996471406
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddResCon_myl4_737",
+      "time_ms": 0.07504640072584152
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_736",
+      "time_ms": 0.07482880204916001
+    },
+    {
+      "name": "__myl_ResAddCasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_743",
+      "time_ms": 0.07352319806814193
+    },
+    {
+      "name": "__myl_CasSubCasCasAddAbsCasAddAbsResLtCasMulResLtCasMulResResSliMulSliMulSliMulMulSubSubResResCasEtc_myl4_24",
+      "time_ms": 0.07239679992198944
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_747",
+      "time_ms": 0.07098879963159561
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_3/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_5/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_4/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_3/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_2/MatMul_FORCEFP32+/tl_branches_0/tl_branches_0_3_1/MatMul_FORCEFP32_myl4_647",
+      "time_ms": 0.07084160149097443
+    },
+    {
+      "name": "__myl_AddRel_myl4_745",
+      "time_ms": 0.06988160014152527
+    },
+    {
+      "name": "__myl_ResAddRel_myl4_741",
+      "time_ms": 0.06943359971046448
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_3/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_5/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_4/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_3/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_2/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_3_1/MatMul_FORCEFP32_myl4_648",
+      "time_ms": 0.06910080164670944
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_2/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_5/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_4/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_3/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_2/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_2_1/MatMul_FORCEFP32_myl4_650",
+      "time_ms": 0.06892160028219223
+    },
+    {
+      "name": "/motion_decoder/_layers_0/transformer_layers_0/attn/MatMul_5_FORCEFP32_myl4_631",
+      "time_ms": 0.06776960045099259
+    },
+    {
+      "name": "/cls_branches_0/cls_branches_0_6/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_5/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_4/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_3/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_2/MatMul_FORCEFP32+/cls_branches_0/cls_branches_0_6_1/MatMul_FORCEFP32_myl4_706",
+      "time_ms": 0.06562560051679611
+    },
+    {
+      "name": "/output_projection/MatMul_FORCEFP32_myl4_755",
+      "time_ms": 0.06560639888048173
+    },
+    {
+      "name": "/traj_cls_branches_0/traj_cls_branches_0_6/MatMul_FORCEFP32_myl4_748",
+      "time_ms": 0.06526079922914504
+    },
+    {
+      "name": "/traj_branches_0/traj_branches_0_4/MatMul_FORCEFP32_myl4_746",
+      "time_ms": 0.06419839859008789
+    },
+    {
+      "name": "__myl_CasSliMulMulConAddSqrDivMulCasMulAddAddSqrDivMulCasMulAddMulAddAddConAdd_myl4_55",
+      "time_ms": 0.06362239867448807
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddAddConAdd_myl4_475",
+      "time_ms": 0.060972800850868224
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddAddConAdd_myl4_443",
+      "time_ms": 0.060966400802135466
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddAddConAdd_myl4_539",
+      "time_ms": 0.06077439934015274
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddAddConAdd_myl4_571",
+      "time_ms": 0.060742399841547015
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddAddConAdd_myl4_507",
+      "time_ms": 0.060736000537872314
+    },
+    {
+      "name": "__myl_Add_myl4_423",
+      "time_ms": 0.05966079980134964
+    },
+    {
+      "name": "__myl_Add_myl4_422",
+      "time_ms": 0.05902720019221306
+    },
+    {
+      "name": "__myl_Sca_myl4_721",
+      "time_ms": 0.058924800157546996
+    },
+    {
+      "name": "__myl_ResMinMaxMaxSubMinMaxMinDivLog_myl4_419",
+      "time_ms": 0.05841280072927475
+    },
+    {
+      "name": "__myl_ResAddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_733",
+      "time_ms": 0.05539840012788773
+    },
+    {
+      "name": "__myl_ResSliAddMulMov_myl4_35",
+      "time_ms": 0.05501439943909645
+    },
+    {
+      "name": "/output_projection_1/MatMul_FORCEFP32_myl4_749",
+      "time_ms": 0.053894399851560595
+    },
+    {
+      "name": "/query_pos/query_pos_0_3/MatMul_FORCEFP32+/query_pos/query_pos_0_1/MatMul_FORCEFP32_myl4_46",
+      "time_ms": 0.05075839981436729
+    },
+    {
+      "name": "__myl_ResSliSliGatResCasCasRepGatConResCasRepGatConConRepGatConSubGatConCasCasCasCas_myl4_729",
+      "time_ms": 0.04881919994950294
+    },
+    {
+      "name": "__myl_AddNegExpAddDivResAddNegExpAddDivResAddNegExpAddDivResAddNegExpAddDivResAddNegExpAddDivResEtc_myl4_720",
+      "time_ms": 0.04559359923005104
+    },
+    {
+      "name": "/reg_branches_0/reg_branches_0_4/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_5/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_4/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_3/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_2/MatMul_FORCEFP32+/reg_branches_0/reg_branches_0_4_1/MatMul_FORCEFP32_myl4_651",
+      "time_ms": 0.04535679966211319
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn_1/MatMul_2_myl4_62",
+      "time_ms": 0.042579200118780136
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn_1/MatMul_1_myl4_83",
+      "time_ms": 0.04220159947872162
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_2_myl4_575",
+      "time_ms": 0.04147199988365173
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_2_myl4_479",
+      "time_ms": 0.04145279973745346
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_2_myl4_543",
+      "time_ms": 0.041011200100183484
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_2_myl4_447",
+      "time_ms": 0.040870401263237
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_2_myl4_511",
+      "time_ms": 0.04087040051817894
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_1_myl4_480",
+      "time_ms": 0.040678399801254275
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_1_myl4_576",
+      "time_ms": 0.04046080112457275
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_1_myl4_448",
+      "time_ms": 0.040217599272727965
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_1_myl4_544",
+      "time_ms": 0.03996800109744072
+    },
+    {
+      "name": "__myl_ResRes_myl4_620",
+      "time_ms": 0.039628800749778745
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_1_myl4_512",
+      "time_ms": 0.03947519958019256
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_myl4_577",
+      "time_ms": 0.038528000563383104
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_myl4_481",
+      "time_ms": 0.03828480020165444
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn_1/MatMul_5_myl4_94",
+      "time_ms": 0.03824640065431595
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_myl4_545",
+      "time_ms": 0.03820159956812859
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddResAdd_myl4_457",
+      "time_ms": 0.038169600814580915
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_myl4_449",
+      "time_ms": 0.03813119977712631
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_myl4_513",
+      "time_ms": 0.038067200034856793
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddResAdd_myl4_489",
+      "time_ms": 0.03800960034132004
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddResAdd_myl4_585",
+      "time_ms": 0.037830401211977005
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_myl4_103",
+      "time_ms": 0.03757440000772476
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddResAdd_myl4_553",
+      "time_ms": 0.03744000047445297
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddResAdd_myl4_521",
+      "time_ms": 0.03718400001525879
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn_1/MatMul_5_myl4_433",
+      "time_ms": 0.035347200185060504
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_5_myl4_529",
+      "time_ms": 0.035104000568389894
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddResAdd_myl4_95",
+      "time_ms": 0.03486080020666123
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_5_myl4_593",
+      "time_ms": 0.03475840091705322
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_5_myl4_497",
+      "time_ms": 0.03475840017199516
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_5_myl4_465",
+      "time_ms": 0.03471999987959862
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_5_myl4_561",
+      "time_ms": 0.0346560001373291
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn_1/MatMul_myl4_587",
+      "time_ms": 0.03413119986653328
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn_1/MatMul_myl4_555",
+      "time_ms": 0.03409920036792755
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn_1/MatMul_myl4_491",
+      "time_ms": 0.03409919887781143
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn_1/MatMul_myl4_459",
+      "time_ms": 0.03409279957413673
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn_1/MatMul_myl4_523",
+      "time_ms": 0.033804799616336825
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn_1/MatMul_5_myl4_519",
+      "time_ms": 0.03360000029206276
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn_1/MatMul_5_myl4_455",
+      "time_ms": 0.03335040062665939
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn_1/MatMul_5_myl4_551",
+      "time_ms": 0.03333759978413582
+    },
+    {
+      "name": "/ego_pose_pe/beta/MatMul_FORCEFP32+/ego_pose_pe/beta_1/MatMul_FORCEFP32+/ego_pose_pe/gamma/MatMul_FORCEFP32+/ego_pose_pe/gamma_1/MatMul_FORCEFP32_myl4_54",
+      "time_ms": 0.03332480043172836
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn_1/MatMul_5_myl4_487",
+      "time_ms": 0.033139200508594514
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn_1/MatMul_5_myl4_583",
+      "time_ms": 0.033081600069999696
+    },
+    {
+      "name": "__myl_ResSliMulCasAddSliMulMulSliResMulConCosSinMulCosSinMulCosSinMulCosSinMulCosSinMulCosSinConEtc_myl4_38",
+      "time_ms": 0.032844800502061844
+    },
+    {
+      "name": "__myl_CasAddSliMulSliResMulConCosSinMulCosSinMulCosSinMulCosSinMulCosSinMulCosSinConMulMulSliCosEtc_myl4_37",
+      "time_ms": 0.03237119913101196
+    },
+    {
+      "name": "/time_embedding/time_embedding_0_3/MatMul_FORCEFP32+/time_embedding/time_embedding_0_1/MatMul_FORCEFP32_myl4_43",
+      "time_ms": 0.03196799978613853
+    },
+    {
+      "name": "__myl_AddMulRepCosSinSliMulCosSinMulCosSinMulCosSinMulCosSinMulCosSinCon_myl4_45",
+      "time_ms": 0.03182079941034317
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_442",
+      "time_ms": 0.030028799921274184
+    },
+    {
+      "name": "/ego_pose_pe/reduce/reduce_0/MatMul_FORCEFP32+/ego_pose_pe/reduce/reduce_0_1/MatMul_FORCEFP32_myl4_51",
+      "time_ms": 0.02927360013127327
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_1_myl4_87",
+      "time_ms": 0.02876799963414669
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_2_myl4_508",
+      "time_ms": 0.02864000014960766
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_506",
+      "time_ms": 0.028588800132274626
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_570",
+      "time_ms": 0.02857600003480911
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_601",
+      "time_ms": 0.028422399982810022
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_538",
+      "time_ms": 0.02837759964168072
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_474",
+      "time_ms": 0.02821759954094887
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_2_myl4_444",
+      "time_ms": 0.028172799944877626
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_2_myl4_572",
+      "time_ms": 0.027929599955677988
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_2_myl4_63",
+      "time_ms": 0.027756799757480622
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_2_myl4_476",
+      "time_ms": 0.027744000032544135
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_567",
+      "time_ms": 0.027481599897146224
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_1_myl4_509",
+      "time_ms": 0.027475199848413467
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_535",
+      "time_ms": 0.027411199733614923
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_5_myl4_592",
+      "time_ms": 0.02736639976501465
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_2_myl4_540",
+      "time_ms": 0.02720640003681183
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_myl4_110",
+      "time_ms": 0.02711680009961128
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_5_myl4_528",
+      "time_ms": 0.027078400179743767
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_503",
+      "time_ms": 0.027001599594950677
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_1_myl4_573",
+      "time_ms": 0.02698879987001419
+    },
+    {
+      "name": "__mye1242801+__mye1242789_myl4_628",
+      "time_ms": 0.02691200003027916
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_1_myl4_541",
+      "time_ms": 0.026892799884080887
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_471",
+      "time_ms": 0.02685439996421337
+    },
+    {
+      "name": "__mye1242747+__mye1242735_myl4_627",
+      "time_ms": 0.02685439996421337
+    },
+    {
+      "name": "__mye1242909+__mye1242897_myl4_630",
+      "time_ms": 0.026847999915480612
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_5_myl4_560",
+      "time_ms": 0.0268095999956131
+    },
+    {
+      "name": "__mye1242855+__mye1242843_myl4_629",
+      "time_ms": 0.026790400221943855
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_5_myl4_518",
+      "time_ms": 0.026771199703216553
+    },
+    {
+      "name": "__mye1242693+__mye1242681_myl4_626",
+      "time_ms": 0.026771199703216553
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_598",
+      "time_ms": 0.026745600253343584
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_439",
+      "time_ms": 0.026720000058412553
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_5_myl4_496",
+      "time_ms": 0.026681600138545036
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_2/attn/MatMul_5_myl4_432",
+      "time_ms": 0.02661759965121746
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_5_myl4_464",
+      "time_ms": 0.026598399877548216
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_5_myl4_454",
+      "time_ms": 0.0265855997800827
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_5_myl4_486",
+      "time_ms": 0.026547199860215188
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_1_myl4_445",
+      "time_ms": 0.026502399891614913
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_5_myl4_100",
+      "time_ms": 0.02648960016667843
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_1_myl4_477",
+      "time_ms": 0.02648960016667843
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_5_myl4_582",
+      "time_ms": 0.026451199874281885
+    },
+    {
+      "name": "/query_pos/query_pos_2_3/MatMul_FORCEFP32+/query_pos/query_pos_2_1/MatMul_FORCEFP32_myl4_49",
+      "time_ms": 0.02643200010061264
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_5_myl4_550",
+      "time_ms": 0.026355199888348578
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_2/attn/MatMul_myl4_458",
+      "time_ms": 0.025990400090813638
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_2/attn/MatMul_myl4_586",
+      "time_ms": 0.025971200317144394
+    },
+    {
+      "name": "__mye1242639+__mye1242627_myl4_614",
+      "time_ms": 0.025913600251078604
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_2/attn/MatMul_myl4_554",
+      "time_ms": 0.025747199729084968
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_0/transformer_layers_0/attn/MatMul_myl4_88",
+      "time_ms": 0.02570880055427551
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_2/attn/MatMul_myl4_522",
+      "time_ms": 0.02563839964568615
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_3/transformer_layers_0/attn/MatMul_myl4_510",
+      "time_ms": 0.025606400147080422
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_2/attn/MatMul_myl4_490",
+      "time_ms": 0.025446399673819543
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_4/transformer_layers_0/attn/MatMul_myl4_542",
+      "time_ms": 0.025228799879550935
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_2/transformer_layers_0/attn/MatMul_myl4_478",
+      "time_ms": 0.025062400102615356
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_5/transformer_layers_0/attn/MatMul_myl4_574",
+      "time_ms": 0.02484479993581772
+    },
+    {
+      "name": "__myl_SliGatCasCasRepGatConConRepGatConResCasRepGatConSubGatConCasCas_myl4_725",
+      "time_ms": 0.024665600061416625
+    },
+    {
+      "name": "/transformer/query_decoder/_layers_1/transformer_layers_0/attn/MatMul_myl4_446",
+      "time_ms": 0.02454399988055229
+    },
+    {
+      "name": "__myl_ConConAdd_myl4_61",
+      "time_ms": 0.02407039999961853
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddAdd_myl4_456",
+      "time_ms": 0.02369920015335083
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddAdd_myl4_488",
+      "time_ms": 0.02354560010135174
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddAdd_myl4_584",
+      "time_ms": 0.023430400341749192
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddAddSqrDivMulCasMulAddMulAddAddSliSliConSliMulMov_myl4_59",
+      "time_ms": 0.023180799931287764
+    },
+    {
+      "name": "/MatMul_2_myl4_19",
+      "time_ms": 0.02309119999408722
+    },
+    {
+      "name": "/MatMul_3_myl4_732",
+      "time_ms": 0.02303360030055046
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddAdd_myl4_552",
+      "time_ms": 0.022963199764490128
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddAdd_myl4_520",
+      "time_ms": 0.0226367998868227
+    },
+    {
+      "name": "__mye1242651_myl4_613",
+      "time_ms": 0.022566400468349457
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAddAdd_myl4_102",
+      "time_ms": 0.022297600284218788
+    },
+    {
+      "name": "__myl_MovTop_myl4_728",
+      "time_ms": 0.022272000089287758
+    },
+    {
+      "name": "__myl_MovTop_myl4_724",
+      "time_ms": 0.022246399894356728
+    },
+    {
+      "name": "__myl_ConAdd_myl4_566",
+      "time_ms": 0.02134400010108948
+    },
+    {
+      "name": "__myl_ConAdd_myl4_502",
+      "time_ms": 0.021324799954891206
+    },
+    {
+      "name": "__myl_ConAdd_myl4_470",
+      "time_ms": 0.02125440016388893
+    },
+    {
+      "name": "__myl_ConAdd_myl4_534",
+      "time_ms": 0.021222400292754174
+    },
+    {
+      "name": "__myl_ConAdd_myl4_438",
+      "time_ms": 0.02117759957909584
+    },
+    {
+      "name": "__mye1242705_myl4_621",
+      "time_ms": 0.020166399702429772
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_618",
+      "time_ms": 0.019839999824762346
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_642",
+      "time_ms": 0.019756800308823586
+    },
+    {
+      "name": "__mye1242759_myl4_622",
+      "time_ms": 0.019462399557232855
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_701",
+      "time_ms": 0.01932159997522831
+    },
+    {
+      "name": "__mye1242921_myl4_625",
+      "time_ms": 0.01921280026435852
+    },
+    {
+      "name": "__mye1242867_myl4_624",
+      "time_ms": 0.019142400473356247
+    },
+    {
+      "name": "__mye1242813_myl4_623",
+      "time_ms": 0.0190591998398304
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_663",
+      "time_ms": 0.018668799847364425
+    },
+    {
+      "name": "__myl_ResRes_myl4_90",
+      "time_ms": 0.01820160001516342
+    },
+    {
+      "name": "__myl_ResRes_myl4_485",
+      "time_ms": 0.018041600286960603
+    },
+    {
+      "name": "__myl_ResRes_myl4_517",
+      "time_ms": 0.018003199994564057
+    },
+    {
+      "name": "__myl_ResRes_myl4_549",
+      "time_ms": 0.017984000220894813
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_704",
+      "time_ms": 0.017881599813699724
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_702",
+      "time_ms": 0.017868800088763237
+    },
+    {
+      "name": "__myl_ResRes_myl4_453",
+      "time_ms": 0.01780479997396469
+    },
+    {
+      "name": "__myl_ResRes_myl4_581",
+      "time_ms": 0.017772800102829934
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_646",
+      "time_ms": 0.017759999632835387
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_643",
+      "time_ms": 0.01775360032916069
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_705",
+      "time_ms": 0.01775359995663166
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_703",
+      "time_ms": 0.017696000263094903
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_645",
+      "time_ms": 0.017664000019431116
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_644",
+      "time_ms": 0.017657599970698358
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_594",
+      "time_ms": 0.017548800259828568
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_466",
+      "time_ms": 0.017478400096297263
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_498",
+      "time_ms": 0.017420800030231477
+    },
+    {
+      "name": "__myl_Add_myl4_84",
+      "time_ms": 0.017414400354027748
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_562",
+      "time_ms": 0.01722240000963211
+    },
+    {
+      "name": "__myl_Res_myl4_606",
+      "time_ms": 0.017132800072431564
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_530",
+      "time_ms": 0.01708800010383129
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_434",
+      "time_ms": 0.016991999372839926
+    },
+    {
+      "name": "__myl_ResRes_myl4_559",
+      "time_ms": 0.016966399922966956
+    },
+    {
+      "name": "__myl_Res_myl4_607",
+      "time_ms": 0.01690879985690117
+    },
+    {
+      "name": "__myl_ResRes_myl4_527",
+      "time_ms": 0.01664000041782856
+    },
+    {
+      "name": "__myl_Res_myl4_609",
+      "time_ms": 0.016633599996566772
+    },
+    {
+      "name": "__myl_Res_myl4_610",
+      "time_ms": 0.016601599752902985
+    },
+    {
+      "name": "__myl_Res_myl4_608",
+      "time_ms": 0.016543999686837195
+    },
+    {
+      "name": "__myl_ResRes_myl4_495",
+      "time_ms": 0.016448000073432924
+    },
+    {
+      "name": "__myl_ResRes_myl4_463",
+      "time_ms": 0.01639680005609989
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_5/MatMul_FORCEFP32_myl4_709",
+      "time_ms": 0.016275199875235558
+    },
+    {
+      "name": "__myl_ResRes_myl4_431",
+      "time_ms": 0.0162687998265028
+    },
+    {
+      "name": "__myl_AddResCasRep_myl4_759",
+      "time_ms": 0.016179199889302255
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_2_FORCEFP32+/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_1_FORCEFP32_myl4_603",
+      "time_ms": 0.016172799840569498
+    },
+    {
+      "name": "__myl_ResRes_myl4_591",
+      "time_ms": 0.016076800227165223
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6/MatMul_FORCEFP32_myl4_665",
+      "time_ms": 0.015942399948835374
+    },
+    {
+      "name": "__myl_Sca_myl4_56",
+      "time_ms": 0.015820799954235555
+    },
+    {
+      "name": "/scene_time_embedding/scene_time_embedding_0/MatMul_FORCEFP32_myl4_27",
+      "time_ms": 0.015679999999701977
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_77",
+      "time_ms": 0.015635200403630735
+    },
+    {
+      "name": "__myl_CasSliMulCasResConResResMulConResConResMulSumCas_myl4_65",
+      "time_ms": 0.015513600036501884
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_616",
+      "time_ms": 0.015359999984502793
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_0/attn/MatMul_1_FORCEFP32_myl4_74",
+      "time_ms": 0.015123200044035912
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_2/_layers/_layers_0/MatMul_FORCEFP32_myl4_97",
+      "time_ms": 0.01502080000936985
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_3/MatMul_FORCEFP32_myl4_713",
+      "time_ms": 0.015014400146901608
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_0/attn/MatMul_2_FORCEFP32_myl4_32",
+      "time_ms": 0.014924799837172032
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_4/MatMul_FORCEFP32_myl4_711",
+      "time_ms": 0.014924799837172032
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_2/MatMul_FORCEFP32_myl4_715",
+      "time_ms": 0.014790400117635726
+    },
+    {
+      "name": "/tl_branches_0/tl_branches_0_6_1/MatMul_FORCEFP32_myl4_717",
+      "time_ms": 0.014739199914038182
+    },
+    {
+      "name": "_gemm_mha_v2_myl4_604",
+      "time_ms": 0.014707200042903424
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_2/_layers/_layers_3/MatMul_FORCEFP32_myl4_752",
+      "time_ms": 0.014687999896705151
+    },
+    {
+      "name": "__myl_Add_myl4_565",
+      "time_ms": 0.014547199942171574
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_632",
+      "time_ms": 0.014547199942171574
+    },
+    {
+      "name": "__myl_Add_myl4_533",
+      "time_ms": 0.014470399916172027
+    },
+    {
+      "name": "__myl_Add_myl4_437",
+      "time_ms": 0.014419199898838997
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_664",
+      "time_ms": 0.014412800036370754
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_617",
+      "time_ms": 0.01434239987283945
+    },
+    {
+      "name": "__myl_Add_myl4_501",
+      "time_ms": 0.014310400001704693
+    },
+    {
+      "name": "__myl_Add_myl4_469",
+      "time_ms": 0.014246400073170662
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_2/_layers/_layers_0/MatMul_FORCEFP32_myl4_751",
+      "time_ms": 0.014163199998438358
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_696",
+      "time_ms": 0.014144000038504601
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_2/_layers/_layers_3/MatMul_FORCEFP32_myl4_98",
+      "time_ms": 0.014124799892306328
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_637",
+      "time_ms": 0.014048000052571296
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_708",
+      "time_ms": 0.013632000051438808
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_659",
+      "time_ms": 0.013574399799108506
+    },
+    {
+      "name": "__myl_CasMeaSubMulMea_myl4_57",
+      "time_ms": 0.013222400099039078
+    },
+    {
+      "name": "/memory_decoder_mq/_layers_0/transformer_layers_0/attn/MatMul_5_FORCEFP32_myl4_79",
+      "time_ms": 0.01300479993224144
+    },
+    {
+      "name": "__myl_CasCon_myl4_2",
+      "time_ms": 0.012947199866175652
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_640",
+      "time_ms": 0.012838400155305862
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_639",
+      "time_ms": 0.012806399911642074
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_633",
+      "time_ms": 0.01271039992570877
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_700",
+      "time_ms": 0.012665600143373012
+    },
+    {
+      "name": "__myl_ConSliSliGatCasCas_myl4_726",
+      "time_ms": 0.012601600028574467
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_5_FORCEFP32_myl4_612",
+      "time_ms": 0.012531199678778648
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_698",
+      "time_ms": 0.012486400082707405
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_699",
+      "time_ms": 0.012428800016641617
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_641",
+      "time_ms": 0.012415999919176102
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_634",
+      "time_ms": 0.012403200007975101
+    },
+    {
+      "name": "__myl_ResRes_myl4_589",
+      "time_ms": 0.012383999861776828
+    },
+    {
+      "name": "__myl_ResNegExpAddDivResTop_myl4_727",
+      "time_ms": 0.01237119995057583
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_636",
+      "time_ms": 0.01235199999064207
+    },
+    {
+      "name": "__myl_CasSliMulCasMeaSubMulMeaAddSqrDivMulCasMulAddAdd_myl4_28",
+      "time_ms": 0.012345600128173827
+    },
+    {
+      "name": "__myl_AddSqrDivMulCasMulAddConConCas_myl4_754",
+      "time_ms": 0.012320000119507313
+    },
+    {
+      "name": "__myl_Sca_myl4_60",
+      "time_ms": 0.012307200022041798
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_635",
+      "time_ms": 0.012307200022041798
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_638",
+      "time_ms": 0.012294399924576283
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_716",
+      "time_ms": 0.01228800006210804
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_697",
+      "time_ms": 0.012275199964642524
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_712",
+      "time_ms": 0.012160000018775463
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_714",
+      "time_ms": 0.012115199863910676
+    },
+    {
+      "name": "__myl_ResRes_myl4_461",
+      "time_ms": 0.012108799815177918
+    },
+    {
+      "name": "__myl_ResRes_myl4_451",
+      "time_ms": 0.012019200064241887
+    },
+    {
+      "name": "__myl_ResRes_myl4_547",
+      "time_ms": 0.01189120002090931
+    },
+    {
+      "name": "__myl_ResRes_myl4_525",
+      "time_ms": 0.01187840010970831
+    },
+    {
+      "name": "__myl_CasMeaSubMulMeaAddSqrDivMulCasMulAddRel_myl4_710",
+      "time_ms": 0.011737600155174732
+    },
+    {
+      "name": "__myl_CasMeaSubMulMea_myl4_58",
+      "time_ms": 0.011724800057709216
+    },
+    {
+      "name": "__myl_ResRes_myl4_483",
+      "time_ms": 0.011648000217974186
+    },
+    {
+      "name": "__myl_ResRes_myl4_579",
+      "time_ms": 0.011564799956977368
+    },
+    {
+      "name": "__myl_ResRes_myl4_557",
+      "time_ms": 0.01154559999704361
+    },
+    {
+      "name": "__myl_ResRes_myl4_429",
+      "time_ms": 0.011526400037109853
+    },
+    {
+      "name": "__myl_ResRes_myl4_515",
+      "time_ms": 0.011487999930977821
+    },
+    {
+      "name": "__myl_ResRes_myl4_93",
+      "time_ms": 0.011430400051176548
+    },
+    {
+      "name": "__myl_ResRes_myl4_493",
+      "time_ms": 0.011417600139975548
+    },
+    {
+      "name": "/memory_decoder_cq/_layers_0/transformer_layers_0/attn/MatMul_FORCEFP32_myl4_101",
+      "time_ms": 0.011225599981844425
+    },
+    {
+      "name": "__myl_CasMeaSubMulMea_myl4_44",
+      "time_ms": 0.011219199933111667
+    },
+    {
+      "name": "__myl_ResResResResResResConSliMulAddMov_myl4_718",
+      "time_ms": 0.010931200161576272
+    },
+    {
+      "name": "__myl_CasMeaSubMulMea_myl4_50",
+      "time_ms": 0.010899200104176998
+    },
+    {
+      "name": "__myl_ResMea_myl4_64",
+      "time_ms": 0.01085439994931221
+    },
+    {
+      "name": "__myl_ConGatCas_myl4_722",
+      "time_ms": 0.01060480009764433
+    },
+    {
+      "name": "__myl_Sca_myl4_719",
+      "time_ms": 0.010297599993646146
+    },
+    {
+      "name": "__myl_Cas_myl4_757",
+      "time_ms": 0.01013760007917881
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_750",
+      "time_ms": 0.010022400133311748
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_96",
+      "time_ms": 0.009932800009846688
+    },
+    {
+      "name": "__myl_CasCon_myl4_1",
+      "time_ms": 0.009759999997913837
+    },
+    {
+      "name": "__myl_SinRes_myl4_39",
+      "time_ms": 0.00956800002604723
+    },
+    {
+      "name": "__myl_ResNegExpAddDivResTop_myl4_723",
+      "time_ms": 0.00933120008558035
+    },
+    {
+      "name": "__myl_SinRes_myl4_41",
+      "time_ms": 0.009081599861383438
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMeaAddSqrDivMulCasMulAdd_myl4_99",
+      "time_ms": 0.009075199998915196
+    },
+    {
+      "name": "__myl_SliCas_myl4_764",
+      "time_ms": 0.008972799964249134
+    },
+    {
+      "name": "__myl_Res_myl4_42",
+      "time_ms": 0.008851199969649315
+    },
+    {
+      "name": "__myl_Res_myl4_26",
+      "time_ms": 0.008831999823451042
+    },
+    {
+      "name": "__myl_Res_myl4_40",
+      "time_ms": 0.00866559986025095
+    },
+    {
+      "name": "__myl_ConCas_myl4_758",
+      "time_ms": 0.008659199997782707
+    },
+    {
+      "name": "__myl_AddResCasRep_myl4_760",
+      "time_ms": 0.008275200054049492
+    },
+    {
+      "name": "__myl_Sca_myl4_654",
+      "time_ms": 0.00825599990785122
+    },
+    {
+      "name": "__myl_Rel_myl4_47",
+      "time_ms": 0.008198400028049946
+    },
+    {
+      "name": "__myl_AddCasMeaSubMulMea_myl4_753",
+      "time_ms": 0.00818559993058443
+    },
+    {
+      "name": "__myl_Sca_myl4_667",
+      "time_ms": 0.008083199989050627
+    },
+    {
+      "name": "__myl_Sca_myl4_33",
+      "time_ms": 0.007961599994450808
+    },
+    {
+      "name": "__myl_SinRes_myl4_25",
+      "time_ms": 0.007923200074583293
+    },
+    {
+      "name": "__myl_Rel_myl4_53",
+      "time_ms": 0.007884799968451262
+    },
+    {
+      "name": "__myl_Rel_myl4_52",
+      "time_ms": 0.007871999964118003
+    },
+    {
+      "name": "__myl_Rel_myl4_48",
+      "time_ms": 0.007737599965184927
+    },
+    {
+      "name": "__myl_Cas_myl4_22",
+      "time_ms": 0.007724799960851669
+    },
+    {
+      "name": "__myl_ConSliMinMaxSubMaxMinMaxMinDivLogSliAddSliAddSliAddSliAddSliAddSliAdd_myl4_653",
+      "time_ms": 0.00761599987745285
+    },
+    {
+      "name": "__myl_Cas_myl4_20",
+      "time_ms": 0.007436800003051758
+    },
+    {
+      "name": "__myl_Cas_myl4_762",
+      "time_ms": 0.007417600043118
+    },
+    {
+      "name": "__myl_Sca_myl4_34",
+      "time_ms": 0.007276799995452166
+    },
+    {
+      "name": "__myl_ResRes_myl4_78",
+      "time_ms": 0.007257600035518408
+    },
+    {
+      "name": "__myl_Sca_myl4_13",
+      "time_ms": 0.007232000026851893
+    },
+    {
+      "name": "__myl_AddRel_myl4_66",
+      "time_ms": 0.007174399960786104
+    },
+    {
+      "name": "__myl_Sca_myl4_673",
+      "time_ms": 0.007148800045251846
+    },
+    {
+      "name": "__myl_ResRes_myl4_605",
+      "time_ms": 0.007116799987852573
+    },
+    {
+      "name": "__myl_Mov_myl4_652",
+      "time_ms": 0.007103999983519316
+    },
+    {
+      "name": "__myl_SliCas_myl4_761",
+      "time_ms": 0.0070847999304533005
+    },
+    {
+      "name": "__myl_Sca_myl4_691",
+      "time_ms": 0.0070783999748528
+    },
+    {
+      "name": "__myl_Cas_myl4_730",
+      "time_ms": 0.0070783999748528
+    },
+    {
+      "name": "__myl_Mov_myl4_666",
+      "time_ms": 0.007052800059318543
+    },
+    {
+      "name": "__myl_Sca_myl4_685",
+      "time_ms": 0.00704639982432127
+    },
+    {
+      "name": "__myl_Sca_myl4_679",
+      "time_ms": 0.0070143998600542545
+    },
+    {
+      "name": "__myl_Mov_myl4_669",
+      "time_ms": 0.006982399988919497
+    },
+    {
+      "name": "__myl_Cas_myl4_763",
+      "time_ms": 0.006931199971586466
+    },
+    {
+      "name": "__myl_Cas_myl4_17",
+      "time_ms": 0.00689920000731945
+    },
+    {
+      "name": "__myl_Mov_myl4_30",
+      "time_ms": 0.00685439994558692
+    },
+    {
+      "name": "__myl_Mov_myl4_656",
+      "time_ms": 0.006764799915254116
+    },
+    {
+      "name": "__myl_Cas_myl4_12",
+      "time_ms": 0.0067391999997198585
+    },
+    {
+      "name": "__myl_Mov_myl4_690",
+      "time_ms": 0.0067136000841856005
+    },
+    {
+      "name": "__myl_Sca_myl4_31",
+      "time_ms": 0.00667519997805357
+    },
+    {
+      "name": "__myl_Sca_myl4_692",
+      "time_ms": 0.006668800115585327
+    },
+    {
+      "name": "__myl_Sca_myl4_655",
+      "time_ms": 0.006662399973720312
+    },
+    {
+      "name": "__myl_SliNegExpAddDiv_myl4_657",
+      "time_ms": 0.006585599947720766
+    },
+    {
+      "name": "__myl_Sca_myl4_689",
+      "time_ms": 0.006579199992120266
+    },
+    {
+      "name": "__myl_Sca_myl4_680",
+      "time_ms": 0.006572800036519766
+    },
+    {
+      "name": "__myl_Sca_myl4_668",
+      "time_ms": 0.0065727999433875086
+    },
+    {
+      "name": "__myl_Mov_myl4_678",
+      "time_ms": 0.006566399987787008
+    },
+    {
+      "name": "__myl_Mov_myl4_672",
+      "time_ms": 0.0065600000321865085
+    },
+    {
+      "name": "__myl_Mov_myl4_684",
+      "time_ms": 0.006553600076586008
+    },
+    {
+      "name": "__myl_SliNegExpAddDiv_myl4_670",
+      "time_ms": 0.006547199934720993
+    },
+    {
+      "name": "__myl_Sca_myl4_686",
+      "time_ms": 0.006508800014853477
+    },
+    {
+      "name": "__myl_Sca_myl4_677",
+      "time_ms": 0.0064640000462532045
+    },
+    {
+      "name": "__myl_Sca_myl4_695",
+      "time_ms": 0.006457599997520447
+    },
+    {
+      "name": "__myl_Sca_myl4_671",
+      "time_ms": 0.006438400037586689
+    },
+    {
+      "name": "__myl_Sca_myl4_658",
+      "time_ms": 0.006406399980187416
+    },
+    {
+      "name": "__myl_Sca_myl4_683",
+      "time_ms": 0.006393600068986416
+    },
+    {
+      "name": "__myl_Sca_myl4_674",
+      "time_ms": 0.006348800007253885
+    },
+    {
+      "name": "__myl_SliNegExpAddDiv_myl4_682",
+      "time_ms": 0.006016000080853701
+    },
+    {
+      "name": "__myl_Mov_myl4_675",
+      "time_ms": 0.0059968001209199425
+    },
+    {
+      "name": "__myl_Mov_myl4_681",
+      "time_ms": 0.00597120001912117
+    },
+    {
+      "name": "__myl_SliNegExpAddDiv_myl4_676",
+      "time_ms": 0.005952000059187413
+    },
+    {
+      "name": "__myl_SliNegExpAddDiv_myl4_688",
+      "time_ms": 0.005945600010454655
+    },
+    {
+      "name": "__myl_Mov_myl4_687",
+      "time_ms": 0.005932800006121397
+    },
+    {
+      "name": "__myl_SliNegExpAddDiv_myl4_694",
+      "time_ms": 0.005913599953055381
+    },
+    {
+      "name": "__myl_Mov_myl4_693",
+      "time_ms": 0.005811200011521578
+    },
+    {
+      "name": "dummy_shape_call__mye1262768_0_myl4_0",
+      "time_ms": 0.001759999990463257
+    },
+    {
+      "name": "/Reshape",
+      "time_ms": 0.0
+    }
+  ]
+}
