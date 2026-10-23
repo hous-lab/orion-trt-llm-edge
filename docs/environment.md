@@ -12,7 +12,7 @@ because the patch targets the v0.x backend.
 | TRT-LLM | 0.13.0.dev2024082700 | 7B chain only; patch targets v0.x backend |
 | TensorRT | 10.4 | both chains (Lite x86 evidence ran 10.16) |
 | CUDA | 11.8 / 12.x | per platform |
-| torch | 2.x + cu118 | training repos' requirement |
+| torch | 2.4.1+cu118 | training repo's recipe (torchvision 0.19.1+cu118, nvidia-cudnn-from-pip cu11 chain, numpy 1.24.4) - verified end-to-end by the 173-frame reproduction run |
 | mmcv/mmcv-full | upstream Orion fork | installed from the training repos |
 
 Both training repos are cloned separately and located via `ORION_PROJECT_ROOT` /
@@ -47,10 +47,23 @@ The Orin numbers in this repo were taken at MAXN. Power-mode effects are documen
   env must import both the training repo at `ORION_PROJECT_ROOT` and TensorRT-LLM.
   Both must import in one interpreter (sys.path glue handled by setup script).
 
-- The 7B chain's `run_convert_and_build.sh` needs the training repo's mmcv fork; the
-  env must import both the training repo at `ORION_PROJECT_ROOT` and TensorRT-LLM.
-  Both must import in one interpreter (sys.path glue handled by setup script).
 - TRT-LLM weight conversion requires the checkpoint vocab patch (32000 to 32001) - the
   `waypoint_token` embedding row is extracted and merged by
   `trtllm_7b/scripts/extract_embed_tokens.py` + `patch_llm_checkpoint.py`.
 - On a 16 GB GPU the FP16/BF16 engines (13.5 GB) OOM on load; INT8/W8A8 (7.0 GB) fit.
+- **A numpy install corrupted by a stacked reinstall kills the torch numpy bridge.**
+  Installing numpy over an existing numpy without uninstalling first (pip's
+  `--ignore-installed` cascade leaves two dist-infos interleaving one package
+  tree) leaves torch unable to C-level-recognize the running numpy: every numpy
+  conversion fails (`from_numpy` -> "expected np.ndarray (got numpy.ndarray)",
+  `np.asarray(tensor)` -> "object __array__ method not producing an array") while
+  pure-python numpy still works. Fix: `pip uninstall numpy` then one clean
+  install. The Lite eval script's shims absorb torch-version drift (missing
+  optional imports, a comparison shim), but a dead numpy bridge is not
+  absorbable - the install must be clean.
+- **mmcv config files must not `import os` at top level.** mmcv collects every
+  non-dunder name in the config namespace into the config dict, so an imported
+  module leaks in and Config.fromfile crashes in deepcopy ("cannot pickle
+  'module' object"). The upstream configs read env vars with the inline
+  `__import__("os").environ.get(...)` form instead; the vendored eval config
+  follows that convention.

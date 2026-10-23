@@ -22,7 +22,7 @@ __pycache__/
 work_dirs/
 build/
 dist/
-eval/
+/eval/
 lite/artifacts/
 *.egg-info/
 qa_save/
@@ -39,7 +39,8 @@ analysis/
 data/*.pkl
 data/*.json
 data/bench2drive/
-data/infos-tiny/
+data/infos-tiny/*
+!data/infos-tiny/b2d_infos_val.pkl
 data/qa/
 distill_data/
 calib/
