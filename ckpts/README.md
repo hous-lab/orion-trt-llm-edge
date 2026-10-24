@@ -28,18 +28,18 @@ Notes:
   no separate EVA02 download is needed for deployment.
 - Checkpoint vocabulary patch: the deployed LLM checkpoint is the upstream
   one with `vocab_size` extended to 32001 (the `waypoint_token` embedding,
-  extracted by trtllm_7b/scripts/extract_embed_tokens.py and merged by
-  trtllm_7b/scripts/patch_llm_checkpoint.py). See docs/hidden_states_export.md.
+  extracted by [trtllm_7b/scripts/extract_embed_tokens.py](../trtllm_7b/scripts/extract_embed_tokens.py) and merged by
+  [trtllm_7b/scripts/patch_llm_checkpoint.py](../trtllm_7b/scripts/patch_llm_checkpoint.py)). See [docs/hidden_states_export.md](../docs/hidden_states_export.md).
 
 ## Derived artifacts we ship
 
 The following artifacts in this repository are ours (pipeline outputs), not
 upstream files:
 
-- `trtllm_7b/patches/*` - our source patches (full_hidden_states export;
+- [trtllm_7b/patches/](../trtllm_7b/patches/) - our source patches (full_hidden_states export;
   single_gpu_test_trt).
-- `lite/results/*.json` - benchmark and per-layer profile evidence, produced
-  by lite/step3 and lite/step4 on the listed hardware.
+- [lite/results/](../lite/results/) - benchmark and per-layer profile evidence, produced
+  by the step3_trt_compile / step4_inference_eval stages under [lite/](../lite/) on the listed hardware.
 - The deployment ONNX exports (vision module at 640/512/384, student head)
   and the distilled student checkpoint are published on our Hugging Face:
   [hous-lab/orion-trt-llm-edge](https://huggingface.co/hous-lab/orion-trt-llm-edge).
@@ -48,4 +48,4 @@ upstream files:
   scratch and contains no upstream weight tensors).
 - The fused distillation checkpoints (Orion backbone + our trained student
   head) embed upstream weights and are therefore NOT redistributed; regenerate
-  them with `RUN_STEP1=1` (see run_pipeline.sh) and the step1_distill scripts.
+  them with `RUN_STEP1=1` (see [run_pipeline.sh](../run_pipeline.sh)) and the step1_distill scripts.

@@ -16,7 +16,7 @@ because the patch targets the v0.x backend.
 | mmcv/mmcv-full | upstream Orion fork | installed from the training repos |
 
 Both training repos are cloned separately and located via `ORION_PROJECT_ROOT` /
-`ORION_LITE_PROJECT_ROOT`; see `ckpts/README.md` for what to clone and where artifacts
+`ORION_LITE_PROJECT_ROOT`; see [ckpts/README.md](../ckpts/README.md) for what to clone and where artifacts
 are placed.
 
 ## Hardware targets
@@ -43,13 +43,13 @@ The Orin numbers in this repo were taken at MAXN. Power-mode effects are documen
   export script installs a raise-if-called stub when flash_attn is not importable. Only
   re-running distill training with flash attention enabled needs a real flash-attn
   built against your torch build.
-- The 7B chain's `run_convert_and_build.sh` needs the training repo's mmcv fork; the
+- The 7B chain's [run_convert_and_build.sh](../trtllm_7b/run_convert_and_build.sh) needs the training repo's mmcv fork; the
   env must import both the training repo at `ORION_PROJECT_ROOT` and TensorRT-LLM.
   Both must import in one interpreter (sys.path glue handled by setup script).
 
 - TRT-LLM weight conversion requires the checkpoint vocab patch (32000 to 32001) - the
   `waypoint_token` embedding row is extracted and merged by
-  `trtllm_7b/scripts/extract_embed_tokens.py` + `patch_llm_checkpoint.py`.
+  [trtllm_7b/scripts/extract_embed_tokens.py](../trtllm_7b/scripts/extract_embed_tokens.py) + [patch_llm_checkpoint.py](../trtllm_7b/scripts/patch_llm_checkpoint.py).
 - On a 16 GB GPU the FP16/BF16 engines (13.5 GB) OOM on load; INT8/W8A8 (7.0 GB) fit.
 - **A numpy install corrupted by a stacked reinstall kills the torch numpy bridge.**
   Installing numpy over an existing numpy without uninstalling first (pip's

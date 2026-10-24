@@ -67,7 +67,7 @@ Two acceptance rules fall out of this project's measurement history:
   cross-variant comparison in this repo uses the real pipeline with real memory
   evolution.
 
-Per-variant eval JSONs (committed under lite/results/) back the table; the harness
-recipe and the exclusion rules for contaminated frames are in docs/lessons.md. The
-6L@384 latency row is additionally backed by lite/results/orin_reverify_6l384_20261024.json
+Per-variant eval JSONs (committed under [lite/results/](../lite/results/)) back the table; the harness
+recipe and the exclusion rules for contaminated frames are in [docs/lessons.md](lessons.md). The
+6L@384 latency row is additionally backed by [lite/results/orin_reverify_6l384_20261024.json](../lite/results/orin_reverify_6l384_20261024.json)
 (re-verification on the shipped artifacts, MAXN, locked clocks, n=50).

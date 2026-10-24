@@ -113,10 +113,10 @@ principle. The ones below are the deployment-relevant subset. The number anchors
 
 ## Evaluation harness reference
 
-The Lite accuracy numbers in this repo (README, docs/model_variants.md) all come
+The Lite accuracy numbers in this repo (README, [docs/model_variants.md](model_variants.md)) all come
 from one harness: the 173-frame Bench2Drive val subset, evaluated end-to-end with
 real images and real cross-frame memory evolution. Of the 173 frames, 133 have
-valid future trajectory; the committed per-variant eval JSONs under lite/results/
+valid future trajectory; the committed per-variant eval JSONs under [lite/results/](../lite/results/)
 report the raw (all), no-pollution (valid_no_pollute) and future-valid
 (fut_valid_only) subsets separately, and the quoted plan_L2 values are the
 future-valid-only subset. Frames whose labels are polluted in the eval
@@ -124,5 +124,5 @@ slice are excluded from the quoted metric; the exclusion list and the
 zeroed-memory proxy pitfall that motivated it are described in lesson 18.
 
 The 7B numbers use the same Bench2Drive val subset through the TRT-LLM pipeline
-described in docs/pipeline_guide.md; the official PyTorch reference (0.690) uses
+described in [docs/pipeline_guide.md](pipeline_guide.md); the official PyTorch reference (0.690) uses
 the upstream harness, which is why the two tables are read independently.

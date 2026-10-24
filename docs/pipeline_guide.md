@@ -32,17 +32,17 @@ Notes:
 
 - Steps 1-3 run from the training-repo root (they import the mmcv fork and expect
   ckpts/Orion.pth at the documented placement).
-- The vision engine is a two-step chain: trtllm_7b/adzoo_orion/export_vision.sh
+- The vision engine is a two-step chain: [trtllm_7b/adzoo_orion/export_vision.sh](../trtllm_7b/adzoo_orion/export_vision.sh)
   exports the mixed-precision ONNX (backbone FP16, map/pts heads kept FP32;
-  simplification uses the vendored trtllm_7b/onnxsim_large_model), then
-  trtllm_7b/scripts/build_vision_engine.sh builds it with trtexec --fp16 to
+  simplification uses the vendored [trtllm_7b/onnxsim_large_model](../trtllm_7b/onnxsim_large_model/), then
+  [trtllm_7b/scripts/build_vision_engine.sh](../trtllm_7b/scripts/build_vision_engine.sh) builds it with trtexec --fp16 to
   work_dirs/vision_mixed_precision.engine, the default every driver resolves
   (ORION_VISION_ENGINE / ORION_VISION_ONNX to override). The INT8 vision tier is
-  separate: scripts/gen_vision_calib_data.py + scripts/build_vision_int8.py.
+  separate: [trtllm_7b/scripts/gen_vision_calib_data.py](../trtllm_7b/scripts/gen_vision_calib_data.py) + [trtllm_7b/scripts/build_vision_int8.py](../trtllm_7b/scripts/build_vision_int8.py).
 - The W8A8 SmoothQuant tier (the 26 ms result) is a separate three-script recipe:
-  quant/extract_llm_weights.py (checkpoint to shards), then
-  quant/smoothquant_calib.py (calibration, writes ckpts/quant_data/smoothquant_scale.pt),
-  then quant/convert_w8a8_inject.py (monkey-patches the training-repo converter and
+  [trtllm_7b/quant/extract_llm_weights.py](../trtllm_7b/quant/extract_llm_weights.py) (checkpoint to shards), then
+  [trtllm_7b/quant/smoothquant_calib.py](../trtllm_7b/quant/smoothquant_calib.py) (calibration, writes ckpts/quant_data/smoothquant_scale.pt),
+  then [trtllm_7b/quant/convert_w8a8_inject.py](../trtllm_7b/quant/convert_w8a8_inject.py) (monkey-patches the training-repo converter and
   reuses its argument parsing). All quant artifacts live under
   <ORION_PROJECT_ROOT>/ckpts/quant_data/.
 
@@ -69,6 +69,6 @@ gates:
 Step 1 (distillation) is optional and only needed to regenerate the fused checkpoint
 from scratch; it needs the full teacher (Orion.pth) and the distillation data set.
 
-Orin leg: bash lite/scripts/deploy_to_orin.sh rsyncs the release tree to the device
-($ORION_HOST); the Orin side runs the same run_pipeline.sh with PLATFORM=orin under
-MAXN. Orin timing numbers must state the power mode (see power_modes.md).
+Orin leg: [lite/scripts/deploy_to_orin.sh](../lite/scripts/deploy_to_orin.sh) rsyncs the release tree to the device
+($ORION_HOST); the Orin side runs the same [run_pipeline.sh](../run_pipeline.sh) with PLATFORM=orin under
+MAXN. Orin timing numbers must state the power mode (see [docs/power_modes.md](power_modes.md)).

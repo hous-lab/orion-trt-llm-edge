@@ -27,7 +27,7 @@ if self.config.mapping.is_last_pp_rank():
     lm_logits = self.lm_head(hidden_states)
 ```
 
-The shipped patch is `trtllm_7b/patches/modeling_utils_v0x.patch`; `trtllm_7b/setup_training_repo.sh`
+The shipped patch is [trtllm_7b/patches/modeling_utils_v0x.patch](../trtllm_7b/patches/modeling_utils_v0x.patch); [trtllm_7b/setup_training_repo.sh](../trtllm_7b/setup_training_repo.sh)
 applies it to the installed TRT-LLM package (idempotent: skipped when `full_hidden_states`
 is already present).
 
@@ -47,7 +47,7 @@ ego_feature = full_hidden_states[0:1, wp_idx:wp_idx + 1, :].squeeze(0)  # [1, 40
 ```
 
 The waypoint token index is the vocab-boundary id (32000 in ORION's 32001-token vocab -
-see `trtllm_7b/scripts/extract_embed_tokens.py` and `patch_llm_checkpoint.py`, which
+see [trtllm_7b/scripts/extract_embed_tokens.py](../trtllm_7b/scripts/extract_embed_tokens.py) and [patch_llm_checkpoint.py](../trtllm_7b/scripts/patch_llm_checkpoint.py), which
 extend the checkpoint vocab and copy the embedding row in).
 
 ## The v1.x PyTorch backend

@@ -6,7 +6,7 @@ scenes; no dataset content is redistributed by this repository.
 ## The 173-frame evaluation set (tiny173)
 
 Every plan_L2 number in this repository - the README results tables, the docs, and
-the committed JSONs under `lite/results/` - is measured on one Bench2Drive val
+the committed JSONs under [lite/results/](../lite/results/) - is measured on one Bench2Drive val
 route:
 
     v1/HazardAtSideLane_Town10HD_Route373_Weather9    # 173 frames
@@ -21,8 +21,8 @@ Two files in this repo define the set:
 
 | File | Size | sha256 |
 |---|---|---|
-| `data/splits/bench2drive_base_train_val_split_onlyone.json` | 59 B | `1240182f64899497d97d873133e77c68aaee5bf417e08da7589dbe85b1a21b62` |
-| `data/infos-tiny/b2d_infos_val.pkl` (the 173-frame val pkl) | 1.4 MB | `eda635a084c3a6b66da18e31f8a5ecff900ae6e829d2009ecd05f38c6c361179` |
+| [data/splits/bench2drive_base_train_val_split_onlyone.json](splits/bench2drive_base_train_val_split_onlyone.json) | 59 B | `1240182f64899497d97d873133e77c68aaee5bf417e08da7589dbe85b1a21b62` |
+| [data/infos-tiny/b2d_infos_val.pkl](infos-tiny/b2d_infos_val.pkl) (the 173-frame val pkl) | 1.4 MB | `eda635a084c3a6b66da18e31f8a5ecff900ae6e829d2009ecd05f38c6c361179` |
 
 Two ways to obtain the eval set:
 
@@ -45,7 +45,7 @@ Reading the committed eval JSONs: each reports three nested subsets of the route
 headline plan_L2 numbers quoted in the README and docs (0.690 official PyTorch,
 0.704 Lite 6L@384, ...) are the `fut_valid_only` convention: frames whose future
 trajectory is fully valid for the full 3-second horizon. The Lite eval script
-(`lite/eval/eval_planning_local.py`) prints all three.
+([lite/eval/eval_planning_local.py](../lite/eval/eval_planning_local.py)) prints all three.
 
 ## Evaluation / engine verification (7B + Lite)
 
@@ -59,14 +59,14 @@ points at (default `<ORION_LITE_PROJECT_ROOT>/data`):
     $ORION_B2D_DATA_ROOT/infos-tiny/b2d_infos_val.pkl
     $ORION_B2D_DATA_ROOT/infos-tiny/b2d_map_infos.pkl
 
-This repo's own `data/` layout matches that default: put the route data under
-`data/bench2drive/` and the pkls under `data/infos-tiny/` (both gitignored,
+This repo's own [data/](.) layout matches that default: put the route data under
+`data/bench2drive/` and the pkls under [data/infos-tiny/](infos-tiny/) (both gitignored,
 except the shipped 173-frame pkl). The eval config is vendored at
-`configs/orion_eval_tiny173.py`; it reads `ORION_B2D_DATA_ROOT` at load time.
+[configs/orion_eval_tiny173.py](../configs/orion_eval_tiny173.py); it reads `ORION_B2D_DATA_ROOT` at load time.
 
 ## Distillation data (Lite step 1)
 
-step1_distill/run_orion_collect.py runs the Orion teacher over Bench2Drive
+[lite/step1_distill/run_orion_collect.py](../lite/step1_distill/run_orion_collect.py) runs the Orion teacher over Bench2Drive
 scenes and saves one .npz per frame (vision features, ego status, future
 trajectory, plan targets). No dataset content is committed: outputs are
 gitignored, regenerable, and used only to train the student.
