@@ -16,7 +16,7 @@ independently.
 | 24L@512 + original student (baseline) | 404 ms | 0.868 | 1.652 | 2.326 |
 | 12L@512 (backbone distilled 24 to 12 layers) | 236 ms | 0.694 | 1.320 | 2.084 |
 | 6L@448 (Route B decision version) | 121 ms (154 ms at 50W) | 0.776 | 1.754 | 2.878 |
-| 6L@384 + original student (final) | 85.2 ms (vision 69.7 + student 15.5) | 0.704 | 1.340 | 2.033 |
+| 6L@384 + original student (final) | 81.2 ms (re-verified on the shipped artifacts; 85.2 ms in the earlier inputs-resident execute+sync harness) | 0.704 | 1.340 | 2.033 |
 
 Three observations from the matrix:
 
@@ -46,7 +46,7 @@ the distillation data set bends it, and long online distillation runs diverge nu
 The fix was to stop touching the student: distill the backbone only (feature mimicry,
 the same recipe that worked for 12L), keep the original student and heads frozen, and
 the 6L@384 variant scores 0.704 m - on par with 12L and 19% better than the 24L@512
-baseline - at 85.2 ms, under the 100 ms real-time bar, with no student retraining.
+baseline - at 81.2 ms re-verified end-to-end on the shipped artifacts (under the 100 ms real-time bar; 85.2 ms in the earlier inputs-resident harness), with no student retraining.
 
 For the pos-embed handling that makes 384 work at all: the EVA-ViT positional
 embeddings are bicubic-interpolated to the new resolution, reusing the upstream
@@ -68,4 +68,6 @@ Two acceptance rules fall out of this project's measurement history:
   evolution.
 
 Per-variant eval JSONs (committed under lite/results/) back the table; the harness
-recipe and the exclusion rules for contaminated frames are in docs/lessons.md.
+recipe and the exclusion rules for contaminated frames are in docs/lessons.md. The
+6L@384 latency row is additionally backed by lite/results/orin_reverify_6l384_20261024.json
+(re-verification on the shipped artifacts, MAXN, locked clocks, n=50).

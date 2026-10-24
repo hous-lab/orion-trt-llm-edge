@@ -1,0 +1,54 @@
+{
+  "purpose": "Re-verification of the 6L@384 chain on the shipped artifacts. Jetson AGX Orin 64GB, nvpmodel MAXN, clocks locked (jetson_clocks), machine idle. 2026-10-24.",
+  "artifacts": {
+    "vision_onnx": "orion_lite_vision_sim_mixed.onnx",
+    "vision_onnx_sha256_16": "1b467b273ab9125d",
+    "student_onnx_sha256_16": "aa36afc38bf38a75",
+    "builder": "lite/step3_trt_compile_orin/build_fp16.py (TensorRT 10.4.0, FP16 flag, 8GB workspace pool)",
+    "student_engine": "built from the shipped student ONNX with the same builder"
+  },
+  "measurements": {
+    "e2e_zero_copy_joint_chain_ms": {
+      "mean": 81.24,
+      "p50": 81.27,
+      "p95": 81.44,
+      "n": 50,
+      "convention": "single process; the vision engine output buffer is aliased as the student input buffer (zero-copy); perf_counter around launch+sync per frame"
+    },
+    "vision_step4_harness_ms": {
+      "mean": 84.25,
+      "std": 0.36,
+      "p50": 84.41,
+      "p95": 84.68,
+      "n": 30,
+      "convention": "lite/step4 real_data_benchmark.py: perf_counter around per-frame input copies + execute + sync + output copies",
+      "vision_embedding_cosine": 0.864015,
+      "bbox_cosine": 0.998802,
+      "note": "the zero-reference memory/timestamp outputs print cosine 0.000 in this harness (single-frame test data); pre-existing harness behavior, also present in the x86 evidence"
+    },
+    "student_engine_ms": {
+      "mean": 14.16,
+      "p50": 14.15,
+      "p95": 14.3,
+      "n": 50,
+      "convention": "inputs resident (uploaded once), execute+sync loop"
+    }
+  },
+  "cross_check": {
+    "historical_engine_on_this_harness_ms": 88.9,
+    "note": "the vision engine from the earlier measurement campaign, re-benched under the shipped step4 harness on the same test frame, measures 88.9 ms - the engine rebuilt from the shipped ONNX is faster on equal harness (84.3 ms). The historical 69.7 ms vision / 85.2 ms segment-sum numbers used an inputs-resident execute+sync harness that excludes per-frame I/O, so they are not directly comparable to the step4 harness numbers."
+  },
+  "accuracy_tiers": {
+    "vision_embedding": {
+      "measured": 0.864,
+      "x86_laptop_evidence": 0.883,
+      "gate_tier": 0.809,
+      "pass": true
+    },
+    "bbox": {
+      "measured": 0.9988,
+      "x86_laptop_evidence": 0.9985,
+      "pass": true
+    }
+  }
+}

@@ -37,7 +37,7 @@ NCU per-op verdicts (E-note, 12L@512 engine):
 
 Conclusion: after the resolution cut and the layer reduction, the 12L engine was within
 a few percent of the hardware floor, and every remaining candidate was quantified and
-rejected on cost/benefit. The 85.2 ms final variant came from model-side changes
+rejected on cost/benefit. The 81.2 ms final variant (re-verified; 85.2 ms in the earlier harness) came from model-side changes
 (6 layers, 384 input), not from further kernel work.
 
 ## Quantization vs the bottleneck type

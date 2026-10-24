@@ -12,8 +12,9 @@ Orin power modes move the numbers more than most kernel-level work. Measured on 
 The 50W mode also explains an otherwise-confusing piece of history: earlier rounds of
 the project recorded the 6L vision module at ~119 ms and concluded the 100 ms bar was
 out of reach at that resolution; those numbers were all 50W measurements. On MAXN the
-same engine is 84.76 ms, and the final 6L@384 variant lands at 69.7 ms vision +
-15.5 ms student = 85.2 ms end-to-end.
+same engine is 84.76 ms, and the final 6L@384 variant re-verified on the shipped
+artifacts at 81.2 ms end-to-end (the earlier inputs-resident harness summed 69.7 ms
+vision + 15.5 ms student = 85.2 ms).
 
 Practical notes:
 

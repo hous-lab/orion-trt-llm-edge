@@ -4,7 +4,7 @@ TensorRT deployment toolchain for [xiaomi-mlab/Orion](https://github.com/xiaomi-
 The repository covers two deployment variants of the same pipeline:
 
 - **7B Orion, x86**: the full ORION model, LLM part compiled with TensorRT-LLM. The upstream TRT-LLM v0.13 release cannot export hidden states, we ship a two-line source patch ([docs/hidden_states_export.md](docs/hidden_states_export.md)) that adds a `full_hidden_states`output binding, so the deployed engine exposes the exact tensor the planning head consumes. With W8A8 SmoothQuant on the LLM (26 ms vs 64.6 ms FP16, LLM part only), end-to-end is ~90 ms on an RTX 4090 at plan_L2 0.696 (official PyTorch: 0.690).
-- **Orion-Lite, Orin**: a distilled 529M-parameter student replaces the 7B LLM, and the EVA02 ViT is distilled from 24 layers to 6 layers at 384x384 input. End-to-end Orin latency: **85.2 ms (MAXN)**, under the 100 ms real-time bar.
+- **Orion-Lite, Orin**: a distilled 529M-parameter student replaces the 7B LLM, and the EVA02 ViT is distilled from 24 layers to 6 layers at 384x384 input. End-to-end Orin latency: **81.2 ms (MAXN, re-verified on the shipped artifacts)**, under the 100 ms real-time bar.
 
 Every script runs from a fresh clone against the upstream training repo (not redistributed). [run_pipeline.sh](run_pipeline.sh) guards every step and fails fast with a pointer to [ckpts/README.md](ckpts/README.md) when an upstream artifact is missing. The exported artifacts are published on Hugging Face: the 6L@384 vision ONNX, the student ONNX and the distilled student checkpoint at [hous-lab/orion-trt-llm-edge](https://huggingface.co/hous-lab/orion-trt-llm-edge).
 
@@ -39,9 +39,11 @@ Every row of this table is the same original upstream 7B model (Orion.pth - no d
 | 24L@512 + original student (baseline) | 404 ms | 0.868 |
 | 12L@512 (ViT distilled 24 to 12 layers) | 236 ms | 0.694 |
 | 6L@448 (Route B variant) | 121 ms (154 ms at 50W) | 0.776 |
-| **6L@384 + original student** | **85.2 ms** (vision 69.7 + student 15.5) | **0.704** |
+| **6L@384 + original student** | **81.2 ms** (re-verified on the shipped artifacts) | **0.704** |
 
 Scheme notes: the 529M student is not a from-scratch small model - it is itself an LLM distillate, trained upstream to imitate the 7B LLM's planning token, and it stays frozen in every row. What this repository distills is the vision tower only: rows 1-2 are the undistilled 24L starting points, rows 3-5 replace the 24-layer EVA02 tower with 12/6-layer versions distilled against the 24L teacher at reduced input resolution. Orin end-to-end = vision tower + student + planning heads in one process at MAXN; plan_L2 = the fut-valid subset (133 frames) of the same 173-frame route. The Lite metric is not directly comparable to the 7B table above - different harness and frame count; see docs/model_variants.md.
+
+About the 6L@384 latency numbers: a re-verification pass on the shipped artifacts (HF ONNX -> our TRT builder -> a zero-copy joint chain that aliases the vision output buffer as the student input) measures the end-to-end chain at 81.2 ms on an idle Orin at MAXN with locked clocks (per-frame wall clock, n=50). In the shipped step4 real-data harness the vision engine alone measures 84.3 ms including per-frame input copies and output copies, and the student engine 14.2 ms in an inputs-resident execute+sync loop. The earlier campaign numbers (85.2 ms = vision 69.7 + student 15.5) come from an inputs-resident execute+sync harness on an earlier engine build - the segment sums are not directly comparable to the harness numbers above, and the rebuilt engine is faster than the earlier build (88.9 ms vs 84.3 ms in the same shipped harness on the same test frame). Accuracy gates pass on the re-verification: vision-embedding cosine 0.864 (gate 0.809) and bbox cosine 0.9988 (matching the committed x86 evidence at 0.9985). Full numbers in lite/results/orin_reverify_6l384_20261024.json.
 
 Takeaways we would want every reader to leave with:
 
