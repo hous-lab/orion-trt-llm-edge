@@ -6,7 +6,7 @@ The repository covers two deployment variants of the same pipeline:
 - **7B Orion, x86**: the full ORION model, LLM part compiled with TensorRT-LLM. The upstream TRT-LLM v0.13 release cannot export hidden states, we ship a two-line source patch ([docs/hidden_states_export.md](docs/hidden_states_export.md)) that adds a `full_hidden_states`output binding, so the deployed engine exposes the exact tensor the planning head consumes. With W8A8 SmoothQuant on the LLM (26 ms vs 64.6 ms FP16, LLM part only), end-to-end is ~90 ms on an RTX 4090 at plan_L2 0.696 (official PyTorch: 0.690).
 - **Orion-Lite, Orin**: a distilled 529M-parameter student replaces the 7B LLM, and the EVA02 ViT is distilled from 24 layers to 6 layers at 384x384 input. End-to-end Orin latency: **85.2 ms (MAXN)**, under the 100 ms real-time bar.
 
-Every script runs from a fresh clone against the upstream training repo (not redistributed). [run_pipeline.sh](run_pipeline.sh) guards every step and fails fast with a pointer to [ckpts/README.md](ckpts/README.md) when an upstream artifact is missing.
+Every script runs from a fresh clone against the upstream training repo (not redistributed). [run_pipeline.sh](run_pipeline.sh) guards every step and fails fast with a pointer to [ckpts/README.md](ckpts/README.md) when an upstream artifact is missing. The exported artifacts are published on Hugging Face: the 6L@384 vision ONNX, the student ONNX and the distilled student checkpoint at [hous-lab/orion-trt-llm-edge](https://huggingface.co/hous-lab/orion-trt-llm-edge).
 
 ## Results
 
