@@ -15,7 +15,7 @@ independently.
 | 24L@640 + original student (undistilled starting point) | 678 ms | 0.814 | - | - |
 | 24L@512 + original student (baseline) | 404 ms | 0.868 | 1.652 | 2.326 |
 | 12L@512 (backbone distilled 24 to 12 layers) | 236 ms | 0.694 | 1.320 | 2.084 |
-| 6L@448 (Route B decision version) | 121 ms (154 ms at 50W) | 0.776 | 1.754 | 2.878 |
+| 6L@448 (earlier 6-layer round) | 121 ms (154 ms at 50W) | 0.776 | 1.754 | 2.878 |
 | 6L@384 + original student (final) | 81.2 ms (re-verified on the shipped artifacts; 85.2 ms in the earlier inputs-resident execute+sync harness) | 0.704 | 1.340 | 2.033 |
 
 Three observations from the matrix:
@@ -25,7 +25,7 @@ Three observations from the matrix:
    the input resolution, so every pixel cut shrinks every vision kernel.
 2. The 12L distilled tower is not just faster - it scores better than the baseline
    (0.694 vs 0.868 @1s). With the student and heads fixed, compressing the backbone
-   does not necessarily hurt planning; see the E-note discussion below and the
+   does not necessarily hurt planning; see the discussion below and the
    feature-fidelity vs task-alignment caveat at the end.
 3. 384 input only became usable after the backbone-only distillation: the 24-layer
    tower at 384 collapses (vision-embedding cos 0.866), while the 6-layer distilled

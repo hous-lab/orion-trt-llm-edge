@@ -1,8 +1,8 @@
 # Lessons from the deployment campaign
 
 Distilled from the project retrospective; each entry follows observation, evidence,
-principle. The ones below are the deployment-relevant subset. The number anchors
-(E-notes) referenced here live in the project retrospective, not in this repo.
+principle. The ones below are the deployment-relevant subset. The detailed experiment records
+behind these lessons live in the internal project retrospective, not in this repo.
 
 ## Numerical verification
 

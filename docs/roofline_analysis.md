@@ -25,7 +25,7 @@ Breakdown of the 217 ms 12L@512 vision-module latency on Orin:
 | LayerNorm + other elementwise | 55 ms |
 | Remaining matmul/attention glue | 18 ms |
 
-NCU per-op verdicts (E-note, 12L@512 engine):
+NCU per-op verdicts (12L@512 engine):
 
 | Op class | Key counters | Verdict |
 |---|---|---|
